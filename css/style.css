@@ -13,13 +13,16 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
+/* Main */
 
-footer {
-    background: #3b3b3b;
-    color: white;
-    text-align: center;
-    padding: 20px;
+main {
+    flex: 1;
+    width: 90%;
+    max-width: 1100px;
+    margin: 50px auto;
+    padding-bottom: 50px;
 }
+
 
 /* Header */
 
@@ -51,14 +54,6 @@ nav a:hover {
     color: #d1d5db;
 }
 
-/* Main */
-
-main {
-    width: 90%;
-    max-width: 1100px;
-    margin: 50px auto;
-    flex: 1;
-}
 
 /* Hero */
 
@@ -126,7 +121,6 @@ main {
 /* Footer */
 
 footer {
-    margin-top: 60px;
     background: #3d3d3d;
     color: white;
     text-align: center;
