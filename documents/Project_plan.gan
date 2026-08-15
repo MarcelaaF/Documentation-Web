@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Limos" company="Group24" webLink="http://https://github.com/Saltizm/FYP" view-date="2026-06-27" view-index="1" gantt-divider-location="351" resource-divider-location="300" version="3.3.3322" locale="en_SG">
+    <description/>
+    <view zooming-state="default:3" id="gantt-chart">
+        <field id="tpd3" name="Name" width="200" order="0"/>
+        <field id="tpd4" name="Begin date" width="75" order="1"/>
+        <field id="tpd5" name="End date" width="75" order="2"/>
+        <field id="tpd15" name="Notes" width="20" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <option id="color.recent"><![CDATA[#3333ff #006666 #ccccff #ffccff #ccffcc #ff00cc]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="544d525262e64c9690a629046e9e58c8" name="Liase with teamates" meeting="false" start="2026-07-03" duration="1" complete="0" expand="true">
+            <depend id="3" type="2" difference="0" hardness="Strong"/>
+            <task id="1" uid="9f3cbd59dd6c4763ab8aaaf81ac59dff" name="Assign comunication channels" meeting="false" start="2026-07-03" duration="1" complete="0" expand="true"/>
+            <task id="8" uid="af834fe9047d4fda833215ca4e7fd5eb" name="Decided on developement methodology" meeting="false" start="2026-07-03" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="3" uid="c4c39780d6c0487981f73b40c2d66de2" name="Preliminary research" meeting="false" start="2026-07-06" duration="4" complete="0" expand="true">
+            <depend id="9" type="2" difference="0" hardness="Strong"/>
+            <task id="4" uid="c59f5ddf60d54f9994a1108ece8afb8d" name="Assigned roles and responsibiilties" meeting="false" start="2026-07-06" duration="2" complete="0" expand="true">
+                <depend id="5" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="5" uid="5f052d8d4490406782f3b067ad835ae5" name="Requirement analysis" meeting="false" start="2026-07-08" duration="2" complete="0" expand="true"/>
+            <task id="6" uid="cdbde1a969864e54bf03d28de9eee7b4" name="Market research" meeting="false" start="2026-07-08" duration="2" complete="0" expand="true"/>
+            <task id="7" uid="7cc70080f33d4260b47d2f3e7ac9c4bf" name="Infrastructure used" meeting="false" start="2026-07-08" duration="2" complete="0" expand="true"/>
+        </task>
+        <task id="9" uid="83e625643daa4e4ab8be7ae7b8f0e5b8" name="Project proposal" color="#ffccff" meeting="false" start="2026-07-10" duration="3" complete="0" expand="true">
+            <task id="24" uid="512900b2d1654279be89899d43e42274" name="Executive summary" meeting="false" start="2026-07-10" duration="2" complete="0" expand="true"/>
+            <task id="25" uid="d1db22e63d064e33bb2864f1bd7beb19" name="Intro and Description" meeting="false" start="2026-07-10" duration="2" complete="0" expand="true"/>
+            <task id="26" uid="54aa763952724f1a853884afdde62bf2" name="Background and Objectives" meeting="false" start="2026-07-10" duration="3" complete="0" expand="true"/>
+            <task id="27" uid="f82cdc61d65b4916b6da25fe07c58777" name="Scope and limitation" meeting="false" start="2026-07-13" duration="2" complete="0" expand="true"/>
+            <task id="28" uid="988b7f7f939d4a77adeb5d1ef504a72c" name="Development methodology" meeting="false" start="2026-07-13" duration="2" complete="0" expand="true"/>
+        </task>
+        <task id="10" uid="01d9d60b849e40898eb8c76a59434cf9" name="Meeting with supervisor" color="#ccffcc" meeting="false" start="2026-07-15" duration="1" complete="0" expand="true"/>
+        <task id="29" uid="a8e31b1b750946ea9bd73b12d7db07ea" name="Create project website for hosting document" meeting="false" start="2026-07-16" duration="1" complete="0" expand="true">
+            <depend id="22" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="22" uid="85f0d30fc0fe41809360bd642bb5fc93" name="define requirements" color="#ccccff" meeting="false" start="2026-07-17" duration="9" complete="0" expand="true">
+            <depend id="13" type="2" difference="0" hardness="Strong"/>
+            <task id="11" uid="0eab5c9ab7c54e43846a4f642888839e" name="Use cases" meeting="false" start="2026-07-17" duration="4" complete="0" expand="true">
+                <depend id="12" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="12" uid="fc27b8df2fe24a15bce9755f4ed8891d" name="UML diagrams" meeting="false" start="2026-07-23" duration="5" complete="0" expand="true"/>
+        </task>
+        <task id="13" uid="ef4ad29311ad4fa8bb3c7736bf061633" name="Development" color="#006666" meeting="false" start="2026-08-03" duration="9" complete="0" expand="true">
+            <task id="31" uid="44ca1562b299466db160568f9cf21072" name="Create wireframes" meeting="false" start="2026-08-03" duration="5" complete="0" expand="true"/>
+            <task id="32" uid="abf4315d7d23438f9e16d55275370a44" name="Coding" meeting="false" start="2026-08-03" duration="9" complete="0" expand="true">
+                <depend id="18" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="23" uid="342bb27d9763411f8d12ad4f826a8b45" name="Meeting with supervisor 2" color="#ccffcc" meeting="false" start="2026-08-04" duration="1" complete="0" expand="true"/>
+        <task id="14" uid="98f0bb8adaf0477f869aae6fa41ecc3d" name="first deployment" meeting="false" start="2026-08-10" duration="1" complete="0" expand="true">
+            <depend id="15" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="15" uid="45eca4f8f0db4e6ea93a9d9d56437bc8" name="Testing" color="#3333ff" meeting="false" start="2026-08-14" duration="1" complete="0" expand="true">
+            <depend id="18" type="2" difference="0" hardness="Strong"/>
+            <task id="16" uid="5dc04fe41066402987d65f6efd3aa0af" name="Test plan" meeting="false" start="2026-08-14" duration="1" complete="0" expand="true"/>
+            <task id="17" uid="9d85f5f10fca4b2f9c4ed596552a6173" name="Test cases" meeting="false" start="2026-08-14" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="18" uid="ef50a93c1a1945669548731cf65e7f09" name="second deployment" meeting="false" start="2026-08-17" duration="1" complete="0" thirdDate="2026-08-17" thirdDate-constraint="1" expand="false">
+            <depend id="19" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="19" uid="81299c3170d04076b2cada711c3103ef" name="update requirements" color="#ccccff" meeting="false" start="2026-08-18" duration="1" complete="0" expand="true">
+            <task id="20" uid="07d1f5d4777e4f358528506bef80f272" name="use cases" meeting="false" start="2026-08-18" duration="1" complete="0" expand="true"/>
+            <task id="21" uid="5b6b34c9f19b4ac0956bceb20371a88d" name="UML diagrams" meeting="false" start="2026-08-18" duration="1" complete="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Marcela" function="2" contacts="" phone=""/>
+        <resource id="1" name="Augustin" function="1" contacts="" phone=""/>
+        <resource id="2" name="Kai jie" function="3" contacts="" phone=""/>
+        <resource id="3" name="Shiming" function="Default:1" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="9" resource-id="0" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="22" resource-id="0" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="31" resource-id="0" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="32" resource-id="0" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="3" resource-id="0" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="25" resource-id="0" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="5" resource-id="1" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="22" resource-id="1" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="26" resource-id="1" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="27" resource-id="1" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="10" resource-id="1" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="4" resource-id="1" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="6" resource-id="1" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="15" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="22" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="27" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="28" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="28" resource-id="3" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="8" resource-id="3" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="4" resource-id="3" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="32" resource-id="3" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="3" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="3" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="22" resource-id="3" function="Default:1" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles>
+        <role id="1" name="Group leader"/>
+        <role id="2" name="Programmer"/>
+        <role id="3" name="Scribe"/>
+    </roles>
+</project>
