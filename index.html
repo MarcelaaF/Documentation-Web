@@ -3,74 +3,183 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> FYP Project Website </title>
+    <title>Limos — Eat well, tracked well</title>
+    <meta name="description" content="Limos pairs meal, water, and weight tracking with a real recipe catalog — including dishes from local health-focused businesses.">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=IBM+Plex+Mono:wght@500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
     <header>
-        <h1> FYP Project Website </h1>
-
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="team.html">Our Team</a>
-            <a href="meeting.html">Meetings</a>
-            <a href="timeline.html">Timeline</a>
-            <a href="documentation.html">Documentation</a>
-        </nav>
+        <div class="wrap">
+            <a href="index.html" class="logo">LIM<span>OS</span></a>
+            <nav>
+                <a href="index.html" aria-current="page">Home</a>
+                <a href="team.html">Team</a>
+                <a href="meeting.html">Meetings</a>
+                <a href="timeline.html">Timeline</a>
+                <a href="documentation.html">Documentation</a>
+            </nav>
+        </div>
     </header>
 
     <main>
 
         <section class="hero">
-
-            <h2>Welcome!</h2>
-
-            <p>
-                This website documents our Final Year Project progress,
-                including personal reflection, meeting minutes,
-                weekly progress, and project documentation.
-            </p>
-
+            <div class="wrap">
+                <p class="hero__kicker">A Final Year Project by <strong>Group 24</strong></p>
+                <h1>The health app that also <em>feeds</em> you.</h1>
+                <p class="lede">
+                    Limos pairs meal, water, and weight tracking with a real recipe catalog —
+                    including dishes published by local health-focused businesses — so eating
+                    well is easier to start, and easier to keep up.
+                </p>
+                <div class="hero__actions">
+                    <a href="#menu" class="btn btn-primary">See what's inside</a>
+                    <a href="documentation.html" class="btn btn-ghost">Read the documentation</a>
+                </div>
+            </div>
         </section>
 
-        <section class = "cardss">
-            <h3>Project Information</h3>
-            <p><strong>Project Title:</strong> Developing App for health and fitness </p>
-            <p><strong>Supervisor: </strong> Mr Tian Sion Hui </p>
-            <p><strong>Supervisor: </strong> Mr Terence Chew </p>
+        <section id="roles">
+            <div class="wrap">
+                <p class="eyebrow">One app, three roles</p>
+                <h2 class="section-title">Built for three kinds of people</h2>
+                <p class="section-lede">
+                    Limos isn't just a tracker for one type of user — it's a small
+                    ecosystem, with its own space for the people using it, the
+                    businesses feeding them, and the team keeping it all running.
+                </p>
+
+                <div class="roles">
+                    <div class="role-card role-card--user">
+                        <p class="role-card__tag">For everyone</p>
+                        <h3>Members</h3>
+                        <p>
+                            Log meals, water, and weight; browse the full recipe catalog;
+                            and track progress that actually reflects how you eat.
+                        </p>
+                    </div>
+                    <div class="role-card role-card--partner">
+                        <p class="role-card__tag">For food businesses</p>
+                        <h3>Business Partners</h3>
+                        <p>
+                            Publish recipes straight into the shared catalog and reach
+                            people who are already looking for what you make.
+                        </p>
+                    </div>
+                    <div class="role-card role-card--admin">
+                        <p class="role-card__tag">For platform oversight</p>
+                        <h3>Admins</h3>
+                        <p>
+                            Review new business applications, moderate the community,
+                            and keep accounts in good standing.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section class="cards">
+        <section id="menu">
+            <div class="wrap">
+                <p class="eyebrow">The menu</p>
+                <h2 class="section-title">Everything on the table</h2>
+                <p class="section-lede">Every core feature, plated.</p>
 
-            <div class="card">
-            <h3>📖 Personal Diaries</h3>
-            <p>Weekly reflections and tasks completed by each team member.</p>
+                <div class="menu-card">
+
+                    <div class="menu-item">
+                        <span class="menu-item__name">Meal Logging</span>
+                        <span class="menu-item__leader" aria-hidden="true"></span>
+                        <span class="menu-item__tag">Daily</span>
+                        <p class="menu-item__desc">Log every meal with a full macro breakdown — calories, protein, carbs, and fat.</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <span class="menu-item__name">Recipe Catalog</span>
+                        <span class="menu-item__leader" aria-hidden="true"></span>
+                        <span class="menu-item__tag">Browse</span>
+                        <p class="menu-item__desc">Admin-curated and business-partner recipes, side by side in one shared collection.</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <span class="menu-item__name">Progress Tracking</span>
+                        <span class="menu-item__leader" aria-hidden="true"></span>
+                        <span class="menu-item__tag">Insights</span>
+                        <p class="menu-item__desc">Watch weight and water intake trend over time, at a glance.</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <span class="menu-item__name">Reminders</span>
+                        <span class="menu-item__leader" aria-hidden="true"></span>
+                        <span class="menu-item__tag">Automatic</span>
+                        <p class="menu-item__desc">Nudges for meals, water, and weigh-ins, so nothing slips.</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <span class="menu-item__name">Community Forum</span>
+                        <span class="menu-item__leader" aria-hidden="true"></span>
+                        <span class="menu-item__tag">Social</span>
+                        <p class="menu-item__desc">Ask questions, share wins, and hear from other members and partners.</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <span class="menu-item__name">Partner Marketplace</span>
+                        <span class="menu-item__leader" aria-hidden="true"></span>
+                        <span class="menu-item__tag">Marketplace</span>
+                        <p class="menu-item__desc">Local health-focused businesses publish real recipes straight into the catalog.</p>
+                    </div>
+
+                </div>
             </div>
+        </section>
 
-            <div class="card">
-                <h3>📅 Meeting Minutes</h3>
-                <p>Discussion summaries, decisions, and action items from meetings.</p>
+        <section class="about-band">
+            <div class="wrap">
+                <p class="eyebrow">About this project</p>
+                <h2 class="section-title">The project behind Limos</h2>
+
+                <div class="about-grid">
+                    <p class="section-lede" style="margin-top:0;">
+                        Limos is being designed and built end to end by a four-person team
+                        as our Final Year Project — from requirements and system design
+                        through to a working Flutter app backed by Firebase.
+                        This site doubles as our project record: team reflections, meeting
+                        minutes, timeline, and documentation live alongside the pitch above.
+                    </p>
+
+                    <ul class="fact-list">
+                        <li>
+                            <span class="fact-label">Project title</span>
+                            <span class="fact-value">Developing App for Health and Fitness</span>
+                        </li>
+                        <li>
+                            <span class="fact-label">Supervisors</span>
+                            <span class="fact-value">Mr Tian Sion Hui &amp; Mr Terence Chew</span>
+                        </li>
+                        <li>
+                            <span class="fact-label">Team</span>
+                            <span class="fact-value">Group 24 — 4 members</span>
+                        </li>
+                        <li>
+                            <span class="fact-label">Module</span>
+                            <span class="fact-value">FYP-26-S3-34</span>
+                        </li>
+                    </ul>
+                </div>
             </div>
-
-            <div class="card">
-                <h3>📈 Project Timeline</h3>
-                <p>Track milestones, deadlines, and overall project progress.</p>
-            </div>
-
-            <div class="card">
-                <h3>📁 Project Documentation</h3>
-                <p>Relevant files or work done to show progress</p>
-            </div>
-
-
         </section>
 
     </main>
 
     <footer>
-        <p>© 2026 FYP-26-S3-34 </p>
+        <div class="wrap">
+            <a href="index.html" class="logo">LIM<span>OS</span></a>
+            <p>© 2026 FYP-26-S3-34 · Group 24</p>
+        </div>
     </footer>
 
 </body>

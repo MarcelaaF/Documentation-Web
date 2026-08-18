@@ -1,118 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meetings | Limos</title>
 
-    <title>Meetings | FYP Project Diary</title>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=IBM+Plex+Mono:wght@500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-
 </head>
-
 <body>
 
-<header>
-
-    <h1> FYP Project Website </h1>
-
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="team.html">Our Team</a>
-        <a href="meeting.html">Meetings</a>
-        <a href="timeline.html">Timeline</a>
-    </nav>
-
-</header>
-
-<main>
-
-    <section class="hero">
-
-        <h2>Meeting Minutes</h2>
-
-        <p>
-            Record of all team meetings, discussion and meeting minutes. 
-        </p>
-
-    </section>
-
-
-    <details class="week-card">
-
-        <summary> Date: 04/07/2026  </summary>
-
-        <div class="content">
-
-            <h4>Time: 20:00 - 20:35 SGT </h4>
-            <p></p>
-
-            <h4>Location: Discord</h4>
-            <p></p>
-
-            <h4>Attendees</h4>
-
-            <ul>
-                <li>Augustin</li>
-                <li>Marcela</li>
-                <li>Kai Jie</li>
-                <li>Shi Ming</li>
-            </ul>
-
-            <h4>Agenda</h4>
-
-            <ul>
-                <li>Discuss project requirements</li>
-                <li>Assign team leader</li>
-                <li>Create google document to type down all requirements needed for application </li>
-                <li>Do research about our main rivals and challenges</li>
-            </ul>
-
+    <header>
+        <div class="wrap">
+            <a href="index.html" class="logo">LIM<span>OS</span></a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="team.html">Team</a>
+                <a href="meeting.html" aria-current="page">Meetings</a>
+                <a href="timeline.html">Timeline</a>
+                <a href="documentation.html">Documentation</a>
+            </nav>
         </div>
+    </header>
 
-    </details>
+    <main>
 
-    <!-- Week 2 -->
-    <details class="week-card">
+        <section class="hero" style="padding-bottom: 24px;">
+            <div class="wrap">
+                <p class="hero__kicker">Project record</p>
+                <h1 style="font-size: clamp(36px, 5vw, 54px);">Meeting Minutes</h1>
+                <p class="lede">A record of every team meeting — discussion, decisions, and what came out of it.</p>
+            </div>
+        </section>
 
-        <summary> Date: 15/07/2026  </summary>
+        <section style="padding-top: 8px;">
+            <div class="wrap">
 
-        <div class="content">
+                <details class="week-card">
+                    <summary>04 July 2026</summary>
+                    <div class="content">
+                        <p class="meta-row"><span><strong>Time</strong> 20:00 – 20:35 SGT</span> <span><strong>Location</strong> Discord</span></p>
 
-            <h4>Time: 14:00 - 14:55 SGT </h4>
-            <h4>Location: Discord</h4>
-            <h4>Attendees</h4>
+                        <h4>Attendees</h4>
+                        <ul>
+                            <li>Augustin</li>
+                            <li>Marcela</li>
+                            <li>Kai Jie</li>
+                            <li>Shi Ming</li>
+                        </ul>
 
-            <ul>
-                <li>Augustin</li>
-                <li>Marcela</li>
-                <li>Kai Jie</li>
-                <li>Shi Ming</li>
-            </ul>
+                        <h4>Agenda</h4>
+                        <ul>
+                            <li>Discuss project requirements</li>
+                            <li>Assign team leader</li>
+                            <li>Create Google document to record all requirements needed for the application</li>
+                            <li>Research our main rivals and challenges</li>
+                        </ul>
+                    </div>
+                </details>
 
-            <h4>Agenda</h4>
+                <details class="week-card">
+                    <summary>15 July 2026</summary>
+                    <div class="content">
+                        <p class="meta-row"><span><strong>Time</strong> 14:00 – 14:55 SGT</span> <span><strong>Location</strong> Discord</span></p>
 
-            <ul>
-                <li>Finalising on the project proposal </li>
-                <li>Decided on the Development Methodology</li>
-                <li>Discuss how to assign roles and responsibilities </li>
-                <li>Start building github for the mobile app </li>
-            </ul>
+                        <h4>Attendees</h4>
+                        <ul>
+                            <li>Augustin</li>
+                            <li>Marcela</li>
+                            <li>Kai Jie</li>
+                            <li>Shi Ming</li>
+                        </ul>
 
+                        <h4>Agenda</h4>
+                        <ul>
+                            <li>Finalise the project proposal</li>
+                            <li>Decide on the development methodology</li>
+                            <li>Discuss how to assign roles and responsibilities</li>
+                            <li>Start building the GitHub repository for the mobile app</li>
+                        </ul>
+                    </div>
+                </details>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="wrap">
+            <a href="index.html" class="logo">LIM<span>OS</span></a>
+            <p>© 2026 FYP-26-S3-34 · Group 24</p>
         </div>
-
-    </details>
-
-</main>
-
-<footer>
-
-<p>© 2026  FYP-26-S3-34</p>
-
-</footer>
+    </footer>
 
 </body>
-
 </html>

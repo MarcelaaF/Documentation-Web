@@ -3,99 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Team | FYP Project Diary</title>
+    <title>Team | Limos</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=IBM+Plex+Mono:wght@500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
 
-<header>
-    <h1>FYP Project Website</h1>
-
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="team.html">Our Team</a>
-        <a href="meeting.html">Meetings</a>
-        <a href="timeline.html">Timeline</a>
-    </nav>
-</header>
-
-<main>
-
-<section class="hero">
-    <h2>Meet Our Team</h2>
-    <p>
-        Get to know the members behind the development of our Final Year Project.
-        Each member has their personal reflection throughout the week. 
-    </p>
-</section>
-
-<section class="team-grid">
-
-    <a href="diaries/augustin.html" class="team-link">
-        <div class="team-card">
-
-            <h3>Luo Anrong Augustin</h3>
-
-            <p><strong>Team Leader</strong></p>
-
-            <p class="description">
-
-            </p>
-
+    <header>
+        <div class="wrap">
+            <a href="index.html" class="logo">LIM<span>OS</span></a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="team.html" aria-current="page">Team</a>
+                <a href="meeting.html">Meetings</a>
+                <a href="timeline.html">Timeline</a>
+                <a href="documentation.html">Documentation</a>
+            </nav>
         </div>
-    </a>
+    </header>
 
-    <a href="diaries/marcela.html" class="team-link">
-        <div class="team-card">
+    <main>
 
-            <h3>Marcela Fioneta</h3>
+        <section class="hero" style="padding-bottom: 24px;">
+            <div class="wrap">
+                <p class="hero__kicker">Group 24</p>
+                <h1 style="font-size: clamp(36px, 5vw, 54px);">The people building Limos</h1>
+                <p class="lede">
+                    Four of us, one Firebase project, and a shared Discord that's seen
+                    a lot of late-night debugging. Each member keeps a weekly diary —
+                    open a card below to read theirs.
+                </p>
+            </div>
+        </section>
 
-            <p><strong>Team Member</strong></p>
+        <section style="padding-top: 8px;">
+            <div class="wrap">
+                <div class="team-grid">
 
-            <p class="description">
+                    <a href="diaries/augustin.html" class="team-link">
+                        <div class="team-card">
+                            <div class="team-card__avatar">A</div>
+                            <h3>Luo Anrong Augustin</h3>
+                            <p class="role">Team Leader</p>
+                            <p class="description">Read weekly diary →</p>
+                        </div>
+                    </a>
 
-            </p>
+                    <a href="diaries/marcela.html" class="team-link">
+                        <div class="team-card">
+                            <div class="team-card__avatar">M</div>
+                            <h3>Marcela Fioneta</h3>
+                            <p class="role">Team Member</p>
+                            <p class="description">Read weekly diary →</p>
+                        </div>
+                    </a>
 
+                    <a href="diaries/kaijie.html" class="team-link">
+                        <div class="team-card">
+                            <div class="team-card__avatar">K</div>
+                            <h3>Low Kai Jie</h3>
+                            <p class="role">Team Member</p>
+                            <p class="description">Read weekly diary →</p>
+                        </div>
+                    </a>
+
+                    <a href="diaries/shiming.html" class="team-link">
+                        <div class="team-card">
+                            <div class="team-card__avatar">S</div>
+                            <h3>Lin Shi Ming</h3>
+                            <p class="role">Team Member</p>
+                            <p class="description">Read weekly diary →</p>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="wrap">
+            <a href="index.html" class="logo">LIM<span>OS</span></a>
+            <p>© 2026 FYP-26-S3-34 · Group 24</p>
         </div>
-    </a>
-
-    <a href="diaries/kaijie.html" class="team-link">
-        <div class="team-card">
-
-            <h3>Low Kai Jie</h3>
-
-            <p><strong>Team Member</strong></p>
-
-            <p class="description">
-
-            </p>
-
-        </div>
-    </a>
-
-    <a href="diaries/shiming.html" class="team-link">
-        <div class="team-card">
-
-            <h3>Lin Shi Ming</h3>
-
-            <p><strong>Team Member</strong></p>
-
-            <p class="description">
-
-            </p>
-
-        </div>
-    </a>
-
-</section>
-
-</main>
-
-<footer>
-    <p> © 2026 FYP-26-S3-34 </p>
-</footer>
+    </footer>
 
 </body>
 </html>

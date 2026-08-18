@@ -1,56 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation | Limos</title>
 
-    <title> Project Documentation </title>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=IBM+Plex+Mono:wght@500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-
 </head>
-
 <body>
 
-<header>
+    <header>
+        <div class="wrap">
+            <a href="index.html" class="logo">LIM<span>OS</span></a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="team.html">Team</a>
+                <a href="meeting.html">Meetings</a>
+                <a href="timeline.html">Timeline</a>
+                <a href="documentation.html" aria-current="page">Documentation</a>
+            </nav>
+        </div>
+    </header>
 
-    <h1> FYP Project Website </h1>
+    <main>
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="team.html">Our Team</a>
-        <a href="meeting.html">Meetings</a>
-        <a href="timeline.html">Timeline</a>
-        <a href="documentation.html">Documentation</a>
-    </nav>
+        <section class="hero" style="padding-bottom: 24px;">
+            <div class="wrap">
+                <p class="hero__kicker">Project record</p>
+                <h1 style="font-size: clamp(36px, 5vw, 54px);">Project Documentation</h1>
+                <p class="lede">Requirements, design artifacts, and sprint records — proof of the work behind Limos.</p>
+            </div>
+        </section>
 
-</header>
+        <section style="padding-top: 8px;">
+            <div class="wrap">
+                <div class="doc-grid">
 
-<main>
+                    <div class="doc-card">
+                        <p class="doc-card__index">01</p>
+                        <h3>Requirements</h3>
+                        <p>What the system needs to do, from the people who'll use it.</p>
+                        <ul>
+                            <li>User stories</li>
+                            <li>Use-case diagrams</li>
+                            <li>Use-case descriptions</li>
+                        </ul>
+                    </div>
 
-<section class="hero">
+                    <div class="doc-card">
+                        <p class="doc-card__index">02</p>
+                        <h3>System Design</h3>
+                        <p>How the requirements translate into an actual system.</p>
+                        <ul>
+                            <li>Class diagram</li>
+                            <li>Boundary–Control–Entity (BCE) diagrams</li>
+                            <li>Sequence diagrams</li>
+                        </ul>
+                    </div>
 
-    <h2>Project Documentation</h2>
+                    <div class="doc-card">
+                        <p class="doc-card__index">03</p>
+                        <h3>Sprint Documentation</h3>
+                        <p>Planning and diagrams for each development sprint.</p>
+                        <ul>
+                            <li>Sprint 2 diagrams</li>
+                            <li>Sprint 3 diagrams</li>
+                        </ul>
+                    </div>
 
-    <p>
-        Design drafts, requirements, diagrams etc. as proof of work-in-progress 
-    </p>
+                    <div class="doc-card">
+                        <p class="doc-card__index">04</p>
+                        <h3>Design Reference</h3>
+                        <p>Wireframes and visual reference material used to guide the build.</p>
+                        <ul>
+                            <li>Wireframes</li>
+                            <li>Visual design reference</li>
+                        </ul>
+                    </div>
 
-</section>
+                    <div class="doc-card">
+                        <p class="doc-card__index">05</p>
+                        <h3>Issue Tracking</h3>
+                        <p>Known issues found during development, and how they were resolved.</p>
+                        <ul>
+                            <li>Logged issues</li>
+                            <li>Resolutions</li>
+                        </ul>
+                    </div>
 
+                    <div class="doc-card">
+                        <p class="doc-card__index">06</p>
+                        <h3>Project Plan</h3>
+                        <p>The Gantt chart this site's <a href="timeline.html">Timeline</a> is drawn from.</p>
+                        <ul>
+                            <li>Task breakdown</li>
+                            <li>Team allocations</li>
+                        </ul>
+                    </div>
 
+                </div>
+            </div>
+        </section>
 
+    </main>
 
-</main>
-
-<footer>
-
-<p>© 2026  FYP-26-S3-34</p>
-
-</footer>
+    <footer>
+        <div class="wrap">
+            <a href="index.html" class="logo">LIM<span>OS</span></a>
+            <p>© 2026 FYP-26-S3-34 · Group 24</p>
+        </div>
+    </footer>
 
 </body>
-
 </html>

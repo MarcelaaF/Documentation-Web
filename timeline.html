@@ -1,55 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeline | Limos</title>
 
-    <title> Project Timeline </title>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=IBM+Plex+Mono:wght@500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-
 </head>
-
 <body>
 
-<header>
+    <header>
+        <div class="wrap">
+            <a href="index.html" class="logo">LIM<span>OS</span></a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="team.html">Team</a>
+                <a href="meeting.html">Meetings</a>
+                <a href="timeline.html" aria-current="page">Timeline</a>
+                <a href="documentation.html">Documentation</a>
+            </nav>
+        </div>
+    </header>
 
-    <h1> FYP Project Website </h1>
+    <main>
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="team.html">Our Team</a>
-        <a href="meeting.html">Meetings</a>
-        <a href="timeline.html">Timeline</a>
-    </nav>
+        <section class="hero" style="padding-bottom: 24px;">
+            <div class="wrap">
+                <p class="hero__kicker">Project record</p>
+                <h1 style="font-size: clamp(36px, 5vw, 54px);">Project Timeline</h1>
+                <p class="lede">Milestones and deadlines, straight from our project plan.</p>
+            </div>
+        </section>
 
-</header>
+        <section style="padding-top: 8px;">
+            <div class="wrap">
+                <div class="timeline">
 
-<main>
+                    <div class="timeline__phase">
+                        <p class="timeline__dates">3 Jul 2026</p>
+                        <h3>Kickoff &amp; Team Setup</h3>
+                        <ul class="timeline__tasks">
+                            <li>Liaise with teammates</li>
+                            <li>Assign communication channels</li>
+                            <li>Decide on development methodology</li>
+                        </ul>
+                    </div>
 
-<section class="hero">
+                    <div class="timeline__phase">
+                        <p class="timeline__dates">6 – 9 Jul 2026</p>
+                        <h3>Preliminary Research</h3>
+                        <ul class="timeline__tasks">
+                            <li>Assign roles &amp; responsibilities</li>
+                            <li>Requirement analysis</li>
+                            <li>Market research</li>
+                            <li>Infrastructure decisions</li>
+                        </ul>
+                    </div>
 
-    <h2>Project Timeline</h2>
+                    <div class="timeline__phase">
+                        <p class="timeline__dates">10 – 15 Jul 2026</p>
+                        <h3>Project Proposal</h3>
+                        <ul class="timeline__tasks">
+                            <li>Executive summary</li>
+                            <li>Introduction &amp; description</li>
+                            <li>Background &amp; objectives</li>
+                            <li>Scope &amp; limitations</li>
+                            <li>Development methodology</li>
+                        </ul>
+                    </div>
 
-    <p>
-        Record of the project timeline. 
-    </p>
+                    <div class="timeline__phase">
+                        <p class="timeline__dates">15 Jul 2026</p>
+                        <h3>Meeting with Supervisors</h3>
+                        <ul class="timeline__tasks">
+                            <li>Proposal review</li>
+                        </ul>
+                    </div>
 
-</section>
+                    <div class="timeline__phase">
+                        <p class="timeline__dates">16 Jul 2026</p>
+                        <h3>Project Website Created</h3>
+                        <ul class="timeline__tasks">
+                            <li>Documentation site scaffolded</li>
+                        </ul>
+                    </div>
 
+                    <div class="timeline__phase">
+                        <p class="timeline__dates">17 – 25 Jul 2026</p>
+                        <h3>Requirements &amp; Design</h3>
+                        <ul class="timeline__tasks">
+                            <li>Use cases</li>
+                            <li>UML diagrams</li>
+                        </ul>
+                    </div>
 
+                    <div class="timeline__phase">
+                        <p class="timeline__dates">3 – 11 Aug 2026</p>
+                        <h3>Development</h3>
+                        <ul class="timeline__tasks">
+                            <li>Wireframes</li>
+                            <li>Coding</li>
+                        </ul>
+                    </div>
 
+                    <div class="timeline__phase">
+                        <p class="timeline__dates">4 Aug 2026</p>
+                        <h3>Meeting with Supervisors</h3>
+                        <ul class="timeline__tasks">
+                            <li>Progress review</li>
+                        </ul>
+                    </div>
 
-</main>
+                    <div class="timeline__phase">
+                        <p class="timeline__dates">10 Aug 2026</p>
+                        <h3>First Deployment</h3>
+                        <ul class="timeline__tasks">
+                            <li>Deployed to Firebase</li>
+                        </ul>
+                    </div>
 
-<footer>
+                    <div class="timeline__phase">
+                        <p class="timeline__dates">14 Aug 2026</p>
+                        <h3>Testing</h3>
+                        <ul class="timeline__tasks">
+                            <li>Test plan</li>
+                            <li>Test cases</li>
+                        </ul>
+                    </div>
 
-<p>© 2026  FYP-26-S3-34</p>
+                    <div class="timeline__phase">
+                        <p class="timeline__dates">17 Aug 2026</p>
+                        <h3>Second Deployment</h3>
+                        <ul class="timeline__tasks">
+                            <li>Deployed to Firebase</li>
+                        </ul>
+                    </div>
 
-</footer>
+                    <div class="timeline__phase">
+                        <p class="timeline__dates">18 Aug 2026 · In progress</p>
+                        <h3>Requirements Update</h3>
+                        <ul class="timeline__tasks">
+                            <li>Use cases</li>
+                            <li>UML diagrams</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="wrap">
+            <a href="index.html" class="logo">LIM<span>OS</span></a>
+            <p>© 2026 FYP-26-S3-34 · Group 24</p>
+        </div>
+    </footer>
 
 </body>
-
 </html>
