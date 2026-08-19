@@ -29,5 +29,6 @@ The visual identity is pulled directly from the Limos app's own theme rather tha
 - Low Kai Jie
 - Lin Shi Ming
 
-**Assesor:** Mr Tian Sion Hui 
+**Assessor:** Mr Tian Sion Hui 
+
 **Supervisor:** Mr Terence Chew
