@@ -1,6 +1,6 @@
 # Limos — Project Website
 
-The project website for **Limos**, a Final Year Project (FYP-26-S3-34, Group 24) building a nutrition and fitness tracking app. This site serves two purposes: it introduces Limos to visitors, and it doubles as the team's project record — meeting minutes, weekly diaries, timeline, and documentation, all in one place.
+The project website for **Limos**, a Final Year Project (FYP-26-S3-34, Group 24) building a health and fitness tracking app. This site serves two purposes: it introduces Limos to visitors, and as the team's project record — meeting minutes, weekly diaries, timeline, and documentation, all in one place.
 
 ## Pages
 
@@ -15,21 +15,11 @@ The project website for **Limos**, a Final Year Project (FYP-26-S3-34, Group 24)
 
 ## Design
 
-The visual identity is pulled directly from the Limos app's own theme rather than a generic template — same color palette (maroon `#7A1E1E`, cream `#F2F1EF`, clay/olive/water accents) and the same three typefaces (Fraunces, Inter, IBM Plex Mono), so the site reads as an extension of the product it's documenting. All shared styling lives in `css/style.css`.
-
-## Running locally
-
-No build step — it's plain HTML/CSS. Open `index.html` directly, or serve it so relative links and fonts resolve exactly as they will when deployed:
-
-```bash
-python3 serve.py
-```
-
-This starts a local server at `http://localhost:5960`.
+The visual identity is pulled directly from the Limos app's own theme rather than a generic template — same color palette, so the site reads as an extension of the product it's documenting. 
 
 ## Tech
 
-- HTML5 + CSS3, no framework or build tooling
+- HTML5 + CSS3 
 - [Google Fonts](https://fonts.google.com/): Fraunces, Inter, IBM Plex Mono
 
 ## Team
@@ -39,4 +29,5 @@ This starts a local server at `http://localhost:5960`.
 - Low Kai Jie
 - Lin Shi Ming
 
-**Supervisors:** Mr Tian Sion Hui, Mr Terence Chew
+**Assesor:** Mr Tian Sion Hui 
+**Supervisor:** Mr Terence Chew
