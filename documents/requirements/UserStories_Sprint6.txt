@@ -1,0 +1,8 @@
+As a premium user, I want to take pictures of my food so that I can log my meals faster.
+As a premium user, I want to edit AI-generated calorie and macronutrient estimates so that I can correct inaccurate meal information before logging it.
+#344 As a nutritionist, I want to view my incoming chat requests so that I can identify customers who are seeking nutrition advice.
+#345 As a verified nutritionist, I want to accept or decline chat requests so that I can manage my consultation workload.
+#346 As a verified nutritionist, I want to recommend recipes to a specific customer after a consultation so that I can provide personalized meal suggestions based on their needs and goals.
+#347 As a verified nutritionist, I want to send and receive messages during an active chat session so that I can communicate with customers and answer their questions.
+#348 As a verified nutritionist, I want to end an active chat session so that I can conclude the consultation when it is no longer needed.
+#349 As a verified nutritionist, I want to view my active chat sessions so that I can manage my ongoing consultations.

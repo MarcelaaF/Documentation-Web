@@ -1,0 +1,907 @@
+<mxfile host="app.diagrams.net" pages="13">
+  <diagram name="BCE UC-S6-01 - Capture Food Photo" id="0">
+    <mxGraphModel grid="0" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1500" pageHeight="746" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ti" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=17;fontStyle=1;" value="BCE diagram #UC-S6-01  -  Capture Food Photo" vertex="1">
+          <mxGeometry height="28" width="1300" x="40" y="14" as="geometry" />
+        </mxCell>
+        <mxCell id="st" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=11;fontColor=#555555;whiteSpace=wrap;" value="As a premium user, I want to take or choose a meal photo so that AI can estimate its nutrition." vertex="1">
+          <mxGeometry height="36" width="1340" x="40" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="hc0" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#888888;" value="BOUNDARY  (screens)" vertex="1">
+          <mxGeometry height="22" width="360" x="40" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="hl0" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#CCCCCC;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="116" as="sourcePoint" />
+            <mxPoint x="400" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hc1" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#888888;" value="CONTROL  (controllers)" vertex="1">
+          <mxGeometry height="22" width="360" x="560" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="hl1" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#CCCCCC;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="116" as="sourcePoint" />
+            <mxPoint x="920" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hc2" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#888888;" value="ENTITY  (data)" vertex="1">
+          <mxGeometry height="22" width="360" x="1080" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="hl2" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#CCCCCC;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="116" as="sourcePoint" />
+            <mxPoint x="1440" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sp" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;ScanFoodPage&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;Take Photo / Choose from Gallery&lt;/div&gt;&lt;div&gt;shows &amp;quot;Analyzing meal with AI...&amp;quot;&lt;/div&gt;&lt;div&gt;snackbar on error&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="111" width="360" x="40" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="fc" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;FoodRecognitionController&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;captureMealPhoto(fromCamera)&lt;/div&gt;&lt;div&gt;scanMeal(imageBytes)&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="96" width="360" x="560" y="137" as="geometry" />
+        </mxCell>
+        <mxCell id="os" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;OS Camera / Photo Library&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;pickImage(source)&lt;/div&gt;&lt;div&gt;returns photo bytes or null&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="96" width="360" x="1080" y="137" as="geometry" />
+        </mxCell>
+        <mxCell id="fs" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;FoodRecognitionService (Gemini)&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;analyzeFoodImage(imageBytes)&lt;/div&gt;&lt;div&gt;returns FoodRecognitionResult&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="96" width="360" x="1080" y="287" as="geometry" />
+        </mxCell>
+        <mxCell id="ac" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;AuthController&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;currentAccount()&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="81" width="360" x="560" y="429" as="geometry" />
+        </mxCell>
+        <mxCell id="ur" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;UserRepository&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;fetchUser(uid)&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="81" width="360" x="1080" y="429" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" edge="1" parent="1" source="sp" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" target="fc" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" edge="1" parent="1" source="fc" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" target="os" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge3" edge="1" parent="1" source="fc" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" target="fs" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge4" edge="1" parent="1" source="sp" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" target="ac" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge5" edge="1" parent="1" source="ac" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" target="ur" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9DB;strokeColor=#B3A369;align=left;verticalAlign=top;spacingLeft=12;spacingTop=8;" value="&lt;div style=&quot;font-size:12px;&quot;&gt;&lt;b&gt;Flow&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;1&lt;/b&gt;&amp;nbsp; Premium user taps Take Photo or Choose from Gallery on ScanFoodPage.&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;2&lt;/b&gt;&amp;nbsp; FoodRecognitionController asks the phone camera or gallery for a photo.&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;3&lt;/b&gt;&amp;nbsp; If the user cancels, nothing happens.&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;4&lt;/b&gt;&amp;nbsp; The photo is sent to the AI, which returns name, serving, calories, protein, carbs, fat and confidence.&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;5&lt;/b&gt;&amp;nbsp; ScanFoodPage gets the user id from AuthController, then opens Review Meal. Nothing is saved yet.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="1400" x="40" y="560" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="BCE UC-S6-02 - Log Meal From Photo" id="1">
+    <mxGraphModel dx="1400" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="761" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ti" value="BCE diagram #UC-S6-02  -  Log Meal From Photo" style="text;html=1;align=left;verticalAlign=top;fontSize=17;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="14" width="1300" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="st" value="As a premium user, I want to add the scanned meal to my food log so that my daily intake is tracked." style="text;html=1;align=left;verticalAlign=top;fontSize=11;fontColor=#555555;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="46" width="1340" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="hc0" value="BOUNDARY  (screens)" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#888888;" vertex="1" parent="1">
+          <mxGeometry x="40" y="92" width="360" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="hl0" style="endArrow=none;dashed=1;strokeColor=#CCCCCC;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="116" as="sourcePoint" />
+            <mxPoint x="400" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hc1" value="CONTROL  (controllers)" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#888888;" vertex="1" parent="1">
+          <mxGeometry x="560" y="92" width="360" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="hl1" style="endArrow=none;dashed=1;strokeColor=#CCCCCC;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="116" as="sourcePoint" />
+            <mxPoint x="920" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hc2" value="ENTITY  (data)" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#888888;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="92" width="360" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="hl2" style="endArrow=none;dashed=1;strokeColor=#CCCCCC;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="116" as="sourcePoint" />
+            <mxPoint x="1440" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rp" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;ReviewMealPage&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;photo + AI estimate&lt;/div&gt;&lt;div&gt;meal type chooser&lt;/div&gt;&lt;div&gt;Add to Log button&lt;/div&gt;&lt;div&gt;snackbar &amp;quot;Meal successfully logged!&amp;quot;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="130" width="360" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="fc" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;FoodRecognitionController&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;saveConfirmedMeal(...)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="560" y="152" width="360" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="mc" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;MealLogController&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;logMeal(...)&lt;/div&gt;&lt;div&gt;checks name and calories&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="560" y="302" width="360" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="ml" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;MealLogRepository&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;addLog(MealLog)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="309" width="360" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="mr" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;MealReminderController&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;onMealLogged(uid, mealType)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="560" y="444" width="360" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="fr" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;FoodRecognitionRepository&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;addRecognition(name, confidence)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="444" width="360" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" edge="1" parent="1" source="rp" target="fc">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" value="2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" edge="1" parent="1" source="fc" target="mc">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge3" value="3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" edge="1" parent="1" source="mc" target="ml">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge4" value="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" edge="1" parent="1" source="mc" target="mr">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge5" value="5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" edge="1" parent="1" source="fc" target="fr">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow" value="&lt;div style=&quot;font-size:12px;&quot;&gt;&lt;b&gt;Flow&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;1&lt;/b&gt;&amp;nbsp; User taps Add to Log on ReviewMealPage.&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;2&lt;/b&gt;&amp;nbsp; FoodRecognitionController passes the confirmed meal to MealLogController.&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;3&lt;/b&gt;&amp;nbsp; MealLogController checks it and saves it through MealLogRepository.&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;4&lt;/b&gt;&amp;nbsp; MealReminderController skips today&#39;s reminder for that meal type.&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;5&lt;/b&gt;&amp;nbsp; The scan is recorded through FoodRecognitionRepository, then the page confirms with a snackbar.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9DB;strokeColor=#B3A369;align=left;verticalAlign=top;spacingLeft=12;spacingTop=8;" vertex="1" parent="1">
+          <mxGeometry x="40" y="575" width="1400" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="BCE UC-S6-03 - Edit AI Estimate" id="2">
+    <mxGraphModel dx="1530" dy="1059" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="582" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ti" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=17;fontStyle=1;" value="BCE diagram #UC-S6-03  -  Edit AI Estimate" vertex="1">
+          <mxGeometry height="28" width="1300" x="40" y="14" as="geometry" />
+        </mxCell>
+        <mxCell id="st" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=11;fontColor=#555555;whiteSpace=wrap;" value="As a premium user, I want to correct the AI estimate so that my log holds accurate numbers." vertex="1">
+          <mxGeometry height="36" width="1340" x="40" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="hc0" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#888888;" value="BOUNDARY  (screens)" vertex="1">
+          <mxGeometry height="22" width="360" x="40" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="hl0" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#CCCCCC;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="116" as="sourcePoint" />
+            <mxPoint x="400" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hc1" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#888888;" value="CONTROL  (controllers)" vertex="1">
+          <mxGeometry height="22" width="360" x="560" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="hl1" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#CCCCCC;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="116" as="sourcePoint" />
+            <mxPoint x="920" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hc2" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#888888;" value="ENTITY  (data)" vertex="1">
+          <mxGeometry height="22" width="360" x="1080" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="hl2" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#CCCCCC;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="116" as="sourcePoint" />
+            <mxPoint x="1440" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rp" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;ReviewMealPage&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;editable name, serving, meal type, calories, protein, carbs, fat&lt;/div&gt;&lt;div&gt;validation messages&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="111" width="360" x="40" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="fc" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;FoodRecognitionController&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;saveConfirmedMeal(edited values)&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="81" width="360" x="560" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="mc" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;MealLogController&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;logMeal(edited values)&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="81" width="360" x="560" y="287" as="geometry" />
+        </mxCell>
+        <mxCell id="ml" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;MealLogRepository&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;addLog(MealLog)&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="81" width="360" x="1080" y="287" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" edge="1" parent="1" source="rp" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" target="fc" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" edge="1" parent="1" source="fc" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" target="mc" value="2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge3" edge="1" parent="1" source="mc" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" target="ml" value="3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9DB;strokeColor=#B3A369;align=left;verticalAlign=top;spacingLeft=12;spacingTop=8;" value="&lt;div style=&quot;font-size:12px;&quot;&gt;&lt;b&gt;Flow&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;1&lt;/b&gt;&amp;nbsp; User changes any value on ReviewMealPage and taps Add to Log.&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;2&lt;/b&gt;&amp;nbsp; The page checks: name not empty, calories above 0, protein/carbs/fat 0 or more. If not, it shows what to fix.&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;3&lt;/b&gt;&amp;nbsp; Valid edited values go through FoodRecognitionController to MealLogController.&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;4&lt;/b&gt;&amp;nbsp; Only the edited values are saved to the log, never the original AI numbers.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="128" width="1400" x="40" y="418" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="BCE UC-S6-04 - View Incoming Chat Requests" id="3">
+    <mxGraphModel dx="1607" dy="1112" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="612" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ti" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=17;fontStyle=1;" value="BCE diagram #UC-S6-04  -  View Incoming Chat Requests" vertex="1">
+          <mxGeometry height="28" width="1300" x="40" y="14" as="geometry" />
+        </mxCell>
+        <mxCell id="st" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=11;fontColor=#555555;whiteSpace=wrap;" value="As a nutritionist, I want to view my incoming chat requests so that I can identify customers seeking advice." vertex="1">
+          <mxGeometry height="36" width="1340" x="40" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="hc0" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#888888;" value="BOUNDARY  (screens)" vertex="1">
+          <mxGeometry height="22" width="360" x="40" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="hl0" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#CCCCCC;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="116" as="sourcePoint" />
+            <mxPoint x="400" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hc1" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#888888;" value="CONTROL  (controllers)" vertex="1">
+          <mxGeometry height="22" width="360" x="560" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="hl1" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#CCCCCC;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="116" as="sourcePoint" />
+            <mxPoint x="920" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hc2" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#888888;" value="ENTITY  (data)" vertex="1">
+          <mxGeometry height="22" width="360" x="1080" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="hl2" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#CCCCCC;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="116" as="sourcePoint" />
+            <mxPoint x="1440" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ph" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;PartnerHomePage&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;card &amp;quot;Member chats&amp;quot; with counts&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="81" width="360" x="40" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="cc" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;ChatController&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;watchInboxSummary(id)&lt;/div&gt;&lt;div&gt;watchInbox(id)&lt;/div&gt;&lt;div&gt;expires requests older than 1 hour&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="111" width="360" x="560" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="cr" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;ChatRepository&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;watchThreadsFor(nutritionistId)&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="81" width="360" x="1080" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="pc" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;PartnerChatsPage&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;Requests tab, search&lt;/div&gt;&lt;div&gt;member, first message, waiting time&lt;/div&gt;&lt;div&gt;loading / error + Retry&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="111" width="360" x="40" y="287" as="geometry" />
+        </mxCell>
+        <mxCell id="fb" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;Firebase (Cloud Firestore)&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;chats&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="81" width="360" x="1080" y="302" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" edge="1" parent="1" source="ph" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" target="cc" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" edge="1" parent="1" source="pc" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" target="cc" value="2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge3" edge="1" parent="1" source="cc" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" target="cr" value="3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge4" edge="1" parent="1" source="cr" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" target="fb" value="4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9DB;strokeColor=#B3A369;align=left;verticalAlign=top;spacingLeft=12;spacingTop=8;" value="&lt;div style=&quot;font-size:12px;&quot;&gt;&lt;b&gt;Flow&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;1&lt;/b&gt;&amp;nbsp; Dashboard card and the Member chats screen both ask ChatController.&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;2&lt;/b&gt;&amp;nbsp; ChatController reads this nutritionist&#39;s sessions through ChatRepository (live).&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;3&lt;/b&gt;&amp;nbsp; Pending ones become the Requests tab, longest waiting first.&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;4&lt;/b&gt;&amp;nbsp; Error shows Retry; empty shows &amp;quot;No chat requests waiting&amp;quot;.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="128" width="1400" x="40" y="448" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="BCE UC-S6-05 - Accept Chat Request" id="4">
+    <mxGraphModel dx="1580" dy="1093" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="597" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ti" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=17;fontStyle=1;" value="BCE diagram #UC-S6-05  -  Accept Chat Request" vertex="1">
+          <mxGeometry height="28" width="1300" x="40" y="14" as="geometry" />
+        </mxCell>
+        <mxCell id="st" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=11;fontColor=#555555;whiteSpace=wrap;" value="As a verified nutritionist, I want to accept a chat request so that I can start advising the member." vertex="1">
+          <mxGeometry height="36" width="1340" x="40" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="hc0" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#888888;" value="BOUNDARY  (screens)" vertex="1">
+          <mxGeometry height="22" width="360" x="40" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="hl0" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#CCCCCC;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="116" as="sourcePoint" />
+            <mxPoint x="400" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hc1" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#888888;" value="CONTROL  (controllers)" vertex="1">
+          <mxGeometry height="22" width="360" x="560" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="hl1" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#CCCCCC;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="116" as="sourcePoint" />
+            <mxPoint x="920" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hc2" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#888888;" value="ENTITY  (data)" vertex="1">
+          <mxGeometry height="22" width="360" x="1080" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="hl2" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#CCCCCC;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="116" as="sourcePoint" />
+            <mxPoint x="1440" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pc" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;PartnerChatsPage / ChatPage&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;Accept button / bar&lt;/div&gt;&lt;div&gt;snackbar result&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="96" width="360" x="40" y="137" as="geometry" />
+        </mxCell>
+        <mxCell id="cc" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;ChatController&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;acceptRequest(sessionId, nutritionistId)&lt;/div&gt;&lt;div&gt;checks: found, theirs, still pending, not expired&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="111" width="360" x="560" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="cr" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;ChatRepository&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;getThread(sessionId)&lt;/div&gt;&lt;div&gt;acceptRequest(sessionId, at)&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="96" width="360" x="1080" y="137" as="geometry" />
+        </mxCell>
+        <mxCell id="fb" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;Firebase (Cloud Firestore)&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;chats: status &#39;pending&#39; -&amp;amp;gt; &#39;active&#39;&lt;/div&gt;&lt;div&gt;fresh one-hour idle clock&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="96" width="360" x="1080" y="287" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" edge="1" parent="1" source="pc" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" target="cc" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" edge="1" parent="1" source="cc" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" target="cr" value="2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge3" edge="1" parent="1" source="cr" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" target="fb" value="3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9DB;strokeColor=#B3A369;align=left;verticalAlign=top;spacingLeft=12;spacingTop=8;" value="&lt;div style=&quot;font-size:12px;&quot;&gt;&lt;b&gt;Flow&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;1&lt;/b&gt;&amp;nbsp; Nutritionist taps Accept.&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;2&lt;/b&gt;&amp;nbsp; ChatController loads the session and checks it is theirs and still pending.&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;3&lt;/b&gt;&amp;nbsp; If expired, it is closed as inactivity and the screen explains.&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;4&lt;/b&gt;&amp;nbsp; Otherwise ChatRepository marks it active; the member can chat live.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="128" width="1400" x="40" y="433" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="BCE UC-S6-06 - Decline Chat Request" id="5">
+    <mxGraphModel dx="1634" dy="1131" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="597" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ti" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=17;fontStyle=1;" value="BCE diagram #UC-S6-06  -  Decline Chat Request" vertex="1">
+          <mxGeometry height="28" width="1300" x="40" y="14" as="geometry" />
+        </mxCell>
+        <mxCell id="st" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=11;fontColor=#555555;whiteSpace=wrap;" value="As a verified nutritionist, I want to decline a chat request so that I can manage my workload." vertex="1">
+          <mxGeometry height="36" width="1340" x="40" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="hc0" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#888888;" value="BOUNDARY  (screens)" vertex="1">
+          <mxGeometry height="22" width="360" x="40" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="hl0" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#CCCCCC;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="116" as="sourcePoint" />
+            <mxPoint x="400" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hc1" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#888888;" value="CONTROL  (controllers)" vertex="1">
+          <mxGeometry height="22" width="360" x="560" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="hl1" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#CCCCCC;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="116" as="sourcePoint" />
+            <mxPoint x="920" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hc2" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#888888;" value="ENTITY  (data)" vertex="1">
+          <mxGeometry height="22" width="360" x="1080" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="hl2" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#CCCCCC;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="116" as="sourcePoint" />
+            <mxPoint x="1440" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pc" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;PartnerChatsPage / ChatPage&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;Decline button / bar&lt;/div&gt;&lt;div&gt;confirmation dialog&lt;/div&gt;&lt;div&gt;snackbar &amp;quot;Request declined.&amp;quot;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="111" width="360" x="40" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="cc" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" value="&lt;div style=&quot;font-size: 11px; color: rgb(68, 68, 68);&quot;&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;ChatController&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin: 5px 0px; border-color: rgb(0, 0, 0);&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;declineRequest(sessionId, nutritionistId)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="96" width="360" x="560" y="137" as="geometry" />
+        </mxCell>
+        <mxCell id="cr" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;ChatRepository&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;getThread(sessionId)&lt;/div&gt;&lt;div&gt;declineRequest(sessionId)&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="96" width="360" x="1080" y="137" as="geometry" />
+        </mxCell>
+        <mxCell id="fb" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;Firebase (Cloud Firestore)&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;chats: status &#39;declined&#39;&lt;/div&gt;&lt;div&gt;endedReason = declined&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="96" width="360" x="1080" y="287" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" edge="1" parent="1" source="pc" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" target="cc" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" edge="1" parent="1" source="cc" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" target="cr" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge3" edge="1" parent="1" source="cr" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" target="fb" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9DB;strokeColor=#B3A369;align=left;verticalAlign=top;spacingLeft=12;spacingTop=8;" value="&lt;div style=&quot;font-size:12px;&quot;&gt;&lt;b&gt;Flow&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;1&lt;/b&gt;&amp;nbsp; Nutritionist taps Decline; a dialog asks to confirm.&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;2&lt;/b&gt;&amp;nbsp; On confirm, ChatController checks the request is theirs and pending.&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;3&lt;/b&gt;&amp;nbsp; ChatRepository marks it declined; it moves to Ended (read-only).&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;4&lt;/b&gt;&amp;nbsp; The member sees that they were declined and may request again later.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="128" width="1400" x="40" y="433" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="BCE UC-S6-07 - Send Chat Message" id="6">
+    <mxGraphModel dx="1439" dy="996" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="612" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ti" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=17;fontStyle=1;" value="BCE diagram #UC-S6-07  -  Send Chat Message" vertex="1">
+          <mxGeometry height="28" width="1300" x="40" y="14" as="geometry" />
+        </mxCell>
+        <mxCell id="st" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=11;fontColor=#555555;whiteSpace=wrap;" value="As a verified nutritionist, I want to send messages in an active chat so that I can answer customers." vertex="1">
+          <mxGeometry height="36" width="1340" x="40" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="hc0" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#888888;" value="BOUNDARY  (screens)" vertex="1">
+          <mxGeometry height="22" width="360" x="40" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="hl0" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#CCCCCC;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="116" as="sourcePoint" />
+            <mxPoint x="400" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hc1" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#888888;" value="CONTROL  (controllers)" vertex="1">
+          <mxGeometry height="22" width="360" x="560" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="hl1" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#CCCCCC;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="116" as="sourcePoint" />
+            <mxPoint x="920" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hc2" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#888888;" value="ENTITY  (data)" vertex="1">
+          <mxGeometry height="22" width="360" x="1080" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="hl2" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#CCCCCC;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="116" as="sourcePoint" />
+            <mxPoint x="1440" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cp" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;ChatPage&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;typing box + Send&lt;/div&gt;&lt;div&gt;message bubbles with time&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="96" width="360" x="40" y="137" as="geometry" />
+        </mxCell>
+        <mxCell id="cc" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;ChatController&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;sendMessage(...)&lt;/div&gt;&lt;div&gt;text 1-1000 chars; sender in chat&lt;/div&gt;&lt;div&gt;blocked if pending / ended / idle&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="111" width="360" x="560" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="cr" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;ChatRepository&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;getThread(sessionId)&lt;/div&gt;&lt;div&gt;addMessage(ChatMessage)&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="96" width="360" x="1080" y="137" as="geometry" />
+        </mxCell>
+        <mxCell id="fb" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;Firebase (Cloud Firestore)&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;chatMessages (new message)&lt;/div&gt;&lt;div&gt;chats (lastMessage, lastMessageAt, lastSenderRole)&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="111" width="360" x="1080" y="287" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" edge="1" parent="1" source="cp" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" target="cc" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" edge="1" parent="1" source="cc" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" target="cr" value="2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge3" edge="1" parent="1" source="cr" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" target="fb" value="3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9DB;strokeColor=#B3A369;align=left;verticalAlign=top;spacingLeft=12;spacingTop=8;" value="&lt;div style=&quot;font-size:12px;&quot;&gt;&lt;b&gt;Flow&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;1&lt;/b&gt;&amp;nbsp; Nutritionist types a reply and taps Send.&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;2&lt;/b&gt;&amp;nbsp; ChatController validates the text and loads the session.&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;3&lt;/b&gt;&amp;nbsp; If the request is not accepted or the session is over, it refuses.&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;4&lt;/b&gt;&amp;nbsp; ChatRepository saves the message and updates the chat summary; the idle clock restarts.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="128" width="1400" x="40" y="448" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="BCE UC-S6-08 - Receive Chat Message" id="7">
+    <mxGraphModel dx="1400" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="597" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ti" value="BCE diagram #UC-S6-08  -  Receive Chat Message" style="text;html=1;align=left;verticalAlign=top;fontSize=17;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="14" width="1300" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="st" value="As a verified nutritionist, I want to receive member messages so that I can respond to their questions." style="text;html=1;align=left;verticalAlign=top;fontSize=11;fontColor=#555555;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="46" width="1340" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="hc0" value="BOUNDARY  (screens)" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#888888;" vertex="1" parent="1">
+          <mxGeometry x="40" y="92" width="360" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="hl0" style="endArrow=none;dashed=1;strokeColor=#CCCCCC;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="116" as="sourcePoint" />
+            <mxPoint x="400" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hc1" value="CONTROL  (controllers)" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#888888;" vertex="1" parent="1">
+          <mxGeometry x="560" y="92" width="360" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="hl1" style="endArrow=none;dashed=1;strokeColor=#CCCCCC;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="116" as="sourcePoint" />
+            <mxPoint x="920" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hc2" value="ENTITY  (data)" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#888888;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="92" width="360" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="hl2" style="endArrow=none;dashed=1;strokeColor=#CCCCCC;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="116" as="sourcePoint" />
+            <mxPoint x="1440" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pc" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;PartnerChatsPage&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;&amp;quot;New&amp;quot; badge, &amp;quot;Active (3 · 1 new)&amp;quot;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="145" width="360" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="cc" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;ChatController&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;watchInbox(id)&lt;/div&gt;&lt;div&gt;watchMessages(sessionId, nutritionistId)&lt;/div&gt;&lt;div&gt;markRead(sessionId, asNutritionist)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="560" y="130" width="360" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="cr" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;ChatRepository&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;watchThreadsFor(...)&lt;/div&gt;&lt;div&gt;watchMessages(...)&lt;/div&gt;&lt;div&gt;markRead(sessionId, at)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="130" width="360" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="cp" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;ChatPage&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;live message list&lt;/div&gt;&lt;div&gt;day labels, times&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="287" width="360" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="fb" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;Firebase (Cloud Firestore)&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;chats&lt;/div&gt;&lt;div&gt;chatMessages (filtered by nutritionistId)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="287" width="360" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" edge="1" parent="1" source="pc" target="cc">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" value="2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" edge="1" parent="1" source="cp" target="cc">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge3" value="3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" edge="1" parent="1" source="cc" target="cr">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge4" value="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" edge="1" parent="1" source="cr" target="fb">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow" value="&lt;div style=&quot;font-size:12px;&quot;&gt;&lt;b&gt;Flow&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;1&lt;/b&gt;&amp;nbsp; The member&#39;s message updates the session live; the inbox shows a New badge.&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;2&lt;/b&gt;&amp;nbsp; Opening the chat streams the messages for this nutritionist only.&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;3&lt;/b&gt;&amp;nbsp; ChatController marks the chat read, so the badge clears.&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;4&lt;/b&gt;&amp;nbsp; New messages appear without refreshing.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9DB;strokeColor=#B3A369;align=left;verticalAlign=top;spacingLeft=12;spacingTop=8;" vertex="1" parent="1">
+          <mxGeometry x="40" y="433" width="1400" height="128" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="BCE UC-S6-09 - End Chat Session" id="8">
+    <mxGraphModel dx="1400" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="597" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ti" value="BCE diagram #UC-S6-09  -  End Chat Session" style="text;html=1;align=left;verticalAlign=top;fontSize=17;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="14" width="1300" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="st" value="As a verified nutritionist, I want to end an active chat so that I can conclude the consultation." style="text;html=1;align=left;verticalAlign=top;fontSize=11;fontColor=#555555;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="46" width="1340" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="hc0" value="BOUNDARY  (screens)" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#888888;" vertex="1" parent="1">
+          <mxGeometry x="40" y="92" width="360" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="hl0" style="endArrow=none;dashed=1;strokeColor=#CCCCCC;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="116" as="sourcePoint" />
+            <mxPoint x="400" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hc1" value="CONTROL  (controllers)" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#888888;" vertex="1" parent="1">
+          <mxGeometry x="560" y="92" width="360" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="hl1" style="endArrow=none;dashed=1;strokeColor=#CCCCCC;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="116" as="sourcePoint" />
+            <mxPoint x="920" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hc2" value="ENTITY  (data)" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#888888;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="92" width="360" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="hl2" style="endArrow=none;dashed=1;strokeColor=#CCCCCC;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="116" as="sourcePoint" />
+            <mxPoint x="1440" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cp" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;ChatPage&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;End session button&lt;/div&gt;&lt;div&gt;dialog with optional closing message&lt;/div&gt;&lt;div&gt;read-only banner&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="130" width="360" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="cc" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;ChatController&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;endSession(sessionId, endedBy, closingMessage)&lt;/div&gt;&lt;div&gt;no-op if already over&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="560" y="130" width="360" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="cr" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;ChatRepository&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;getThread(sessionId)&lt;/div&gt;&lt;div&gt;addMessage(closing message)&lt;/div&gt;&lt;div&gt;completeSession(sessionId, endedBy)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="130" width="360" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="fb" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;Firebase (Cloud Firestore)&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;chats: status &#39;completed&#39;, endedBy&lt;/div&gt;&lt;div&gt;chatMessages (closing message)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="287" width="360" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" edge="1" parent="1" source="cp" target="cc">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" value="2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" edge="1" parent="1" source="cc" target="cr">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge3" value="3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" edge="1" parent="1" source="cr" target="fb">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow" value="&lt;div style=&quot;font-size:12px;&quot;&gt;&lt;b&gt;Flow&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;1&lt;/b&gt;&amp;nbsp; Nutritionist taps End session and may write a closing message.&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;2&lt;/b&gt;&amp;nbsp; ChatController sends the closing message first (if any).&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;3&lt;/b&gt;&amp;nbsp; ChatRepository marks the session completed with who ended it.&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;4&lt;/b&gt;&amp;nbsp; Both sides now see it read-only; failure keeps the chat open.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9DB;strokeColor=#B3A369;align=left;verticalAlign=top;spacingLeft=12;spacingTop=8;" vertex="1" parent="1">
+          <mxGeometry x="40" y="433" width="1400" height="128" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="BCE UC-S6-10 - View Active Chat Sessions" id="9">
+    <mxGraphModel dx="1400" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="597" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ti" value="BCE diagram #UC-S6-10  -  View Active Chat Sessions" style="text;html=1;align=left;verticalAlign=top;fontSize=17;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="14" width="1300" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="st" value="As a verified nutritionist, I want to view my active chats so that I can manage ongoing consultations." style="text;html=1;align=left;verticalAlign=top;fontSize=11;fontColor=#555555;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="46" width="1340" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="hc0" value="BOUNDARY  (screens)" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#888888;" vertex="1" parent="1">
+          <mxGeometry x="40" y="92" width="360" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="hl0" style="endArrow=none;dashed=1;strokeColor=#CCCCCC;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="116" as="sourcePoint" />
+            <mxPoint x="400" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hc1" value="CONTROL  (controllers)" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#888888;" vertex="1" parent="1">
+          <mxGeometry x="560" y="92" width="360" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="hl1" style="endArrow=none;dashed=1;strokeColor=#CCCCCC;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="116" as="sourcePoint" />
+            <mxPoint x="920" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hc2" value="ENTITY  (data)" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#888888;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="92" width="360" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="hl2" style="endArrow=none;dashed=1;strokeColor=#CCCCCC;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="116" as="sourcePoint" />
+            <mxPoint x="1440" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pc" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;PartnerChatsPage&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;Active tab, search by member name&lt;/div&gt;&lt;div&gt;Your turn / Waiting for member&lt;/div&gt;&lt;div&gt;&amp;quot;N min ago&amp;quot;, auto-end countdown&lt;/div&gt;&lt;div&gt;refresh every 30 seconds&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="130" width="360" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="cc" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;ChatController&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;watchInbox(id)&lt;/div&gt;&lt;div&gt;active chats only; idle ones move to Ended&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="560" y="145" width="360" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="cr" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;ChatRepository&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;watchThreadsFor(nutritionistId)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="152" width="360" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="fb" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;Firebase (Cloud Firestore)&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;chats&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="302" width="360" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" edge="1" parent="1" source="pc" target="cc">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" value="2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" edge="1" parent="1" source="cc" target="cr">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge3" value="3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" edge="1" parent="1" source="cr" target="fb">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow" value="&lt;div style=&quot;font-size:12px;&quot;&gt;&lt;b&gt;Flow&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;1&lt;/b&gt;&amp;nbsp; Nutritionist opens the Active tab.&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;2&lt;/b&gt;&amp;nbsp; ChatController returns accepted, not-expired chats from ChatRepository.&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;3&lt;/b&gt;&amp;nbsp; The page sorts new messages first and shows turn, time and countdown.&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;4&lt;/b&gt;&amp;nbsp; Search filters the list on screen.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9DB;strokeColor=#B3A369;align=left;verticalAlign=top;spacingLeft=12;spacingTop=8;" vertex="1" parent="1">
+          <mxGeometry x="40" y="433" width="1400" height="128" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="BCE UC-S6-11 - Recommend Recipe To Customer" id="10">
+    <mxGraphModel dx="1400" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="963" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ti" value="BCE diagram #UC-S6-11  -  Recommend Recipe To Customer" style="text;html=1;align=left;verticalAlign=top;fontSize=17;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="14" width="1300" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="st" value="As a verified nutritionist, I want to recommend recipes to a specific customer after a consultation so that I can provide personalized meal suggestions." style="text;html=1;align=left;verticalAlign=top;fontSize=11;fontColor=#555555;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="46" width="1340" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="hc0" value="BOUNDARY  (screens)" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#888888;" vertex="1" parent="1">
+          <mxGeometry x="40" y="92" width="360" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="hl0" style="endArrow=none;dashed=1;strokeColor=#CCCCCC;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="116" as="sourcePoint" />
+            <mxPoint x="400" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hc1" value="CONTROL  (controllers)" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#888888;" vertex="1" parent="1">
+          <mxGeometry x="560" y="92" width="360" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="hl1" style="endArrow=none;dashed=1;strokeColor=#CCCCCC;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="116" as="sourcePoint" />
+            <mxPoint x="920" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hc2" value="ENTITY  (data)" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#888888;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="92" width="360" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="hl2" style="endArrow=none;dashed=1;strokeColor=#CCCCCC;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="116" as="sourcePoint" />
+            <mxPoint x="1440" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cp" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;ChatPage&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;recipe menu: &amp;quot;Recommend a recipe&amp;quot;&lt;/div&gt;&lt;div&gt;offered while the chat is active or ended under 7 days ago&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="130" width="360" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="rr" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;RecommendRecipePage&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;recipe form + optional note&lt;/div&gt;&lt;div&gt;&amp;quot;Send to member&amp;quot; button&lt;/div&gt;&lt;div&gt;snackbar result&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="309" width="360" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="pc" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;PersonalRecipeController&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;recommend(sessionId, nutritionistId, fields, note)&lt;/div&gt;&lt;div&gt;checks fields, session is theirs, within window&lt;/div&gt;&lt;div&gt;posts &amp;quot;I sent you a recipe&amp;quot; if chat still active&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="560" y="287" width="360" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="cr" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;ChatRepository&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;getThread(sessionId)&lt;/div&gt;&lt;div&gt;addMessage(...)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="317" width="360" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="pr" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;PersonalRecipeRepository&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;add(PersonalRecipe)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="489" width="360" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="fb" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;Firebase (Cloud Firestore)&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;personalRecipes (private to author and member)&lt;/div&gt;&lt;div&gt;chats / chatMessages&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="616" width="360" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" edge="1" parent="1" source="cp" target="rr">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" value="2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" edge="1" parent="1" source="rr" target="pc">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge3" value="3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" edge="1" parent="1" source="pc" target="cr">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge4" value="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" edge="1" parent="1" source="pc" target="pr">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge5" value="5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" edge="1" parent="1" source="pr" target="fb">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow" value="&lt;div style=&quot;font-size:12px;&quot;&gt;&lt;b&gt;Flow&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;1&lt;/b&gt;&amp;nbsp; Nutritionist opens the recipe menu in a chat and taps Recommend a recipe.&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;2&lt;/b&gt;&amp;nbsp; The form is filled in and sent to PersonalRecipeController.&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;3&lt;/b&gt;&amp;nbsp; The controller loads the session and checks it is theirs and still open for recipes.&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;4&lt;/b&gt;&amp;nbsp; The recipe is saved for that one member in personalRecipes.&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;5&lt;/b&gt;&amp;nbsp; If the chat is still active, a short message tells the member where to find it.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9DB;strokeColor=#B3A369;align=left;verticalAlign=top;spacingLeft=12;spacingTop=8;" vertex="1" parent="1">
+          <mxGeometry x="40" y="777" width="1400" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="BCE UC-S6-12 - Withdraw Sent Recipe" id="11">
+    <mxGraphModel dx="1400" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="687" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ti" value="BCE diagram #UC-S6-12  -  Withdraw Sent Recipe" style="text;html=1;align=left;verticalAlign=top;fontSize=17;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="14" width="1300" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="st" value="As a verified nutritionist, I want to take back a recipe I sent a customer by mistake (for example a wrong allergen tag)." style="text;html=1;align=left;verticalAlign=top;fontSize=11;fontColor=#555555;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="46" width="1340" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="hc0" value="BOUNDARY  (screens)" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#888888;" vertex="1" parent="1">
+          <mxGeometry x="40" y="92" width="360" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="hl0" style="endArrow=none;dashed=1;strokeColor=#CCCCCC;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="116" as="sourcePoint" />
+            <mxPoint x="400" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hc1" value="CONTROL  (controllers)" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#888888;" vertex="1" parent="1">
+          <mxGeometry x="560" y="92" width="360" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="hl1" style="endArrow=none;dashed=1;strokeColor=#CCCCCC;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="116" as="sourcePoint" />
+            <mxPoint x="920" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hc2" value="ENTITY  (data)" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#888888;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="92" width="360" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="hl2" style="endArrow=none;dashed=1;strokeColor=#CCCCCC;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="116" as="sourcePoint" />
+            <mxPoint x="1440" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cp" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;ChatPage&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;recipe menu: &amp;quot;Recipes sent&amp;quot;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="130" width="360" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="sr" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;SentRecipesPage&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;cards: name, category, calories&lt;/div&gt;&lt;div&gt;Withdraw link&lt;/div&gt;&lt;div&gt;empty state&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="257" width="360" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="pc" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;PersonalRecipeController&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;watchSent(nutritionistId, memberId)&lt;/div&gt;&lt;div&gt;withdraw(recipeId)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="560" y="264" width="360" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="pr" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;PersonalRecipeRepository&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;watchSent(...)&lt;/div&gt;&lt;div&gt;delete(id)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="264" width="360" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="fb" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;Firebase (Cloud Firestore)&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;personalRecipes&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="414" width="360" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" edge="1" parent="1" source="cp" target="sr">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" value="2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" edge="1" parent="1" source="sr" target="pc">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge3" value="3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" edge="1" parent="1" source="pc" target="pr">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge4" value="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" edge="1" parent="1" source="pr" target="fb">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow" value="&lt;div style=&quot;font-size:12px;&quot;&gt;&lt;b&gt;Flow&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;1&lt;/b&gt;&amp;nbsp; Nutritionist opens Recipes sent from the chat menu.&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;2&lt;/b&gt;&amp;nbsp; The page lists what they sent this member.&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;3&lt;/b&gt;&amp;nbsp; Withdraw deletes the recipe; the member no longer sees it.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9DB;strokeColor=#B3A369;align=left;verticalAlign=top;spacingLeft=12;spacingTop=8;" vertex="1" parent="1">
+          <mxGeometry x="40" y="545" width="1400" height="106" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="BCE UC-S6-13 - Edit Sent Recipe" id="12">
+    <mxGraphModel dx="1400" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="731" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ti" value="BCE diagram #UC-S6-13  -  Edit Sent Recipe" style="text;html=1;align=left;verticalAlign=top;fontSize=17;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="14" width="1300" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="st" value="As a verified nutritionist, I want to recommend recipes to a specific customer so that I can provide personalized meal suggestions (and correct a recipe I entered wrongly)." style="text;html=1;align=left;verticalAlign=top;fontSize=11;fontColor=#555555;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="46" width="1340" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="hc0" value="BOUNDARY  (screens)" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#888888;" vertex="1" parent="1">
+          <mxGeometry x="40" y="92" width="360" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="hl0" style="endArrow=none;dashed=1;strokeColor=#CCCCCC;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="116" as="sourcePoint" />
+            <mxPoint x="400" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hc1" value="CONTROL  (controllers)" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#888888;" vertex="1" parent="1">
+          <mxGeometry x="560" y="92" width="360" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="hl1" style="endArrow=none;dashed=1;strokeColor=#CCCCCC;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="116" as="sourcePoint" />
+            <mxPoint x="920" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hc2" value="ENTITY  (data)" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#888888;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="92" width="360" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="hl2" style="endArrow=none;dashed=1;strokeColor=#CCCCCC;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="116" as="sourcePoint" />
+            <mxPoint x="1440" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sr" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;SentRecipesPage&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;Edit link on each sent recipe&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="130" width="360" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="rr" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;RecommendRecipePage&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;form pre-filled with the recipe&lt;/div&gt;&lt;div&gt;&amp;quot;Save changes&amp;quot; button&lt;/div&gt;&lt;div&gt;snackbar result&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="257" width="360" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="pc" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;PersonalRecipeController&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;updateRecipe(recipeId, fields, note)&lt;/div&gt;&lt;div&gt;checks name, calories, ingredient, step, note length&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="560" y="257" width="360" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="pr" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;PersonalRecipeRepository&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;updateContent(recipeId, values)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="272" width="360" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="fb" value="&lt;div style=&quot;font-size:11px;color:#444;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;&quot;&gt;&lt;b&gt;Firebase (Cloud Firestore)&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;margin:5px 0;border-color:#000;&quot;&gt;&lt;div style=&quot;text-align:left;font-size:10px;padding:0 8px 6px 8px;white-space:normal;&quot;&gt;&lt;div&gt;personalRecipes (content fields only)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="414" width="360" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" edge="1" parent="1" source="sr" target="rr">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" value="2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" edge="1" parent="1" source="rr" target="pc">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge3" value="3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" edge="1" parent="1" source="pc" target="pr">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge4" value="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#222222;strokeWidth=1.5;fontSize=13;fontStyle=1;labelBackgroundColor=#FFE9A8;labelBorderColor=#B3A369;" edge="1" parent="1" source="pr" target="fb">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow" value="&lt;div style=&quot;font-size:12px;&quot;&gt;&lt;b&gt;Flow&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;1&lt;/b&gt;&amp;nbsp; Nutritionist taps Edit on a sent recipe; the form opens already filled in.&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;2&lt;/b&gt;&amp;nbsp; They fix the mistake and tap Save changes.&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;3&lt;/b&gt;&amp;nbsp; PersonalRecipeController applies the same checks as sending.&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;4&lt;/b&gt;&amp;nbsp; Only the recipe content is updated; the member and the chat stay the same.&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;margin-top:3px;&quot;&gt;&lt;b&gt;5&lt;/b&gt;&amp;nbsp; The member sees the corrected recipe straight away.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9DB;strokeColor=#B3A369;align=left;verticalAlign=top;spacingLeft=12;spacingTop=8;" vertex="1" parent="1">
+          <mxGeometry x="40" y="545" width="1400" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

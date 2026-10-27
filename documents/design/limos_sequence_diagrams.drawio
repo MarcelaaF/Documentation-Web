@@ -1,0 +1,2532 @@
+<mxfile host="app.diagrams.net" pages="9">
+  <diagram name="SD1 View meal recommendations" id="0">
+    <mxGraphModel dx="884" dy="612" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2260" pageHeight="1682" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="s142" parent="1" style="shape=umlActor;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;" value="User" vertex="1">
+          <mxGeometry height="50" width="40" x="185" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s143" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="60" as="sourcePoint" />
+            <mxPoint x="205" y="1672" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s144" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:RecipesPage&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="335" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s145" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="58" as="sourcePoint" />
+            <mxPoint x="415" y="1672" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s146" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:MealLogController&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="545" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s147" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="58" as="sourcePoint" />
+            <mxPoint x="625" y="1672" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s148" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:ProfileController&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="755" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s149" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="58" as="sourcePoint" />
+            <mxPoint x="835" y="1672" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s150" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:RecipeController&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="965" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s151" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1045" y="58" as="sourcePoint" />
+            <mxPoint x="1045" y="1672" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s152" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:GoalRanker&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="1175" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s153" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1255" y="58" as="sourcePoint" />
+            <mxPoint x="1255" y="1672" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s154" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:MealLogRepository&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="1385" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s155" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1465" y="58" as="sourcePoint" />
+            <mxPoint x="1465" y="1672" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s156" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:UserRepository&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="1595" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s157" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1675" y="58" as="sourcePoint" />
+            <mxPoint x="1675" y="1672" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s158" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:RecipeRepository&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="1805" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s159" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1885" y="58" as="sourcePoint" />
+            <mxPoint x="1885" y="1672" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s160" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:Firebase (Cloud Firestore)&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="2015" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s161" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2095" y="58" as="sourcePoint" />
+            <mxPoint x="2095" y="1672" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s101" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="open Recipes (All)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="110" as="sourcePoint" />
+            <mxPoint x="415" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s102" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="watchTodayLogs(uid)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="152" as="sourcePoint" />
+            <mxPoint x="625" y="152" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s103" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="watchTodayLogs(uid)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="194" as="sourcePoint" />
+            <mxPoint x="1465" y="194" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s104" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="mealLogs where userId == uid, loggedAt ≥ start of today">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1465" y="236" as="sourcePoint" />
+            <mxPoint x="2095" y="236" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s105" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="today&amp;#x27;s logs">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2095" y="278" as="sourcePoint" />
+            <mxPoint x="1465" y="278" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s106" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="List&amp;lt;MealLog&amp;gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1465" y="320" as="sourcePoint" />
+            <mxPoint x="625" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s107" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="List&amp;lt;MealLog&amp;gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="362" as="sourcePoint" />
+            <mxPoint x="415" y="362" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s108" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;align=left;labelPosition=right;spacingLeft=4;verticalAlign=middle;" value="caloriesEatenToday = Σ calories">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="451" y="404" />
+              <mxPoint x="451" y="426" />
+            </Array>
+            <mxPoint x="415" y="404" as="sourcePoint" />
+            <mxPoint x="415" y="426" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s109" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="watchProfile(uid)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="458" as="sourcePoint" />
+            <mxPoint x="835" y="458" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s110" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="watchProfile(uid)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="500" as="sourcePoint" />
+            <mxPoint x="1675" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s111" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="profiles/{uid}_profile">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1675" y="542" as="sourcePoint" />
+            <mxPoint x="2095" y="542" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s112" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="profile doc">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2095" y="584" as="sourcePoint" />
+            <mxPoint x="1675" y="584" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s113" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="UserProfile">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1675" y="626" as="sourcePoint" />
+            <mxPoint x="835" y="626" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s114" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="UserProfile (diet, allergies, conditions, goal)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="668" as="sourcePoint" />
+            <mxPoint x="415" y="668" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s115" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="watchRecipes()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="710" as="sourcePoint" />
+            <mxPoint x="1045" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s116" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="watchRecipes()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1045" y="752" as="sourcePoint" />
+            <mxPoint x="1885" y="752" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s117" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="recipes.snapshots()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1885" y="794" as="sourcePoint" />
+            <mxPoint x="2095" y="794" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s118" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="recipe docs">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2095" y="836" as="sourcePoint" />
+            <mxPoint x="1885" y="836" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s119" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="List&amp;lt;Recipe&amp;gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1885" y="878" as="sourcePoint" />
+            <mxPoint x="1045" y="878" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s120" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="List&amp;lt;Recipe&amp;gt;  (foods, business &amp;amp; web recipes load the same way)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1045" y="920" as="sourcePoint" />
+            <mxPoint x="415" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s121" value="RecipeController.isSafeForProfile(item, profile): diet (Vegan ⇒ Vegetarian), allergens, caution tags" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="415" y="992" as="sourcePoint"/><mxPoint x="1045" y="992" as="targetPoint"/></mxGeometry></mxCell><mxCell id="s121r" value="safe / not safe" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="1045" y="1026" as="sourcePoint"/><mxPoint x="415" y="1026" as="targetPoint"/></mxGeometry></mxCell>
+        <mxCell id="s122" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#3C3C3C;verticalAlign=top;align=left;" value="" vertex="1">
+          <mxGeometry height="94" width="2010" x="145" y="962" as="geometry" />
+        </mxCell>
+        <mxCell id="s123" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1E1E6;strokeColor=#3C3C3C;fontSize=11;align=left;spacingLeft=4;" value="loop" vertex="1">
+          <mxGeometry height="18" width="48" x="145" y="962" as="geometry" />
+        </mxCell>
+        <mxCell id="s124" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontColor=#7A2828;fontSize=12;" value="[for each recipe / food / business recipe]" vertex="1">
+          <mxGeometry height="24" width="520" x="199" y="972" as="geometry" />
+        </mxCell>
+        <mxCell id="s125" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="GoalRanker.forProfile(profile, caloriesEatenToday, minCalories, maxCalories)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="1079" as="sourcePoint" />
+            <mxPoint x="1255" y="1079" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s126" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;align=left;labelPosition=right;spacingLeft=4;verticalAlign=middle;" value="perMeal = (daily goal − eaten) ÷ mainMealsLeftAt(now)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1291" y="1108" />
+              <mxPoint x="1291" y="1130" />
+            </Array>
+            <mxPoint x="1255" y="1108" as="sourcePoint" />
+            <mxPoint x="1255" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s127" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="ranker">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1255" y="1162" as="sourcePoint" />
+            <mxPoint x="415" y="1162" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s128" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="rank(safeItems, calories, protein)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="1204" as="sourcePoint" />
+            <mxPoint x="1255" y="1204" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s129" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;align=left;labelPosition=right;spacingLeft=4;verticalAlign=middle;" value="lower-calorie dishes first">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1291" y="1276" />
+              <mxPoint x="1291" y="1298" />
+            </Array>
+            <mxPoint x="1255" y="1276" as="sourcePoint" />
+            <mxPoint x="1255" y="1298" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s130" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;align=left;labelPosition=right;spacingLeft=4;verticalAlign=middle;" value="closest to per-meal target first">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1291" y="1360" />
+              <mxPoint x="1291" y="1382" />
+            </Array>
+            <mxPoint x="1255" y="1360" as="sourcePoint" />
+            <mxPoint x="1255" y="1382" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s131" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;align=left;labelPosition=right;spacingLeft=4;verticalAlign=middle;" value="higher protein share first (+ calorie fit)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1291" y="1444" />
+              <mxPoint x="1291" y="1466" />
+            </Array>
+            <mxPoint x="1255" y="1444" as="sourcePoint" />
+            <mxPoint x="1255" y="1466" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s132" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#3C3C3C;verticalAlign=top;align=left;" value="" vertex="1">
+          <mxGeometry height="262" width="2010" x="145" y="1246" as="geometry" />
+        </mxCell>
+        <mxCell id="s133" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1E1E6;strokeColor=#3C3C3C;fontSize=11;align=left;spacingLeft=4;" value="alt" vertex="1">
+          <mxGeometry height="18" width="40" x="145" y="1246" as="geometry" />
+        </mxCell>
+        <mxCell id="s134" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#3C3C3C;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="1330" as="sourcePoint" />
+            <mxPoint x="2155" y="1330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s135" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#3C3C3C;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="1414" as="sourcePoint" />
+            <mxPoint x="2155" y="1414" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s136" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontColor=#7A2828;fontSize=12;" value="[goal = Lose weight]" vertex="1">
+          <mxGeometry height="24" width="520" x="191" y="1256" as="geometry" />
+        </mxCell>
+        <mxCell id="s137" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontColor=#7A2828;fontSize=12;" value="[goal = Maintain / not set]" vertex="1">
+          <mxGeometry height="24" width="520" x="191" y="1340" as="geometry" />
+        </mxCell>
+        <mxCell id="s138" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontColor=#7A2828;fontSize=12;" value="[goal = Gain muscle]" vertex="1">
+          <mxGeometry height="24" width="520" x="191" y="1424" as="geometry" />
+        </mxCell>
+        <mxCell id="s139" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="ranked list + fit labels">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1255" y="1518" as="sourcePoint" />
+            <mxPoint x="415" y="1518" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s140" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="ranked recommendations">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="1560" as="sourcePoint" />
+            <mxPoint x="205" y="1560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s141" parent="1" style="shape=note;whiteSpace=wrap;html=1;size=12;fillColor=#FFF9DB;strokeColor=#B3A369;fontSize=11;align=left;spacingLeft=6;" value="Subtitle explains the order, e.g. &amp;#x27;Lower-calorie picks first · ~400 kcal next meal (800 left today)&amp;#x27;" vertex="1">
+          <mxGeometry height="40" width="360" x="425" y="1590" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="SD2 Restore session and role-based access" id="1">
+    <mxGraphModel dx="1004" dy="695" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2050" pageHeight="1480" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="s144" parent="1" style="shape=umlActor;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;" value="User" vertex="1">
+          <mxGeometry height="50" width="40" x="185" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s145" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="60" as="sourcePoint" />
+            <mxPoint x="205" y="1470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s146" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:App / Requested Page&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="335" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s147" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="58" as="sourcePoint" />
+            <mxPoint x="415" y="1470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s148" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:GoRouter (redirect)&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="545" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s149" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="58" as="sourcePoint" />
+            <mxPoint x="625" y="1470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s150" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:AuthController&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="755" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s151" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="58" as="sourcePoint" />
+            <mxPoint x="835" y="1470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s152" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:PartnerProfileController&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="965" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s153" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1045" y="58" as="sourcePoint" />
+            <mxPoint x="1045" y="1470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s154" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:Firebase Auth (AuthService)&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="1175" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s155" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1255" y="58" as="sourcePoint" />
+            <mxPoint x="1255" y="1470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s156" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:UserRepository&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="1385" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s157" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1465" y="58" as="sourcePoint" />
+            <mxPoint x="1465" y="1470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s158" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:PartnerProfileRepository&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="1595" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s159" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1675" y="58" as="sourcePoint" />
+            <mxPoint x="1675" y="1470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s160" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:Firebase (Cloud Firestore)&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="1805" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s161" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1885" y="58" as="sourcePoint" />
+            <mxPoint x="1885" y="1470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s101" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="launch app / open a route">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="110" as="sourcePoint" />
+            <mxPoint x="415" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s102" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="redirect(location)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="152" as="sourcePoint" />
+            <mxPoint x="625" y="152" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s103" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="currentAccount()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="194" as="sourcePoint" />
+            <mxPoint x="835" y="194" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s104" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="currentUser">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="236" as="sourcePoint" />
+            <mxPoint x="1255" y="236" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s105" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="User? (persisted session)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1255" y="278" as="sourcePoint" />
+            <mxPoint x="835" y="278" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s106" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="null">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="350" as="sourcePoint" />
+            <mxPoint x="625" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s107" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="fetchUser(uid)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="422" as="sourcePoint" />
+            <mxPoint x="1465" y="422" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s108" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="users/{uid}.get()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1465" y="464" as="sourcePoint" />
+            <mxPoint x="1885" y="464" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s109" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="user doc">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1885" y="506" as="sourcePoint" />
+            <mxPoint x="1465" y="506" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s110" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="AppUser(role, status)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1465" y="548" as="sourcePoint" />
+            <mxPoint x="835" y="548" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s111" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="AppUser">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="590" as="sourcePoint" />
+            <mxPoint x="625" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s112" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="fetchOnce(uid)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="662" as="sourcePoint" />
+            <mxPoint x="1045" y="662" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s113" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="fetchOnce(uid)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1045" y="704" as="sourcePoint" />
+            <mxPoint x="1675" y="704" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s114" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="partnerProfiles/{uid}.get()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1675" y="746" as="sourcePoint" />
+            <mxPoint x="1885" y="746" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s115" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="partner profile doc">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1885" y="788" as="sourcePoint" />
+            <mxPoint x="1675" y="788" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s116" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="PartnerProfile?">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1675" y="830" as="sourcePoint" />
+            <mxPoint x="1045" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s117" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="partnerProfileStatus">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1045" y="872" as="sourcePoint" />
+            <mxPoint x="625" y="872" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s118" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#3C3C3C;verticalAlign=top;align=left;" value="" vertex="1">
+          <mxGeometry height="282" width="1776" x="157" y="632" as="geometry" />
+        </mxCell>
+        <mxCell id="s119" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1E1E6;strokeColor=#3C3C3C;fontSize=11;align=left;spacingLeft=4;" value="opt" vertex="1">
+          <mxGeometry height="18" width="40" x="157" y="632" as="geometry" />
+        </mxCell>
+        <mxCell id="s120" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontColor=#7A2828;fontSize=12;" value="[role == partner]" vertex="1">
+          <mxGeometry height="24" width="520" x="203" y="642" as="geometry" />
+        </mxCell>
+        <mxCell id="s121" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#3C3C3C;verticalAlign=top;align=left;" value="" vertex="1">
+          <mxGeometry height="646" width="1800" x="145" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="s122" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1E1E6;strokeColor=#3C3C3C;fontSize=11;align=left;spacingLeft=4;" value="alt" vertex="1">
+          <mxGeometry height="18" width="40" x="145" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="s123" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#3C3C3C;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="392" as="sourcePoint" />
+            <mxPoint x="1945" y="392" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s124" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontColor=#7A2828;fontSize=12;" value="[no persisted session]" vertex="1">
+          <mxGeometry height="24" width="520" x="191" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="s125" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontColor=#7A2828;fontSize=12;" value="[session restored]" vertex="1">
+          <mxGeometry height="24" width="520" x="191" y="402" as="geometry" />
+        </mxCell>
+        <mxCell id="s126" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;align=left;labelPosition=right;spacingLeft=4;verticalAlign=middle;" value="resolveRedirect(location, role, status, partnerProfileStatus)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="661" y="976" />
+              <mxPoint x="661" y="998" />
+            </Array>
+            <mxPoint x="625" y="976" as="sourcePoint" />
+            <mxPoint x="625" y="998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s127" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="go(&amp;#x27;/role-select&amp;#x27;) → login">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="1060" as="sourcePoint" />
+            <mxPoint x="415" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s128" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="go(&amp;#x27;/account-suspended&amp;#x27;)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="1132" as="sourcePoint" />
+            <mxPoint x="415" y="1132" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s129" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="go(&amp;#x27;/account-pending&amp;#x27;)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="1204" as="sourcePoint" />
+            <mxPoint x="415" y="1204" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s130" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="go(role.destinationRoute)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="1276" as="sourcePoint" />
+            <mxPoint x="415" y="1276" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s131" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="null → show requested page">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="1348" as="sourcePoint" />
+            <mxPoint x="415" y="1348" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s132" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#3C3C3C;verticalAlign=top;align=left;" value="" vertex="1">
+          <mxGeometry height="370" width="1800" x="145" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="s133" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1E1E6;strokeColor=#3C3C3C;fontSize=11;align=left;spacingLeft=4;" value="alt" vertex="1">
+          <mxGeometry height="18" width="40" x="145" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="s134" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#3C3C3C;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="1102" as="sourcePoint" />
+            <mxPoint x="1945" y="1102" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s135" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#3C3C3C;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="1174" as="sourcePoint" />
+            <mxPoint x="1945" y="1174" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s136" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#3C3C3C;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="1246" as="sourcePoint" />
+            <mxPoint x="1945" y="1246" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s137" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#3C3C3C;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="1318" as="sourcePoint" />
+            <mxPoint x="1945" y="1318" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s138" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontColor=#7A2828;fontSize=12;" value="[role == null]" vertex="1">
+          <mxGeometry height="24" width="520" x="191" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="s139" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontColor=#7A2828;fontSize=12;" value="[status == &amp;#x27;suspended&amp;#x27;]" vertex="1">
+          <mxGeometry height="24" width="520" x="191" y="1112" as="geometry" />
+        </mxCell>
+        <mxCell id="s140" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontColor=#7A2828;fontSize=12;" value="[partner not yet approved]" vertex="1">
+          <mxGeometry height="24" width="520" x="191" y="1184" as="geometry" />
+        </mxCell>
+        <mxCell id="s141" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontColor=#7A2828;fontSize=12;" value="[route belongs to another role]" vertex="1">
+          <mxGeometry height="24" width="520" x="191" y="1256" as="geometry" />
+        </mxCell>
+        <mxCell id="s142" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontColor=#7A2828;fontSize=12;" value="[route allowed for role]" vertex="1">
+          <mxGeometry height="24" width="520" x="191" y="1328" as="geometry" />
+        </mxCell>
+        <mxCell id="s143" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="render page">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="413" y="1430" as="sourcePoint" />
+            <mxPoint x="203" y="1430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="SD3 Update a meal reminder preference" id="2">
+    <mxGraphModel dx="784" dy="542" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1630" pageHeight="1286" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="s134" parent="1" style="shape=umlActor;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;" value="User" vertex="1">
+          <mxGeometry height="50" width="40" x="185" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s135" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="60" as="sourcePoint" />
+            <mxPoint x="205" y="1276" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s136" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:RemindersPage&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="335" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s137" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="58" as="sourcePoint" />
+            <mxPoint x="415" y="1276" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s138" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:MealReminderController&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="545" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s139" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="58" as="sourcePoint" />
+            <mxPoint x="625" y="1276" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s140" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:MealReminderNotificationService&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="197" x="734" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s141" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="58" as="sourcePoint" />
+            <mxPoint x="835" y="1276" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s142" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:MealReminderRepository&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="965" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s143" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1045" y="58" as="sourcePoint" />
+            <mxPoint x="1045" y="1276" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s144" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:Firebase (Cloud Firestore)&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="1175" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s145" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1255" y="58" as="sourcePoint" />
+            <mxPoint x="1255" y="1276" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s146" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:OS Notification Scheduler&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="1385" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s147" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1465" y="58" as="sourcePoint" />
+            <mxPoint x="1465" y="1276" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s101" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="toggle / pick time">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="110" as="sourcePoint" />
+            <mxPoint x="415" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s102" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="requestPermission()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="182" as="sourcePoint" />
+            <mxPoint x="625" y="182" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s103" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="requestPermission()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="224" as="sourcePoint" />
+            <mxPoint x="835" y="224" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s104" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="request notification permission">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="266" as="sourcePoint" />
+            <mxPoint x="1465" y="266" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s105" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="granted / denied">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1465" y="308" as="sourcePoint" />
+            <mxPoint x="835" y="308" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s106" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="bool">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="350" as="sourcePoint" />
+            <mxPoint x="625" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s107" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="bool">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="392" as="sourcePoint" />
+            <mxPoint x="415" y="392" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s108" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="snackbar (stop)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="464" as="sourcePoint" />
+            <mxPoint x="205" y="464" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s109" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#3C3C3C;verticalAlign=top;align=left;" value="" vertex="1">
+          <mxGeometry height="72" width="1356" x="157" y="434" as="geometry" />
+        </mxCell>
+        <mxCell id="s110" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1E1E6;strokeColor=#3C3C3C;fontSize=11;align=left;spacingLeft=4;" value="opt" vertex="1">
+          <mxGeometry height="18" width="40" x="157" y="434" as="geometry" />
+        </mxCell>
+        <mxCell id="s111" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontColor=#7A2828;fontSize=12;" value="[denied]" vertex="1">
+          <mxGeometry height="24" width="520" x="203" y="444" as="geometry" />
+        </mxCell>
+        <mxCell id="s112" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#3C3C3C;verticalAlign=top;align=left;" value="" vertex="1">
+          <mxGeometry height="406" width="1380" x="145" y="152" as="geometry" />
+        </mxCell>
+        <mxCell id="s113" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1E1E6;strokeColor=#3C3C3C;fontSize=11;align=left;spacingLeft=4;" value="alt" vertex="1">
+          <mxGeometry height="18" width="40" x="145" y="152" as="geometry" />
+        </mxCell>
+        <mxCell id="s114" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontColor=#7A2828;fontSize=12;" value="[turning a reminder on]" vertex="1">
+          <mxGeometry height="24" width="520" x="191" y="162" as="geometry" />
+        </mxCell>
+        <mxCell id="s115" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="updateSetting(uid, MealReminderSetting)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="583" as="sourcePoint" />
+            <mxPoint x="625" y="583" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s116" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="saveSetting(uid, setting)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="610" as="sourcePoint" />
+            <mxPoint x="1045" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s117" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="mealReminderPreferences/{uid}.set({lunch: {...}}, merge)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1045" y="652" as="sourcePoint" />
+            <mxPoint x="1255" y="652" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s118" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="saved">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1255" y="694" as="sourcePoint" />
+            <mxPoint x="1045" y="694" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s119" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="return">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1045" y="736" as="sourcePoint" />
+            <mxPoint x="625" y="736" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s120" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="sync(setting)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="778" as="sourcePoint" />
+            <mxPoint x="835" y="778" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s121" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="cancel(id: slot.notificationId)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="820" as="sourcePoint" />
+            <mxPoint x="1465" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s122" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="zonedSchedule(id, mealReminderCopy(slot), daily at hour:minute; first fire tomorrow if skippedOn = today, see SD8)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="892" as="sourcePoint" />
+            <mxPoint x="1465" y="892" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s123" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;align=left;labelPosition=right;spacingLeft=4;verticalAlign=middle;" value="nothing scheduled">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="871" y="964" />
+              <mxPoint x="871" y="986" />
+            </Array>
+            <mxPoint x="835" y="964" as="sourcePoint" />
+            <mxPoint x="835" y="986" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s124" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#3C3C3C;verticalAlign=top;align=left;" value="" vertex="1">
+          <mxGeometry height="166" width="1380" x="145" y="862" as="geometry" />
+        </mxCell>
+        <mxCell id="s125" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1E1E6;strokeColor=#3C3C3C;fontSize=11;align=left;spacingLeft=4;" value="alt" vertex="1">
+          <mxGeometry height="18" width="40" x="145" y="862" as="geometry" />
+        </mxCell>
+        <mxCell id="s126" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#3C3C3C;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="934" as="sourcePoint" />
+            <mxPoint x="1525" y="934" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s127" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontColor=#7A2828;fontSize=12;" value="[setting.enabled]" vertex="1">
+          <mxGeometry height="24" width="520" x="191" y="872" as="geometry" />
+        </mxCell>
+        <mxCell id="s128" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontColor=#7A2828;fontSize=12;" value="[disabled]" vertex="1">
+          <mxGeometry height="24" width="520" x="191" y="944" as="geometry" />
+        </mxCell>
+        <mxCell id="s129" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="return">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="1053" as="sourcePoint" />
+            <mxPoint x="625" y="1053" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s130" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="return">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="1080" as="sourcePoint" />
+            <mxPoint x="415" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s131" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="updated setting">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="1122" as="sourcePoint" />
+            <mxPoint x="205" y="1122" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s132" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="daily notification, e.g. &amp;#x27;Lunch time 🥗 – add your lunch and drink&amp;#x27;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1465" y="1164" as="sourcePoint" />
+            <mxPoint x="205" y="1164" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s133" parent="1" style="shape=note;whiteSpace=wrap;html=1;size=12;fillColor=#FFF9DB;strokeColor=#B3A369;fontSize=11;align=left;spacingLeft=6;" value="Water reminder: updateWaterSetting() → saveWaterSetting() → syncWater() (ids 9100–9123)" vertex="1">
+          <mxGeometry height="40" width="330" x="635" y="1194" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="SD4 Sync reminders on app launch or sign-in" id="3">
+    <mxGraphModel dx="1819" dy="1258" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2680" pageHeight="1886" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="s149" parent="1" style="shape=umlActor;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;" value="User" vertex="1">
+          <mxGeometry height="50" width="40" x="185" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s150" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="60" as="sourcePoint" />
+            <mxPoint x="205" y="1876" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s151" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:App (main) / LoginPage&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="335" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s152" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="58" as="sourcePoint" />
+            <mxPoint x="415" y="1876" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s153" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:ReminderSessionSync&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="545" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s154" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="58" as="sourcePoint" />
+            <mxPoint x="625" y="1876" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s155" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:AuthController&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="755" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s156" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="58" as="sourcePoint" />
+            <mxPoint x="835" y="1876" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s157" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:MealReminderController&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="965" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s158" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1045" y="58" as="sourcePoint" />
+            <mxPoint x="1045" y="1876" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s159" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:ReminderController&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="1175" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s160" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1255" y="58" as="sourcePoint" />
+            <mxPoint x="1255" y="1876" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s161" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:MealReminderNotificationService&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="1385" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s162" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1465" y="58" as="sourcePoint" />
+            <mxPoint x="1465" y="1876" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s163" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:Firebase Auth (AuthService)&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="1595" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s164" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1675" y="58" as="sourcePoint" />
+            <mxPoint x="1675" y="1876" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s165" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:UserRepository&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="1805" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s166" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1885" y="58" as="sourcePoint" />
+            <mxPoint x="1885" y="1876" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s167" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:MealReminderRepository&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="2015" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s168" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2095" y="58" as="sourcePoint" />
+            <mxPoint x="2095" y="1876" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s169" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:ReminderRepository&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="2225" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s170" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2305" y="58" as="sourcePoint" />
+            <mxPoint x="2305" y="1876" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s171" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:Firebase (Cloud Firestore)&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="2435" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s172" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2515" y="58" as="sourcePoint" />
+            <mxPoint x="2515" y="1876" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s101" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="launch app">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="110" as="sourcePoint" />
+            <mxPoint x="415" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s102" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="ReminderSessionSync.firebase().start()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="152" as="sourcePoint" />
+            <mxPoint x="625" y="152" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s103" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="authStateChanges().listen()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="194" as="sourcePoint" />
+            <mxPoint x="1675" y="194" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s104" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="uid">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1675" y="266" as="sourcePoint" />
+            <mxPoint x="625" y="266" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s105" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="null → _lastSyncedUid = null">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1675" y="338" as="sourcePoint" />
+            <mxPoint x="625" y="338" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s106" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="enter email &amp;amp; password, Sign in">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="380" as="sourcePoint" />
+            <mxPoint x="415" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s107" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="signIn(email, password)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="422" as="sourcePoint" />
+            <mxPoint x="835" y="422" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s108" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="signInWithEmailAndPassword(email, password)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="464" as="sourcePoint" />
+            <mxPoint x="1675" y="464" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s109" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="UserCredential">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1675" y="506" as="sourcePoint" />
+            <mxPoint x="835" y="506" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s110" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="uid (auth state changed)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1675" y="548" as="sourcePoint" />
+            <mxPoint x="625" y="548" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s111" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#3C3C3C;verticalAlign=top;align=left;" value="" vertex="1">
+          <mxGeometry height="364" width="2430" x="145" y="236" as="geometry" />
+        </mxCell>
+        <mxCell id="s112" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1E1E6;strokeColor=#3C3C3C;fontSize=11;align=left;spacingLeft=4;" value="alt" vertex="1">
+          <mxGeometry height="18" width="40" x="145" y="236" as="geometry" />
+        </mxCell>
+        <mxCell id="s113" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#3C3C3C;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="308" as="sourcePoint" />
+            <mxPoint x="2575" y="308" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s114" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontColor=#7A2828;fontSize=12;" value="[saved session restored]" vertex="1">
+          <mxGeometry height="24" width="520" x="191" y="246" as="geometry" />
+        </mxCell>
+        <mxCell id="s115" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontColor=#7A2828;fontSize=12;" value="[not signed in]" vertex="1">
+          <mxGeometry height="24" width="520" x="191" y="318" as="geometry" />
+        </mxCell>
+        <mxCell id="s116" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;align=left;labelPosition=right;spacingLeft=4;verticalAlign=middle;" value="skip">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="661" y="640" />
+              <mxPoint x="661" y="662" />
+            </Array>
+            <mxPoint x="625" y="640" as="sourcePoint" />
+            <mxPoint x="625" y="662" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s117" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="watchUser(uid) → role (waits ≤ 15 s)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="724" as="sourcePoint" />
+            <mxPoint x="835" y="724" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s118" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="watchUser(uid)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="766" as="sourcePoint" />
+            <mxPoint x="1885" y="766" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s119" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="users/{uid}">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1885" y="808" as="sourcePoint" />
+            <mxPoint x="2515" y="808" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s120" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="user doc">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2515" y="850" as="sourcePoint" />
+            <mxPoint x="1885" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s121" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="AppUser">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1885" y="892" as="sourcePoint" />
+            <mxPoint x="835" y="892" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s122" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="role">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="934" as="sourcePoint" />
+            <mxPoint x="625" y="934" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s123" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="syncUserReminders(uid)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="1006" as="sourcePoint" />
+            <mxPoint x="1045" y="1006" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s124" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="fetchPreferences(uid)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1045" y="1048" as="sourcePoint" />
+            <mxPoint x="2095" y="1048" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s125" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="mealReminderPreferences/{uid}.get()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2095" y="1090" as="sourcePoint" />
+            <mxPoint x="2515" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s126" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="doc (or none)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2515" y="1132" as="sourcePoint" />
+            <mxPoint x="2095" y="1132" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s127" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="MealReminderPreferences (or defaults)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2095" y="1174" as="sourcePoint" />
+            <mxPoint x="1045" y="1174" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s128" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="syncAll(preferences)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1045" y="1216" as="sourcePoint" />
+            <mxPoint x="1465" y="1216" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s129" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;align=left;labelPosition=right;spacingLeft=4;verticalAlign=middle;" value="each meal slot: cancel(id) → schedule if enabled; syncWater(water)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1501" y="1258" />
+              <mxPoint x="1501" y="1280" />
+            </Array>
+            <mxPoint x="1465" y="1258" as="sourcePoint" />
+            <mxPoint x="1465" y="1280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s130" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="return">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1465" y="1312" as="sourcePoint" />
+            <mxPoint x="1045" y="1312" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s131" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="syncUpcomingReminders(uid)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="1354" as="sourcePoint" />
+            <mxPoint x="1255" y="1354" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s132" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="fetchReminders(uid)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1255" y="1396" as="sourcePoint" />
+            <mxPoint x="2305" y="1396" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s133" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="reminders where userId == uid">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2305" y="1438" as="sourcePoint" />
+            <mxPoint x="2515" y="1438" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s134" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="reminder docs">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2515" y="1480" as="sourcePoint" />
+            <mxPoint x="2305" y="1480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s135" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="List&amp;lt;Reminder&amp;gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2305" y="1522" as="sourcePoint" />
+            <mxPoint x="1255" y="1522" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s136" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="pendingNotificationIds()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1255" y="1564" as="sourcePoint" />
+            <mxPoint x="1465" y="1564" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s137" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="Set&amp;lt;int&amp;gt; pending ids">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1465" y="1606" as="sourcePoint" />
+            <mxPoint x="1255" y="1606" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s138" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="cancel(id) for custom ids no longer in Firestore">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1255" y="1648" as="sourcePoint" />
+            <mxPoint x="1465" y="1648" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s139" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="scheduleOneOff(...) for each upcoming reminder">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1255" y="1690" as="sourcePoint" />
+            <mxPoint x="1465" y="1690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s140" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#3C3C3C;verticalAlign=top;align=left;" value="" vertex="1">
+          <mxGeometry height="756" width="2406" x="157" y="976" as="geometry" />
+        </mxCell>
+        <mxCell id="s141" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1E1E6;strokeColor=#3C3C3C;fontSize=11;align=left;spacingLeft=4;" value="opt" vertex="1">
+          <mxGeometry height="18" width="40" x="157" y="976" as="geometry" />
+        </mxCell>
+        <mxCell id="s142" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontColor=#7A2828;fontSize=12;" value="[role == user]" vertex="1">
+          <mxGeometry height="24" width="520" x="203" y="986" as="geometry" />
+        </mxCell>
+        <mxCell id="s143" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#3C3C3C;verticalAlign=top;align=left;" value="" vertex="1">
+          <mxGeometry height="1174" width="2430" x="145" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="s144" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1E1E6;strokeColor=#3C3C3C;fontSize=11;align=left;spacingLeft=4;" value="alt" vertex="1">
+          <mxGeometry height="18" width="40" x="145" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="s145" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#3C3C3C;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="694" as="sourcePoint" />
+            <mxPoint x="2575" y="694" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s146" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontColor=#7A2828;fontSize=12;" value="[uid already synced this session]" vertex="1">
+          <mxGeometry height="24" width="520" x="191" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="s147" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontColor=#7A2828;fontSize=12;" value="[new signed-in uid]" vertex="1">
+          <mxGeometry height="24" width="520" x="191" y="704" as="geometry" />
+        </mxCell>
+        <mxCell id="s148" parent="1" style="shape=note;whiteSpace=wrap;html=1;size=12;fillColor=#FFF9DB;strokeColor=#B3A369;fontSize=11;align=left;spacingLeft=6;" value="Errors are caught and logged; the next auth event retries. On sign-out, AuthController.signOut() calls cancelAllReminders() first." vertex="1">
+          <mxGeometry height="52" width="380" x="635" y="1782" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="SD5 Create a custom reminder" id="4">
+    <mxGraphModel dx="1339" dy="926" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1630" pageHeight="1212" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="s133" parent="1" style="shape=umlActor;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;" value="User" vertex="1">
+          <mxGeometry height="50" width="40" x="185" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s134" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="60" as="sourcePoint" />
+            <mxPoint x="205" y="1202" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s135" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:RemindersPage&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="335" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s136" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="58" as="sourcePoint" />
+            <mxPoint x="415" y="1202" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s137" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:ReminderController&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="545" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s138" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="58" as="sourcePoint" />
+            <mxPoint x="625" y="1202" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s139" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:MealReminderNotificationService&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="203" x="730" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s140" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="58" as="sourcePoint" />
+            <mxPoint x="835" y="1202" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s141" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:ReminderRepository&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="965" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s142" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1045" y="58" as="sourcePoint" />
+            <mxPoint x="1045" y="1202" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s143" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:Firebase (Cloud Firestore)&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="1175" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s144" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1255" y="58" as="sourcePoint" />
+            <mxPoint x="1255" y="1202" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s145" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:OS Notification Scheduler&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="1385" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s146" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1465" y="58" as="sourcePoint" />
+            <mxPoint x="1465" y="1202" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s101" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="enter reminder, Save">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="110" as="sourcePoint" />
+            <mxPoint x="415" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s102" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="addReminder(uid, title, message, scheduledAt)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="152" as="sourcePoint" />
+            <mxPoint x="625" y="152" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s103" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="throw ReminderException(&amp;#x27;Reminder title is required.&amp;#x27;)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="224" as="sourcePoint" />
+            <mxPoint x="415" y="224" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s104" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="throw ReminderException(&amp;#x27;That time has already passed…&amp;#x27;)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="296" as="sourcePoint" />
+            <mxPoint x="415" y="296" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s105" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="requestPermission()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="368" as="sourcePoint" />
+            <mxPoint x="835" y="368" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s106" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="request notification permission">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="410" as="sourcePoint" />
+            <mxPoint x="1465" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s107" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="granted / denied">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1465" y="452" as="sourcePoint" />
+            <mxPoint x="835" y="452" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s108" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="bool">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="494" as="sourcePoint" />
+            <mxPoint x="625" y="494" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s109" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="throw ReminderException(&amp;#x27;Notifications are turned off…&amp;#x27;)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="566" as="sourcePoint" />
+            <mxPoint x="415" y="566" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s110" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;align=left;labelPosition=right;spacingLeft=4;verticalAlign=middle;" value="notificationId = random ≥ 100000">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="661" y="638" />
+              <mxPoint x="661" y="660" />
+            </Array>
+            <mxPoint x="625" y="638" as="sourcePoint" />
+            <mxPoint x="625" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s111" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="addReminder(Reminder(..., notificationId))">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="692" as="sourcePoint" />
+            <mxPoint x="1045" y="692" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s112" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="reminders.add({userId, title, message, scheduledAt, notificationId})">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1045" y="734" as="sourcePoint" />
+            <mxPoint x="1255" y="734" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s113" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="doc id">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1255" y="776" as="sourcePoint" />
+            <mxPoint x="1045" y="776" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s114" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="id">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1045" y="818" as="sourcePoint" />
+            <mxPoint x="625" y="818" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s115" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="scheduleOneOff(id: notificationId, title, body, at: scheduledAt)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="860" as="sourcePoint" />
+            <mxPoint x="835" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s116" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="cancel(id); zonedSchedule(one-off)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="902" as="sourcePoint" />
+            <mxPoint x="1465" y="902" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s117" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="success">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="944" as="sourcePoint" />
+            <mxPoint x="415" y="944" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s118" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#3C3C3C;verticalAlign=top;align=left;" value="" vertex="1">
+          <mxGeometry height="450" width="1356" x="157" y="536" as="geometry" />
+        </mxCell>
+        <mxCell id="s119" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1E1E6;strokeColor=#3C3C3C;fontSize=11;align=left;spacingLeft=4;" value="alt" vertex="1">
+          <mxGeometry height="18" width="40" x="157" y="536" as="geometry" />
+        </mxCell>
+        <mxCell id="s120" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#3C3C3C;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="157" y="608" as="sourcePoint" />
+            <mxPoint x="1513" y="608" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s121" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontColor=#7A2828;fontSize=12;" value="[denied]" vertex="1">
+          <mxGeometry height="24" width="520" x="203" y="546" as="geometry" />
+        </mxCell>
+        <mxCell id="s122" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontColor=#7A2828;fontSize=12;" value="[granted]" vertex="1">
+          <mxGeometry height="24" width="520" x="203" y="618" as="geometry" />
+        </mxCell>
+        <mxCell id="s123" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#3C3C3C;verticalAlign=top;align=left;" value="" vertex="1">
+          <mxGeometry height="844" width="1380" x="145" y="194" as="geometry" />
+        </mxCell>
+        <mxCell id="s124" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1E1E6;strokeColor=#3C3C3C;fontSize=11;align=left;spacingLeft=4;" value="alt" vertex="1">
+          <mxGeometry height="18" width="40" x="145" y="194" as="geometry" />
+        </mxCell>
+        <mxCell id="s125" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#3C3C3C;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="266" as="sourcePoint" />
+            <mxPoint x="1525" y="266" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s126" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#3C3C3C;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="338" as="sourcePoint" />
+            <mxPoint x="1525" y="338" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s127" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontColor=#7A2828;fontSize=12;" value="[title is empty]" vertex="1">
+          <mxGeometry height="24" width="520" x="191" y="204" as="geometry" />
+        </mxCell>
+        <mxCell id="s128" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontColor=#7A2828;fontSize=12;" value="[scheduledAt is not in the future]" vertex="1">
+          <mxGeometry height="24" width="520" x="191" y="276" as="geometry" />
+        </mxCell>
+        <mxCell id="s129" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontColor=#7A2828;fontSize=12;" value="[valid]" vertex="1">
+          <mxGeometry height="24" width="520" x="191" y="348" as="geometry" />
+        </mxCell>
+        <mxCell id="s130" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="close sheet / error">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="1048" as="sourcePoint" />
+            <mxPoint x="205" y="1048" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s131" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="notification at scheduledAt">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1465" y="1090" as="sourcePoint" />
+            <mxPoint x="205" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="SD6 Delete a custom reminder" id="5">
+    <mxGraphModel dx="1108" dy="767" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1725" pageHeight="1150" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="s133" parent="1" style="shape=umlActor;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;" value="User" vertex="1">
+          <mxGeometry height="50" width="40" x="185" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s134" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="60" as="sourcePoint" />
+            <mxPoint x="205" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s135" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:RemindersPage&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="335" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s136" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="58" as="sourcePoint" />
+            <mxPoint x="415" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s137" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:ReminderController&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="545" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s138" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="58" as="sourcePoint" />
+            <mxPoint x="625" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s139" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:MealReminderNotificationService&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="217" x="727" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s140" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="58" as="sourcePoint" />
+            <mxPoint x="835" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s141" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:ReminderRepository&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="965" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s142" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1045" y="58" as="sourcePoint" />
+            <mxPoint x="1045" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s143" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:Firebase (Cloud Firestore)&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="1175" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s144" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1255" y="58" as="sourcePoint" />
+            <mxPoint x="1255" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s145" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:OS Notification Scheduler&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="1385" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s146" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1465" y="58" as="sourcePoint" />
+            <mxPoint x="1465" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s101" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="tap delete">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="110" as="sourcePoint" />
+            <mxPoint x="415" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s102" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="dialog &quot;Delete reminder?&quot; (Cancel / Delete)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="152" as="sourcePoint" />
+            <mxPoint x="205" y="152" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s103" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#3C3C3C;verticalAlign=top;align=left;" value="" vertex="1">
+          <mxGeometry height="862" width="1430" x="145" y="194" as="geometry" />
+        </mxCell>
+        <mxCell id="s104" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1E1E6;strokeColor=#3C3C3C;fontSize=11;align=left;spacingLeft=4;" value="alt" vertex="1">
+          <mxGeometry height="18" width="40" x="145" y="194" as="geometry" />
+        </mxCell>
+        <mxCell id="s105" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontColor=#7A2828;fontSize=12;" value="[user taps Cancel]" vertex="1">
+          <mxGeometry height="24" width="520" x="191" y="204" as="geometry" />
+        </mxCell>
+        <mxCell id="s106" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="Cancel">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="224" as="sourcePoint" />
+            <mxPoint x="415" y="224" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s107" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="dialog closes, reminder kept">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="266" as="sourcePoint" />
+            <mxPoint x="205" y="266" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s108" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#3C3C3C;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="308" as="sourcePoint" />
+            <mxPoint x="1575" y="308" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s109" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontColor=#7A2828;fontSize=12;" value="[user taps Delete]" vertex="1">
+          <mxGeometry height="24" width="520" x="191" y="318" as="geometry" />
+        </mxCell>
+        <mxCell id="s110" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="Delete">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="338" as="sourcePoint" />
+            <mxPoint x="415" y="338" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s111" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="deleteReminder(reminder)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="380" as="sourcePoint" />
+            <mxPoint x="625" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s112" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#3C3C3C;verticalAlign=top;align=left;" value="" vertex="1">
+          <mxGeometry height="198" width="1406" x="157" y="422" as="geometry" />
+        </mxCell>
+        <mxCell id="s113" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1E1E6;strokeColor=#3C3C3C;fontSize=11;align=left;spacingLeft=4;" value="opt" vertex="1">
+          <mxGeometry height="18" width="40" x="157" y="422" as="geometry" />
+        </mxCell>
+        <mxCell id="s114" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontColor=#7A2828;fontSize=12;" value="[reminder.notificationId != null]" vertex="1">
+          <mxGeometry height="24" width="520" x="203" y="432" as="geometry" />
+        </mxCell>
+        <mxCell id="s115" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="cancel(notificationId)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="452" as="sourcePoint" />
+            <mxPoint x="835" y="452" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s116" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="cancel(id)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="494" as="sourcePoint" />
+            <mxPoint x="1465" y="494" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s117" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="cancelled">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1465" y="536" as="sourcePoint" />
+            <mxPoint x="835" y="536" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s118" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="return">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="578" as="sourcePoint" />
+            <mxPoint x="625" y="578" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s119" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="deleteReminder(reminder.id)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="640" as="sourcePoint" />
+            <mxPoint x="1045" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s120" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="reminders/{id}.delete()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1045" y="682" as="sourcePoint" />
+            <mxPoint x="1255" y="682" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s121" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="deleted">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1255" y="724" as="sourcePoint" />
+            <mxPoint x="1045" y="724" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s122" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="return">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1045" y="766" as="sourcePoint" />
+            <mxPoint x="625" y="766" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s123" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#3C3C3C;verticalAlign=top;align=left;" value="" vertex="1">
+          <mxGeometry height="228" width="1406" x="157" y="808" as="geometry" />
+        </mxCell>
+        <mxCell id="s124" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1E1E6;strokeColor=#3C3C3C;fontSize=11;align=left;spacingLeft=4;" value="alt" vertex="1">
+          <mxGeometry height="18" width="40" x="157" y="808" as="geometry" />
+        </mxCell>
+        <mxCell id="s125" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontColor=#7A2828;fontSize=12;" value="[error]" vertex="1">
+          <mxGeometry height="24" width="520" x="203" y="818" as="geometry" />
+        </mxCell>
+        <mxCell id="s126" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="throws error">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="838" as="sourcePoint" />
+            <mxPoint x="415" y="838" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s127" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="snackbar with the error">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="880" as="sourcePoint" />
+            <mxPoint x="205" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s128" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#3C3C3C;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="157" y="922" as="sourcePoint" />
+            <mxPoint x="1563" y="922" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s129" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontColor=#7A2828;fontSize=12;" value="[success]" vertex="1">
+          <mxGeometry height="24" width="520" x="203" y="932" as="geometry" />
+        </mxCell>
+        <mxCell id="s130" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="return">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="952" as="sourcePoint" />
+            <mxPoint x="415" y="952" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s131" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="reminder removed from list">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="994" as="sourcePoint" />
+            <mxPoint x="205" y="994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s132" parent="1" style="shape=note;whiteSpace=wrap;html=1;size=12;fillColor=#FFF9DB;strokeColor=#B3A369;fontSize=11;align=left;spacingLeft=6;" value="Other signed-in devices cancel their copy on their next sync (SD4: syncUpcomingReminders)." vertex="1">
+          <mxGeometry height="40" width="330" x="635" y="1076" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="SD7 Filter recipes by calorie range" id="6">
+    <mxGraphModel grid="0" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1515" pageHeight="1046" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="s128" parent="1" style="shape=umlActor;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;" value="User" vertex="1">
+          <mxGeometry height="50" width="40" x="185" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s129" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="60" as="sourcePoint" />
+            <mxPoint x="205" y="1036" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s130" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:RecipesPage (filter sheet)&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="335" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s131" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="58" as="sourcePoint" />
+            <mxPoint x="415" y="1036" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s132" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:GoalRanker&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="545" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s133" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="58" as="sourcePoint" />
+            <mxPoint x="625" y="1036" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s134" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:RecipeController&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="755" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s135" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="58" as="sourcePoint" />
+            <mxPoint x="835" y="1036" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s136" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:DiscoverRecipeService&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="965" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s137" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1045" y="58" as="sourcePoint" />
+            <mxPoint x="1045" y="1036" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s138" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:Spoonacular API&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="1175" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s139" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1255" y="58" as="sourcePoint" />
+            <mxPoint x="1255" y="1036" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s101" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="tap filter, enter Min / Max kcal, Apply">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="110" as="sourcePoint" />
+            <mxPoint x="415" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s102" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#3C3C3C;verticalAlign=top;align=left;" value="" vertex="1">
+          <mxGeometry height="860" width="1220" x="145" y="152" as="geometry" />
+        </mxCell>
+        <mxCell id="s103" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1E1E6;strokeColor=#3C3C3C;fontSize=11;align=left;spacingLeft=4;" value="alt" vertex="1">
+          <mxGeometry height="18" width="40" x="145" y="152" as="geometry" />
+        </mxCell>
+        <mxCell id="s104" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontColor=#7A2828;fontSize=12;" value="[min &amp;gt; max]" vertex="1">
+          <mxGeometry height="24" width="520" x="191" y="162" as="geometry" />
+        </mxCell>
+        <mxCell id="s105" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="inline error: &#39;Min calories can&#39;t be more than max&#39;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="182" as="sourcePoint" />
+            <mxPoint x="205" y="182" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s106" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#3C3C3C;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="224" as="sourcePoint" />
+            <mxPoint x="1365" y="224" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s107" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontColor=#7A2828;fontSize=12;" value="[valid]" vertex="1">
+          <mxGeometry height="24" width="520" x="191" y="234" as="geometry" />
+        </mxCell>
+        <mxCell id="s108" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="set _filterMinCalories / _filterMaxCalories; clear web results">
+          <mxGeometry relative="1" x="-0.3185" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="451" y="254" />
+              <mxPoint x="451" y="276" />
+            </Array>
+            <mxPoint x="415" y="254" as="sourcePoint" />
+            <mxPoint x="415" y="276" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s109" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="isWithinCalorieRange(calories, min, max)  for each My Recipes / Food / Business item">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="308" as="sourcePoint" />
+            <mxPoint x="835" y="308" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s110" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="true / false  (unknown calories are dropped when a range is set)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="350" as="sourcePoint" />
+            <mxPoint x="415" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s111" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="searchDiscover(diet, intolerances, minCalories, maxCalories, ...)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="392" as="sourcePoint" />
+            <mxPoint x="835" y="392" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s112" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="search(...)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="434" as="sourcePoint" />
+            <mxPoint x="1045" y="434" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s113" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="GET /recipes/complexSearch?minCalories&amp;amp;maxCalories&amp;amp;diet&amp;amp;...">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1045" y="476" as="sourcePoint" />
+            <mxPoint x="1255" y="476" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s114" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="results">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1255" y="518" as="sourcePoint" />
+            <mxPoint x="1045" y="518" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s115" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="List&amp;lt;DiscoverRecipe&amp;gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1045" y="560" as="sourcePoint" />
+            <mxPoint x="835" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s116" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="re-check bounds with isWithinCalorieRange (drop out-of-range / unknown calories)">
+          <mxGeometry relative="1" x="-0.234" y="-12" as="geometry">
+            <mxPoint x="12" y="-12" as="offset" />
+            <Array as="points">
+              <mxPoint x="871" y="602" />
+              <mxPoint x="871" y="624" />
+            </Array>
+            <mxPoint x="835" y="602" as="sourcePoint" />
+            <mxPoint x="835" y="624" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s117" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="List&amp;lt;DiscoverRecipe&amp;gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="656" as="sourcePoint" />
+            <mxPoint x="415" y="656" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s118" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="GoalRanker.forProfile(profile, caloriesEatenToday, minCalories, maxCalories)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="698" as="sourcePoint" />
+            <mxPoint x="625" y="698" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s119" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#3C3C3C;verticalAlign=top;align=left;" value="" vertex="1">
+          <mxGeometry height="168" width="1196" x="157" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="s120" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1E1E6;strokeColor=#3C3C3C;fontSize=11;align=left;spacingLeft=4;" value="alt" vertex="1">
+          <mxGeometry height="18" width="40" x="157" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="s121" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontColor=#7A2828;fontSize=12;" value="[range set]" vertex="1">
+          <mxGeometry height="24" width="520" x="203" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="s122" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="target = midpoint of range (or the single bound)">
+          <mxGeometry relative="1" x="-0.234" y="-12" as="geometry">
+            <mxPoint x="12" y="-12" as="offset" />
+            <Array as="points">
+              <mxPoint x="661" y="770" />
+              <mxPoint x="661" y="792" />
+            </Array>
+            <mxPoint x="625" y="770" as="sourcePoint" />
+            <mxPoint x="625" y="792" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s123" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#3C3C3C;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="157" y="824" as="sourcePoint" />
+            <mxPoint x="1353" y="824" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s124" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontColor=#7A2828;fontSize=12;" value="[range cleared]" vertex="1">
+          <mxGeometry height="24" width="520" x="203" y="834" as="geometry" />
+        </mxCell>
+        <mxCell id="s125" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="target = calories left today ÷ main meals left">
+          <mxGeometry relative="1" x="-0.234" y="-9" as="geometry">
+            <mxPoint x="9" y="-9" as="offset" />
+            <Array as="points">
+              <mxPoint x="661" y="854" />
+              <mxPoint x="661" y="876" />
+            </Array>
+            <mxPoint x="625" y="854" as="sourcePoint" />
+            <mxPoint x="625" y="876" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s126" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="ranked lists">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="928" as="sourcePoint" />
+            <mxPoint x="415" y="928" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s127" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="filtered, ranked list (or &quot;No recipes match your calorie range.&quot;)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="970" as="sourcePoint" />
+            <mxPoint x="205" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="SD8 Skip a meal reminder after logging that meal" id="7">
+    <mxGraphModel dx="1400" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2145" pageHeight="1310" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="s131" value="User" style="shape=umlActor;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="185" y="8" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s132" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="60" as="sourcePoint" />
+            <mxPoint x="205" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s133" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:LogMealPage&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="335" y="8" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s134" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="58" as="sourcePoint" />
+            <mxPoint x="415" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s135" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:MealLogController&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="545" y="8" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s136" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="58" as="sourcePoint" />
+            <mxPoint x="625" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s137" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:MealLogRepository&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="755" y="8" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s138" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="58" as="sourcePoint" />
+            <mxPoint x="835" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s139" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:MealReminderController&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="965" y="8" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s140" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1045" y="58" as="sourcePoint" />
+            <mxPoint x="1045" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s141" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:MealReminderRepository&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1175" y="8" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s142" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1255" y="58" as="sourcePoint" />
+            <mxPoint x="1255" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s143" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:MealReminderNotificationService&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1385" y="8" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s144" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1465" y="58" as="sourcePoint" />
+            <mxPoint x="1465" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s145" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:Firebase (Cloud Firestore)&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1595" y="8" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s146" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1675" y="58" as="sourcePoint" />
+            <mxPoint x="1675" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s147" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:OS Notification Scheduler&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1805" y="8" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s148" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1885" y="58" as="sourcePoint" />
+            <mxPoint x="1885" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s101" value="enter meal, pick meal type, Log" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="110" as="sourcePoint" />
+            <mxPoint x="415" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s102" value="logMeal(uid, mealName, mealType, calories, ...)" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="152" as="sourcePoint" />
+            <mxPoint x="625" y="152" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s103" value="addLog(MealLog)" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="194" as="sourcePoint" />
+            <mxPoint x="835" y="194" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s104" value="mealLogs.add({...})" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="236" as="sourcePoint" />
+            <mxPoint x="1675" y="236" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s105" value="saved" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1675" y="278" as="sourcePoint" />
+            <mxPoint x="835" y="278" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s106" value="return" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="320" as="sourcePoint" />
+            <mxPoint x="625" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s107" value="onMealLogged(uid, mealType)" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="362" as="sourcePoint" />
+            <mxPoint x="1045" y="362" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s108" value="fetchPreferences(uid)" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1045" y="404" as="sourcePoint" />
+            <mxPoint x="1255" y="404" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s109" value="mealReminderPreferences/{uid}.get()" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1255" y="446" as="sourcePoint" />
+            <mxPoint x="1675" y="446" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s110" value="preferences" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1675" y="488" as="sourcePoint" />
+            <mxPoint x="1255" y="488" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s111" value="MealReminderPreferences" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1255" y="530" as="sourcePoint" />
+            <mxPoint x="1045" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s112" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#3C3C3C;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="145" y="572" width="1850" height="504" as="geometry" />
+        </mxCell>
+        <mxCell id="s113" value="alt" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1E1E6;strokeColor=#3C3C3C;fontSize=11;align=left;spacingLeft=4;" vertex="1" parent="1">
+          <mxGeometry x="145" y="572" width="40" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="s114" value="[no slot for this meal type, reminder off, time already passed, or already skipped]" style="text;html=1;align=left;verticalAlign=middle;fontColor=#7A2828;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="191" y="582" width="520" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="s115" value="return, nothing to change" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1045" y="602" as="sourcePoint" />
+            <mxPoint x="1045" y="624" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1081" y="602" />
+              <mxPoint x="1081" y="624" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s116" style="endArrow=none;dashed=1;strokeColor=#3C3C3C;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="656" as="sourcePoint" />
+            <mxPoint x="1995" y="656" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s117" value="[reminder on and today&#39;s time still ahead]" style="text;html=1;align=left;verticalAlign=middle;fontColor=#7A2828;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="191" y="666" width="520" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="s118" value="skipped = setting.copyWith(skippedOn: today)" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1045" y="686" as="sourcePoint" />
+            <mxPoint x="1045" y="708" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1081" y="686" />
+              <mxPoint x="1081" y="708" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s119" value="saveSetting(uid, skipped)" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1045" y="740" as="sourcePoint" />
+            <mxPoint x="1255" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s120" value="mealReminderPreferences/{uid}.set({lunch: {..., skippedOn}}, merge)" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1255" y="782" as="sourcePoint" />
+            <mxPoint x="1675" y="782" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s121" value="saved" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1675" y="824" as="sourcePoint" />
+            <mxPoint x="1255" y="824" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s122" value="return" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1255" y="866" as="sourcePoint" />
+            <mxPoint x="1045" y="866" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s123" value="sync(skipped)" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1045" y="908" as="sourcePoint" />
+            <mxPoint x="1465" y="908" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s124" value="cancel(id); zonedSchedule(daily, first fire = tomorrow)" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1465" y="950" as="sourcePoint" />
+            <mxPoint x="1885" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s125" value="ok" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1885" y="992" as="sourcePoint" />
+            <mxPoint x="1465" y="992" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s126" value="return" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1465" y="1034" as="sourcePoint" />
+            <mxPoint x="1045" y="1034" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s127" value="return (errors here are swallowed so the meal never looks failed)" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1045" y="1096" as="sourcePoint" />
+            <mxPoint x="625" y="1096" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s128" value="return" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="1138" as="sourcePoint" />
+            <mxPoint x="415" y="1138" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s129" value="&quot;Meal successfully logged!&quot;" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="1180" as="sourcePoint" />
+            <mxPoint x="205" y="1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s130" value="The skip is stored in Firestore (skippedOn = day key), so it survives closing and reopening the app. Same path is used by Review Meal (via FoodRecognitionController) and Recipes &quot;log&quot;." style="shape=note;whiteSpace=wrap;html=1;size=12;fillColor=#FFF9DB;strokeColor=#B3A369;fontSize=11;align=left;spacingLeft=6;" vertex="1" parent="1">
+          <mxGeometry x="1055" y="1222" width="380" height="54" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="SD9 Edit a custom reminder" id="8">
+    <mxGraphModel dx="1339" dy="926" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1725" pageHeight="1750" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="s150" parent="1" style="shape=umlActor;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;" value="User" vertex="1">
+          <mxGeometry height="50" width="40" x="185" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s151" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="60" as="sourcePoint" />
+            <mxPoint x="205" y="1740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s152" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:RemindersPage&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="335" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s153" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="58" as="sourcePoint" />
+            <mxPoint x="415" y="1740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s154" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:ReminderController&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="545" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s155" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="58" as="sourcePoint" />
+            <mxPoint x="625" y="1740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s156" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:MealReminderNotificationService&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="204" x="733" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s157" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="58" as="sourcePoint" />
+            <mxPoint x="835" y="1740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s158" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:ReminderRepository&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="965" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s159" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1045" y="58" as="sourcePoint" />
+            <mxPoint x="1045" y="1740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s160" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:Firebase (Cloud Firestore)&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="1175" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s161" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1255" y="58" as="sourcePoint" />
+            <mxPoint x="1255" y="1740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s162" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F6F8;strokeColor=#000000;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center;font-size:10px;color:#666666;&quot;&gt;&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align:center;&quot;&gt;&lt;b&gt;:OS Notification Scheduler&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="1385" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s163" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#888888;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1465" y="58" as="sourcePoint" />
+            <mxPoint x="1465" y="1740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s101" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="tap edit (pencil) on a reminder">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="110" as="sourcePoint" />
+            <mxPoint x="415" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s102" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="sheet &quot;Edit reminder&quot; pre-filled with current values">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="152" as="sourcePoint" />
+            <mxPoint x="205" y="152" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s103" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="change title / message / time, Save changes">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="194" as="sourcePoint" />
+            <mxPoint x="415" y="194" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s104" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="updateReminder(existing, title, message, scheduledAt)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="236" as="sourcePoint" />
+            <mxPoint x="625" y="236" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s105" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#3C3C3C;verticalAlign=top;align=left;" value="" vertex="1">
+          <mxGeometry height="1396" width="1430" x="145" y="278" as="geometry" />
+        </mxCell>
+        <mxCell id="s106" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1E1E6;strokeColor=#3C3C3C;fontSize=11;align=left;spacingLeft=4;" value="alt" vertex="1">
+          <mxGeometry height="18" width="40" x="145" y="278" as="geometry" />
+        </mxCell>
+        <mxCell id="s107" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontColor=#7A2828;fontSize=12;" value="[title is empty]" vertex="1">
+          <mxGeometry height="24" width="520" x="191" y="288" as="geometry" />
+        </mxCell>
+        <mxCell id="s108" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="throws &quot;title required&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="308" as="sourcePoint" />
+            <mxPoint x="415" y="308" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s109" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="inline error, sheet stays open">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="350" as="sourcePoint" />
+            <mxPoint x="205" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s110" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#3C3C3C;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="392" as="sourcePoint" />
+            <mxPoint x="1575" y="392" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s111" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontColor=#7A2828;fontSize=12;" value="[scheduledAt is not in the future]" vertex="1">
+          <mxGeometry height="24" width="520" x="191" y="402" as="geometry" />
+        </mxCell>
+        <mxCell id="s112" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="throws &quot;pick a future time&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="422" as="sourcePoint" />
+            <mxPoint x="415" y="422" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s113" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="inline error, sheet stays open">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="464" as="sourcePoint" />
+            <mxPoint x="205" y="464" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s114" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#3C3C3C;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="506" as="sourcePoint" />
+            <mxPoint x="1575" y="506" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s115" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontColor=#7A2828;fontSize=12;" value="[valid]" vertex="1">
+          <mxGeometry height="24" width="520" x="191" y="516" as="geometry" />
+        </mxCell>
+        <mxCell id="s116" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="requestPermission()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="536" as="sourcePoint" />
+            <mxPoint x="835" y="536" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s117" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="granted / denied">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="578" as="sourcePoint" />
+            <mxPoint x="625" y="578" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s118" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#3C3C3C;verticalAlign=top;align=left;" value="" vertex="1">
+          <mxGeometry height="1034" width="1406" x="157" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="s119" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1E1E6;strokeColor=#3C3C3C;fontSize=11;align=left;spacingLeft=4;" value="alt" vertex="1">
+          <mxGeometry height="18" width="40" x="157" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="s120" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontColor=#7A2828;fontSize=12;" value="[denied]" vertex="1">
+          <mxGeometry height="24" width="520" x="203" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="s121" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="throws permission error">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="650" as="sourcePoint" />
+            <mxPoint x="415" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s122" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="snackbar (stop)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="692" as="sourcePoint" />
+            <mxPoint x="205" y="692" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s123" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#3C3C3C;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="157" y="734" as="sourcePoint" />
+            <mxPoint x="1563" y="734" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s124" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontColor=#7A2828;fontSize=12;" value="[granted]" vertex="1">
+          <mxGeometry height="24" width="520" x="203" y="744" as="geometry" />
+        </mxCell>
+        <mxCell id="s125" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="keep existing notificationId; build updated Reminder">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="661" y="764" />
+              <mxPoint x="661" y="786" />
+            </Array>
+            <mxPoint x="625" y="764" as="sourcePoint" />
+            <mxPoint x="625" y="786" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s126" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="updateReminder(updated)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="818" as="sourcePoint" />
+            <mxPoint x="1045" y="818" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s127" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="reminders/{id}.set(updated)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1045" y="860" as="sourcePoint" />
+            <mxPoint x="1255" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s128" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="saved">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1255" y="902" as="sourcePoint" />
+            <mxPoint x="1045" y="902" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s129" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="return">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1045" y="944" as="sourcePoint" />
+            <mxPoint x="625" y="944" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s130" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="scheduleOneOff(id: same notificationId, title, body, at: scheduledAt)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="986" as="sourcePoint" />
+            <mxPoint x="835" y="986" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s131" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="cancel(id); zonedSchedule(one-off)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="1028" as="sourcePoint" />
+            <mxPoint x="1465" y="1028" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s132" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#3C3C3C;verticalAlign=top;align=left;" value="" vertex="1">
+          <mxGeometry height="564" width="1382" x="169" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="s133" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1E1E6;strokeColor=#3C3C3C;fontSize=11;align=left;spacingLeft=4;" value="alt" vertex="1">
+          <mxGeometry height="18" width="40" x="169" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="s134" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontColor=#7A2828;fontSize=12;" value="[scheduling throws]" vertex="1">
+          <mxGeometry height="24" width="520" x="215" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="s135" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="error">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1465" y="1100" as="sourcePoint" />
+            <mxPoint x="835" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s136" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="throws">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="1142" as="sourcePoint" />
+            <mxPoint x="625" y="1142" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s137" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="updateReminder(existing)  (rollback)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="1184" as="sourcePoint" />
+            <mxPoint x="1045" y="1184" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s138" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="reminders/{id}.set(existing)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1045" y="1226" as="sourcePoint" />
+            <mxPoint x="1255" y="1226" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s139" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="saved">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1255" y="1268" as="sourcePoint" />
+            <mxPoint x="1045" y="1268" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s140" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="return">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1045" y="1310" as="sourcePoint" />
+            <mxPoint x="625" y="1310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s141" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="rethrows error">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="1352" as="sourcePoint" />
+            <mxPoint x="415" y="1352" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s142" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="snackbar with the error">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="1394" as="sourcePoint" />
+            <mxPoint x="205" y="1394" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s143" edge="1" parent="1" style="endArrow=none;dashed=1;strokeColor=#3C3C3C;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="169" y="1436" as="sourcePoint" />
+            <mxPoint x="1551" y="1436" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s144" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontColor=#7A2828;fontSize=12;" value="[scheduled]" vertex="1">
+          <mxGeometry height="24" width="520" x="215" y="1446" as="geometry" />
+        </mxCell>
+        <mxCell id="s145" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="ok">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1465" y="1466" as="sourcePoint" />
+            <mxPoint x="835" y="1466" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s146" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="return">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="1508" as="sourcePoint" />
+            <mxPoint x="625" y="1508" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s147" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="return">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="1550" as="sourcePoint" />
+            <mxPoint x="415" y="1550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s148" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" value="list shows the updated reminder">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="1592" as="sourcePoint" />
+            <mxPoint x="205" y="1592" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s149" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=none;" value="notification at the new time">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1465" y="1694" as="sourcePoint" />
+            <mxPoint x="205" y="1694" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

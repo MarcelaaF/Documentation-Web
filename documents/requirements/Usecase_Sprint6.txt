@@ -1,0 +1,14 @@
+# Sprint 6 use cases (ID | Name | Actors | Source story)
+UC-S6-01 | Capture Food Photo | Premium User | Story 1
+UC-S6-02 | Log Meal From Photo | Premium User | Story 1
+UC-S6-03 | Edit AI Estimate | Premium User | Story 2
+UC-S6-04 | View Incoming Chat Requests | Nutritionist | Story #344
+UC-S6-05 | Accept Chat Request | Nutritionist | Story #345
+UC-S6-06 | Decline Chat Request | Nutritionist | Story #345
+UC-S6-07 | Send Chat Message | Nutritionist | Story #347
+UC-S6-08 | Receive Chat Message | Nutritionist | Story #347
+UC-S6-09 | End Chat Session | Nutritionist | Story #348
+UC-S6-10 | View Active Chat Sessions | Nutritionist | Story #349
+UC-S6-11 | Recommend Recipe To Customer | Nutritionist | Story #346
+UC-S6-12 | Withdraw Sent Recipe | Nutritionist | Story #346
+UC-S6-13 | Edit Sent Recipe | Nutritionist | Story #346
