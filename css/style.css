@@ -771,22 +771,7 @@ footer p {
   margin-bottom: 4px;
 }
 
-.doc-card li a {
-  color: var(--primary);
-  text-decoration: underline;
-  text-underline-offset: 3px;
-}
 
-.doc-ext {
-  font-family: var(--font-mono);
-  font-size: 10px;
-  letter-spacing: 0.06em;
-  color: var(--ink-soft);
-  border: 1px solid var(--hairline);
-  border-radius: 6px;
-  padding: 1px 6px;
-  margin-left: 4px;
-}
 
 /* ============================================================
    Responsive
