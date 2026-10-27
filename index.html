@@ -3,318 +3,444 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Limos — Eat well, tracked well</title>
-    <meta name="description" content="Limos is a nutrition app with AI food recognition, a recipe catalog, water and weight tracking, and direct chat with nutritionists.">
+    <title>LIMOS | Personalised Nutrition, Your Way</title>
+    <meta name="description" content="LIMOS is a nutrition tracking app built around Singaporean food: personalised calorie and macro targets, AI-assisted meal logging, recipes and nutritionist chat.">
+    <meta name="theme-color" content="#7a1e1e">
+    <link rel="canonical" href="https://marcelaaf.github.io/Documentation-Web/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="LIMOS">
+    <meta property="og:title" content="LIMOS | Personalised Nutrition, Your Way">
+    <meta property="og:description" content="Personalised nutrition tracking, AI-assisted meal logging and nutritionist guidance, designed around the food you actually eat.">
+    <meta property="og:url" content="https://marcelaaf.github.io/Documentation-Web/">
+    <meta property="og:image" content="https://marcelaaf.github.io/Documentation-Web/assets/og-image.png">
+    <meta property="og:image:alt" content="LIMOS: eat well, love your local food">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=IBM+Plex+Mono:wght@500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
     <script>document.documentElement.classList.add("js");</script>
 </head>
-<body>
+<body class="home">
+    <a class="skip-link" href="#main">Skip to content</a>
 
-    <header>
+    <header class="site-header">
         <div class="wrap">
-            <a href="index.html" class="logo">LIM<span>OS</span></a>
-            <nav>
-                <a href="index.html" aria-current="page">Home</a>
-                <a href="team.html">Team</a>
-                <a href="meeting.html">Meetings</a>
-                <a href="timeline.html">Timeline</a>
-                <a href="documentation.html">Documentation</a>
+            <a href="index.html" class="logo" aria-label="LIMOS home">LIM<span>OS</span></a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu"><span class="nav-toggle__bars"></span></button>
+            <nav class="site-nav" id="site-nav" aria-label="Main">
+                <a href="#product">Product</a>
+                <a href="#how">How It Works</a>
+                <a href="#story">Our Story</a>
+                <a href="documentation.html">FYP Documentation</a>
+                <a href="#product" class="btn btn-primary">Explore LIMOS</a>
             </nav>
         </div>
     </header>
 
-    <main>
+    <main id="main">
 
-        <section class="hero hero--split">
-            <div class="hero__glow" aria-hidden="true"></div>
-            <div class="wrap hero__grid">
-                <div class="hero__copy">
-                    <p class="hero__kicker">Nutrition tracking · iOS &amp; Android</p>
-                    <h1>The health app that also <em>feeds</em> you.</h1>
-                    <p class="lede">Snap your meal. See your macros. Chat with a nutritionist.</p>
-                    <div class="hero__actions">
-                        <a href="#advanced" class="btn btn-primary">See what it can do</a>
-                        <a href="documentation.html" class="btn btn-ghost">Read the docs</a>
+        <section class="hero-v2" aria-labelledby="hero-title">
+            <div class="wrap hero-v2__grid">
+                <div class="hero-v2__copy">
+                    <p class="eyebrow">Personalised nutrition · Final Year Project</p>
+                    <h1 id="hero-title">Eat well. Love your <em>local food.</em></h1>
+                    <p class="hero-v2__lede">Personalised nutrition tracking, AI-assisted meal logging, and nutritionist guidance — designed around the food you actually eat.</p>
+                    <div class="hero-v2__actions">
+                        <a href="#product" class="btn btn-primary">Explore the App</a>
+                        <a href="#how" class="btn btn-ghost">How It Works</a>
                     </div>
-                    <dl class="hero__stats">
-                        <div><dt>49</dt><dd>local dishes</dd></div>
-                        <div><dt>3</dt><dd>user roles</dd></div>
-                        <div><dt>AI</dt><dd>food scan</dd></div>
-                    </dl>
                 </div>
-                <div class="hero__visual">
-                    <div class="phone phone--back" aria-hidden="true">
-                        <div class="phone__screen phone__screen--chat">
-                            <p class="ui-title">Nutritionist</p>
-                            <div class="bubble bubble--in">Hi! Happy to help with your cutting plan.</div>
-                            <div class="bubble bubble--out">Can I swap rice for something lighter?</div>
-                            <div class="bubble bubble--in">Yes. I just sent you a recipe made for you.</div>
-                        </div>
-                    </div>
-
-                    <div class="phone phone--front" aria-hidden="true">
-                        <div class="phone__screen">
-                            <p class="ui-title">Today</p>
-                            <div class="ring"><span><strong>1,420</strong>of 2,000 kcal</span></div>
-                            <div class="macro"><em>Protein</em><i style="--w:72%"></i></div>
-                            <div class="macro"><em>Carbs</em><i style="--w:55%"></i></div>
-                            <div class="macro"><em>Fat</em><i style="--w:40%"></i></div>
-                            <div class="ui-scan">Scan a meal</div>
-                        </div>
-                    </div>
-                    <span class="chip chip--a">Chicken Rice · 607 kcal</span>
-                    <span class="chip chip--b">Confidence 92%</span>
+                <div class="hero-v2__visual">
+                    <figure class="device device--l" ><div class="screen" data-shot="scan" data-alt="LIMOS AI food recognition screen with a photographed meal and its estimated nutrition"><div class="ui"><p class="ui-h">Scan a meal</p>
+<div class="ui-photo"></div>
+<div class="ui-card"><strong>Chicken Rice</strong><small>1 plate · estimate</small>
+<div style="margin-top:.5em"><span class="ui-tag ui-tag--clay">600 kcal</span><span class="ui-tag">30g protein</span></div></div>
+<div class="ui-btn">Review &amp; save</div><span class="ui__note">Preview illustration</span></div></div></figure>
+                    <figure class="device device--c" ><div class="screen" data-shot="home" data-alt="LIMOS home screen showing the daily calorie ring and macro progress"><div class="ui"><p class="ui-h">Today</p>
+<div class="ui-ring" style="--p:71"><span><strong>1,420</strong>of 2,000 kcal</span></div>
+<div class="ui-bar"><span>Protein</span><i style="--w:72%"></i></div>
+<div class="ui-bar"><span>Carbs</span><i style="--w:55%"></i></div>
+<div class="ui-bar"><span>Fat</span><i style="--w:40%"></i></div>
+<div class="ui-btn" style="margin-top:1em">Log a meal</div><span class="ui__note">Preview illustration</span></div></div></figure>
+                    <figure class="device device--r" ><div class="screen" data-shot="progress" data-alt="LIMOS progress screen with weekly calories and weight trend"><div class="ui"><p class="ui-h">Progress</p>
+<div class="ui-label">This week</div>
+<div class="ui-week"><i style="--h:55%"></i><i style="--h:72%"></i><i style="--h:40%"></i><i style="--h:80%"></i><i style="--h:65%"></i><i style="--h:50%"></i><i style="--h:30%"></i></div>
+<div class="ui-label">Weight</div>
+<svg class="ui-spark" viewBox="0 0 100 30" preserveAspectRatio="none"><polyline points="0,8 20,10 40,14 60,13 80,19 100,22" fill="none" stroke="#7a1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+<div class="ui-card" style="margin-top:.8em"><strong>Logging streak</strong><small>Keep it going</small></div><span class="ui__note">Preview illustration</span></div></div></figure>
                 </div>
             </div>
         </section>
 
-        <div class="marquee" aria-label="Local dishes in the Limos database">
-            <div class="marquee__track"><span>Chicken Rice</span><span>Nasi Lemak</span><span>Char Kway Teow</span><span>Laksa</span><span>Bak Kut Teh</span><span>Roti Prata</span><span>Hokkien Mee</span><span>Kaya Toast</span><span>Teh Tarik</span><span>Chendol</span><span>Ice Kacang</span><span>Satay</span><span>Popiah</span><span>Durian</span><span>Chicken Rice</span><span>Nasi Lemak</span><span>Char Kway Teow</span><span>Laksa</span><span>Bak Kut Teh</span><span>Roti Prata</span><span>Hokkien Mee</span><span>Kaya Toast</span><span>Teh Tarik</span><span>Chendol</span><span>Ice Kacang</span><span>Satay</span><span>Popiah</span><span>Durian</span></div>
+        <div class="strip" aria-label="Examples of local dishes in the LIMOS food database">
+            <div class="strip__track"><span>Chicken Rice</span><span>Nasi Lemak</span><span>Char Kway Teow</span><span>Laksa</span><span>Bak Kut Teh</span><span>Roti Prata</span><span>Hokkien Mee</span><span>Kaya Toast</span><span>Teh Tarik</span><span>Chendol</span><span>Ice Kacang</span><span>Chicken Satay</span><span>Popiah</span><span>Durian</span><span>Chicken Rice</span><span>Nasi Lemak</span><span>Char Kway Teow</span><span>Laksa</span><span>Bak Kut Teh</span><span>Roti Prata</span><span>Hokkien Mee</span><span>Kaya Toast</span><span>Teh Tarik</span><span>Chendol</span><span>Ice Kacang</span><span>Chicken Satay</span><span>Popiah</span><span>Durian</span></div>
         </div>
 
-        <section id="how">
-            <div class="wrap">
-                <p class="eyebrow">How it works</p>
-                <h2 class="section-title">Four steps, no spreadsheets.</h2>
-                <div class="pillars">
-                    <div class="pillar"><span class="pillar__num">01</span><h3>Set your goal</h3><p>Tell us about you. Get daily targets.</p></div>
-                    <div class="pillar"><span class="pillar__num">02</span><h3>Snap your meal</h3><p>AI fills in calories and macros.</p></div>
-                    <div class="pillar"><span class="pillar__num">03</span><h3>Get guidance</h3><p>Recipes and chat that fit your goal.</p></div>
-                    <div class="pillar"><span class="pillar__num">04</span><h3>Stay on track</h3><p>Streaks, reminders and weekly trends.</p></div>
+        <section class="snapshot" aria-label="Product snapshot">
+            <div class="wrap snapshot__grid">
+                <div class="snap" data-reveal>
+                    <p class="snap__big">49</p>
+                    <h3>Local dishes built in</h3>
+                    <p>Hawker and kopitiam favourites in the app's own food database, searchable instantly.</p>
+                </div>
+                <div class="snap" data-reveal>
+                    <p class="snap__big">Yours</p>
+                    <h3>Personalised targets</h3>
+                    <p>Daily calorie and macro goals set from your body, activity level and goal.</p>
+                </div>
+                <div class="snap" data-reveal>
+                    <p class="snap__big">AI</p>
+                    <h3>Assisted food logging</h3>
+                    <p>Photograph a meal for an estimate, then review and edit it before it is saved.</p>
                 </div>
             </div>
         </section>
 
-        <section id="advanced" class="benefits">
-            <svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
-<linearGradient id="cream" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6ebd9"/><stop offset=".55" stop-color="#e3cfb2"/><stop offset="1" stop-color="#b89c7a"/></linearGradient>
-<linearGradient id="choc" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9a6a52"/><stop offset="1" stop-color="#5a3326"/></linearGradient>
-<linearGradient id="ribbon" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d98c6b"/><stop offset=".5" stop-color="#e9a77f"/><stop offset="1" stop-color="#c46a52"/></linearGradient>
-</defs></svg>
+        <section id="product" aria-labelledby="product-title">
             <div class="wrap">
-                <h2 class="benefits__title">Everything you need to eat well</h2>
+                <div class="sec-head" data-reveal>
+                    <p class="eyebrow">The product</p>
+                    <h2 id="product-title">Everything you need to eat well, in one app.</h2>
+                </div>
 
-                <div class="benefits__stage">
-                    <svg class="benefits__ribbon" viewBox="0 0 1200 420" preserveAspectRatio="none" aria-hidden="true">
-                        <path d="M-20 250 C 150 330, 260 380, 420 300 S 650 60, 820 140 S 1050 330, 1220 230" fill="none" stroke="url(#ribbon)" stroke-width="46" stroke-linecap="round"/>
-                    </svg>
-                    <div class="benefits__grid">
-                    <article class="benefit">
-                        <div class="benefit__icon"><svg viewBox="0 0 120 120" aria-hidden="true"><g fill="none" stroke="url(#cream)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"><path d="M18 40V24a6 6 0 0 1 6-6h16"/><path d="M80 18h16a6 6 0 0 1 6 6v16"/><path d="M102 80v16a6 6 0 0 1-6 6H80"/><path d="M40 102H24a6 6 0 0 1-6-6V80"/></g><circle cx="60" cy="60" r="22" fill="url(#choc)"/><circle cx="60" cy="60" r="22" fill="none" stroke="url(#cream)" stroke-width="5"/><path d="M60 46l3.5 10.5L74 60l-10.5 3.5L60 74l-3.5-10.5L46 60l10.5-3.5z" fill="url(#cream)"/></svg></div>
-                        <p class="benefit__kicker">Snap. Done.</p>
-                        <h3>AI food scan.</h3>
-                        <p>Photo in, calories and macros out.</p>
-                    </article>
-                    <article class="benefit">
-                        <div class="benefit__icon"><svg viewBox="0 0 120 120" aria-hidden="true"><path d="M14 30a12 12 0 0 1 12-12h50a12 12 0 0 1 12 12v32a12 12 0 0 1-12 12H48L28 92V74h-2a12 12 0 0 1-12-12z" fill="url(#cream)"/><path d="M58 58a12 12 0 0 1 12-12h28a12 12 0 0 1 12 12v22a12 12 0 0 1-12 12h-2v16L82 92H70a12 12 0 0 1-12-12z" fill="url(#choc)"/><g fill="#7a1e1e"><circle cx="34" cy="46" r="5"/><circle cx="51" cy="46" r="5"/><circle cx="68" cy="46" r="5"/></g></svg></div>
-                        <p class="benefit__kicker">Real people.</p>
-                        <h3>Chat with nutritionists.</h3>
-                        <p>Ask anything, right in the app.</p>
-                    </article>
-                    <article class="benefit">
-                        <div class="benefit__icon"><svg viewBox="0 0 120 120" aria-hidden="true"><rect x="22" y="12" width="76" height="96" rx="12" fill="url(#cream)"/><rect x="32" y="26" width="40" height="7" rx="3.5" fill="url(#choc)"/><rect x="32" y="40" width="56" height="5" rx="2.5" fill="#cbb79a"/><rect x="32" y="52" width="48" height="5" rx="2.5" fill="#cbb79a"/><path d="M60 98c-14-9-22-16-22-25a11 11 0 0 1 22-3 11 11 0 0 1 22 3c0 9-8 16-22 25z" fill="#d98c6b" transform="translate(0 -4)"/></svg></div>
-                        <p class="benefit__kicker">Just for you.</p>
-                        <h3>Recipes made for you.</h3>
-                        <p>Written for your goals, by your nutritionist.</p>
-                    </article>
-                    <article class="benefit">
-                        <div class="benefit__icon"><svg viewBox="0 0 120 120" aria-hidden="true"><path d="M30 14c-6 8 6 12 0 22M52 10c-6 8 6 12 0 22M74 14c-6 8 6 12 0 22" fill="none" stroke="url(#cream)" stroke-width="5" stroke-linecap="round" opacity=".75"/><path d="M14 54h92a46 46 0 0 1-92 0z" fill="url(#choc)"/><ellipse cx="60" cy="54" rx="46" ry="9" fill="url(#cream)"/><ellipse cx="60" cy="54" rx="36" ry="5.5" fill="#d98c6b"/><path d="M86 10L66 52M98 14L74 54" stroke="url(#cream)" stroke-width="5" stroke-linecap="round"/></svg></div>
-                        <p class="benefit__kicker">Made for Singapore.</p>
-                        <h3>Local dishes first.</h3>
-                        <p>About 50 hawker favourites, searchable instantly.</p>
-                    </article>
+                <article class="feature feature--a">
+                    <div class="feature__text" data-reveal>
+                        <p class="feature__num">01 · Tracking</p>
+                        <h3>Personalised nutrition tracking</h3>
+                        <p class="feature__lede">Know your targets, log what you eat, and see how the week is going.</p>
+                        <ul class="ticks">
+                            <li>Daily calorie and macronutrient targets from your profile</li>
+                            <li>Food diary with meals, serving sizes and macros</li>
+                            <li>Weekly and monthly progress reports</li>
+                        </ul>
                     </div>
+                    <div class="feature__visual" data-reveal>
+                        <figure class="device device--a" ><div class="screen" data-shot="home" data-alt="LIMOS home screen showing the daily calorie ring and macro progress"><div class="ui"><p class="ui-h">Today</p>
+<div class="ui-ring" style="--p:71"><span><strong>1,420</strong>of 2,000 kcal</span></div>
+<div class="ui-bar"><span>Protein</span><i style="--w:72%"></i></div>
+<div class="ui-bar"><span>Carbs</span><i style="--w:55%"></i></div>
+<div class="ui-bar"><span>Fat</span><i style="--w:40%"></i></div>
+<div class="ui-btn" style="margin-top:1em">Log a meal</div><span class="ui__note">Preview illustration</span></div></div></figure>
+                        <figure class="device device--b" ><div class="screen" data-shot="progress" data-alt="LIMOS progress screen with weekly calories and weight trend"><div class="ui"><p class="ui-h">Progress</p>
+<div class="ui-label">This week</div>
+<div class="ui-week"><i style="--h:55%"></i><i style="--h:72%"></i><i style="--h:40%"></i><i style="--h:80%"></i><i style="--h:65%"></i><i style="--h:50%"></i><i style="--h:30%"></i></div>
+<div class="ui-label">Weight</div>
+<svg class="ui-spark" viewBox="0 0 100 30" preserveAspectRatio="none"><polyline points="0,8 20,10 40,14 60,13 80,19 100,22" fill="none" stroke="#7a1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+<div class="ui-card" style="margin-top:.8em"><strong>Logging streak</strong><small>Keep it going</small></div><span class="ui__note">Preview illustration</span></div></div></figure>
+                    </div>
+                </article>
+
+                <article class="feature feature--b feature--flip">
+                    <div class="feature__text" data-reveal>
+                        <p class="feature__num">02 · AI-assisted logging</p>
+                        <h3>Snap it. Check it. Save it.</h3>
+                        <p class="feature__lede">Take a photo or pick one from your gallery. LIMOS suggests the dish and its nutrition, and you stay in control.</p>
+                        <ul class="ticks">
+                            <li>Predicted dish, serving size, calories and macros</li>
+                            <li>A confidence score with every estimate</li>
+                            <li>Review and edit everything before it is logged</li>
+                        </ul>
+                        <p class="feature__note">Estimates are a starting point, not exact measurements.</p>
+                    </div>
+                    <div class="feature__visual" data-reveal>
+                        <figure class="device device--a" ><div class="screen" data-shot="scan" data-alt="LIMOS AI food recognition screen with a photographed meal and its estimated nutrition"><div class="ui"><p class="ui-h">Scan a meal</p>
+<div class="ui-photo"></div>
+<div class="ui-card"><strong>Chicken Rice</strong><small>1 plate · estimate</small>
+<div style="margin-top:.5em"><span class="ui-tag ui-tag--clay">600 kcal</span><span class="ui-tag">30g protein</span></div></div>
+<div class="ui-btn">Review &amp; save</div><span class="ui__note">Preview illustration</span></div></div></figure>
+                        <figure class="device device--b" ><div class="screen" data-shot="review" data-alt="LIMOS review screen where a food estimate can be edited before saving"><div class="ui"><p class="ui-h">Review estimate</p>
+<div class="ui-card"><small>Food name</small><strong>Chicken Rice</strong></div>
+<div class="ui-card"><small>Serving size</small><strong>1 plate</strong></div>
+<div class="ui-card"><small>Calories</small><strong>600</strong></div>
+<div class="ui-bar"><span>Protein</span><i style="--w:60%"></i></div>
+<div class="ui-bar"><span>Carbs</span><i style="--w:75%"></i></div>
+<div class="ui-btn" style="margin-top:.8em">Save to my log</div><span class="ui__note">Preview illustration</span></div></div></figure>
+                    </div>
+                </article>
+
+                <article class="feature feature--c">
+                    <div class="feature__text" data-reveal>
+                        <p class="feature__num">03 · Recipes &amp; guidance</p>
+                        <h3>Recipes, and a nutritionist to ask</h3>
+                        <p class="feature__lede">Find meals that suit you, then talk to a person when you want a second opinion.</p>
+                        <ul class="ticks">
+                            <li>Recipes checked against your diet, allergies and health conditions</li>
+                            <li>Browse nutritionist profiles and send a chat request</li>
+                            <li>Receive recipes written for you by your nutritionist</li>
+                        </ul>
+                    </div>
+                    <div class="feature__visual" data-reveal>
+                        <figure class="device device--a" ><div class="screen" data-shot="recipes" data-alt="LIMOS recipe list with recipes made by a nutritionist"><div class="ui"><p class="ui-h">Recipes</p>
+<div class="ui-label" style="margin-bottom:.5em">Made for you</div>
+<div class="ui-card"><strong>Grilled fish &amp; greens</strong><small>420 kcal · 38g protein</small>
+<div style="margin-top:.5em"><span class="ui-tag">Low sodium</span></div></div>
+<div class="ui-label" style="margin:.8em 0 .5em">Catalogue</div>
+<div class="ui-card"><strong>Tofu veggie stir-fry</strong><small>380 kcal · 22g protein</small></div>
+<div class="ui-card"><strong>Chicken congee</strong><small>350 kcal · 24g protein</small></div><span class="ui__note">Preview illustration</span></div></div></figure>
+                        <figure class="device device--b" ><div class="screen" data-shot="chat" data-alt="LIMOS chat between a member and a nutritionist"><div class="ui ui-chat"><p class="ui-h">Nutritionist</p>
+<div class="bubble">Hi! Happy to help with your plan.</div>
+<div class="bubble bubble--out">Can I swap rice for something lighter?</div>
+<div class="bubble">Yes. I just sent you a recipe made for you.</div><span class="ui__note" style="color:#fff">Preview illustration</span></div></div></figure>
+                    </div>
+                </article>
+
+                <article class="feature feature--d feature--flip">
+                    <div class="feature__text" data-reveal>
+                        <p class="feature__num">04 · Habits</p>
+                        <h3>Progress and reminders that keep you going</h3>
+                        <p class="feature__lede">Small nudges and clear trends make consistency easier.</p>
+                        <ul class="ticks">
+                            <li>Weight and water tracking in metric or imperial</li>
+                            <li>Meal reminders that skip a meal you have already logged</li>
+                            <li>Your own reminders, with a logging streak</li>
+                        </ul>
+                    </div>
+                    <div class="feature__visual" data-reveal>
+                        <figure class="device device--a" ><div class="screen" data-shot="reminders" data-alt="LIMOS reminders screen listing meal and weigh-in reminders"><div class="ui"><p class="ui-h">Reminders</p>
+<div class="ui-card ui-rem"><b>&#9728;</b><div><strong>Breakfast</strong><small>08:00 · daily</small></div></div>
+<div class="ui-card ui-rem"><b>&#9790;</b><div><strong>Dinner</strong><small>19:00 · daily</small></div></div>
+<div class="ui-card ui-rem"><b>&#9679;</b><div><strong>Weigh-in</strong><small>Sunday 09:00</small></div></div>
+<div class="ui-btn ui-btn--ghost">Add reminder</div><span class="ui__note">Preview illustration</span></div></div></figure>
+                        <figure class="device device--b" ><div class="screen" data-shot="progress" data-alt="LIMOS progress screen with weekly calories and weight trend"><div class="ui"><p class="ui-h">Progress</p>
+<div class="ui-label">This week</div>
+<div class="ui-week"><i style="--h:55%"></i><i style="--h:72%"></i><i style="--h:40%"></i><i style="--h:80%"></i><i style="--h:65%"></i><i style="--h:50%"></i><i style="--h:30%"></i></div>
+<div class="ui-label">Weight</div>
+<svg class="ui-spark" viewBox="0 0 100 30" preserveAspectRatio="none"><polyline points="0,8 20,10 40,14 60,13 80,19 100,22" fill="none" stroke="#7a1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+<div class="ui-card" style="margin-top:.8em"><strong>Logging streak</strong><small>Keep it going</small></div><span class="ui__note">Preview illustration</span></div></div></figure>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="local" id="local" aria-labelledby="local-title">
+            <div class="wrap">
+                <div class="sec-head" data-reveal>
+                    <p class="eyebrow">Made for Singapore</p>
+                    <h2 id="local-title">Your favourite meals belong in your health journey.</h2>
+                    <p>LIMOS starts from the plates you actually eat. Its food database is built around hawker and kopitiam staples, and its photo recognition is set up for Singaporean and other Asian dishes, so logging a meal takes a search or a snap, not a guess.</p>
                 </div>
-
-                <p class="benefits__soon"><span>Coming soon</span> AI assistant for nutritionists</p>
+                <div class="local__grid"><article class="dish" data-reveal><div class="dish__art"><svg viewBox="0 0 130 100" aria-hidden="true"><ellipse cx="65" cy="62" rx="58" ry="30" fill="#f6ebd9"/><ellipse cx="65" cy="58" rx="46" ry="22" fill="#fff"/><path d="M38 58c4-22 50-22 54 0z" fill="#efe4d0"/><g fill="#d9a97a"><rect x="42" y="40" width="16" height="8" rx="4" transform="rotate(-12 50 44)"/><rect x="60" y="38" width="16" height="8" rx="4"/><rect x="78" y="41" width="16" height="8" rx="4" transform="rotate(12 86 45)"/></g><circle cx="98" cy="68" r="5" fill="#d98c6b"/></svg></div><h3>Chicken Rice</h3><p class="dish__serving">1 plate</p><p class="dish__macros"><strong>600</strong> kcal<br>30g protein · 75g carbs · 20g fat</p></article><article class="dish" data-reveal><div class="dish__art"><svg viewBox="0 0 130 100" aria-hidden="true"><path d="M8 62c10-34 100-34 114 0 0 22-110 22-114 0z" fill="#6b7a4f"/><ellipse cx="62" cy="56" rx="26" ry="16" fill="#fff"/><path d="M40 56c4-22 42-22 46 0z" fill="#f2ead9"/><circle cx="94" cy="52" r="10" fill="#fff"/><circle cx="94" cy="52" r="5" fill="#f3b83a"/><rect x="30" y="68" width="22" height="7" rx="3.5" fill="#d98c6b"/><circle cx="86" cy="72" r="5" fill="#b3402b"/></svg></div><h3>Nasi Lemak</h3><p class="dish__serving">1 plate</p><p class="dish__macros"><strong>640</strong> kcal<br>18g protein · 75g carbs · 30g fat</p></article><article class="dish" data-reveal><div class="dish__art"><svg viewBox="0 0 130 100" aria-hidden="true"><path d="M30 24c-6 8 6 12 0 20M52 18c-6 8 6 12 0 20M74 24c-6 8 6 12 0 20" fill="none" stroke="#f6ebd9" stroke-width="4" stroke-linecap="round" opacity=".7"/><path d="M10 50h110a55 42 0 0 1-110 0z" fill="#f6ebd9"/><ellipse cx="65" cy="50" rx="55" ry="10" fill="#d98c6b"/><g fill="none" stroke="#fff3df" stroke-width="3" stroke-linecap="round"><path d="M32 50c8-6 14 6 22 0s14 6 22 0 14 6 22 0"/></g><circle cx="48" cy="48" r="6" fill="#f0a283"/><circle cx="82" cy="49" r="5" fill="#f0a283"/></svg></div><h3>Laksa</h3><p class="dish__serving">1 bowl</p><p class="dish__macros"><strong>600</strong> kcal<br>20g protein · 55g carbs · 35g fat</p></article><article class="dish" data-reveal><div class="dish__art"><svg viewBox="0 0 130 100" aria-hidden="true"><rect x="14" y="24" width="48" height="48" rx="10" fill="#e3b777" transform="rotate(-6 38 48)"/><rect x="20" y="30" width="36" height="36" rx="6" fill="#8b9a3e" transform="rotate(-6 38 48)"/><rect x="66" y="30" width="48" height="48" rx="10" fill="#e3b777" transform="rotate(5 90 54)"/><rect x="72" y="36" width="36" height="36" rx="6" fill="#8b9a3e" transform="rotate(5 90 54)"/></svg></div><h3>Kaya Toast</h3><p class="dish__serving">2 slices</p><p class="dish__macros"><strong>250</strong> kcal<br>5g protein · 35g carbs · 10g fat</p></article></div>
+                <p class="local__note">Sample values from the LIMOS food database: approximate, typical-serving estimates, not exact measurements. The database covers 49 dishes today; for anything else the app falls back to an online nutrition estimate that you can edit.</p>
             </div>
         </section>
 
-        <section class="story">
+        <section id="how" aria-labelledby="how-title">
             <div class="wrap">
-                <p class="eyebrow">Why Limos</p>
-                <p class="story__text">
-                    Most nutrition apps are built around Western meals.
-                    <em>Limos starts from the plate in front of you</em>: the chicken rice,
-                    the kaya toast, the laksa. Because eating well should not mean
-                    giving up the food you love.
-                </p>
+                <div class="sec-head sec-head--center" data-reveal>
+                    <p class="eyebrow">How it works</p>
+                    <h2 id="how-title">Four steps to a clearer plate.</h2>
+                </div>
+                <ol class="how__steps">
+                    <li class="how-step" data-reveal>
+                        <span class="how-step__num">1</span>
+                        <h3>Set your goals</h3>
+                        <p>Tell LIMOS about you and what you want to achieve.</p>
+                        <div class="mini"><p class="mini__title">Your goal</p><div class="chips" style="margin-top:10px"><span class="on">Lose weight</span><span>Maintain</span><span>Gain muscle</span></div></div>
+                    </li>
+                    <li class="how-step" data-reveal>
+                        <span class="how-step__num">2</span>
+                        <h3>Scan or log your meal</h3>
+                        <p>Photograph it, search the local database, or type it in.</p>
+                        <div class="mini"><div class="row"><span class="mini__title">Chicken Rice</span><small>estimate</small></div><small>1 plate</small><div style="margin-top:10px"><span class="ui-tag ui-tag--clay">600 kcal</span><span class="ui-tag">30g protein</span></div></div>
+                    </li>
+                    <li class="how-step" data-reveal>
+                        <span class="how-step__num">3</span>
+                        <h3>Explore guidance</h3>
+                        <p>Browse recipes and message a nutritionist.</p>
+                        <div class="mini"><p class="mini__title">Made for you</p><small>Recipe from your nutritionist</small><div style="margin-top:10px"><span class="ui-tag">Chat open</span></div></div>
+                    </li>
+                    <li class="how-step" data-reveal>
+                        <span class="how-step__num">4</span>
+                        <h3>Review your progress</h3>
+                        <p>See your week and keep the streak alive.</p>
+                        <div class="mini"><div class="ui-week"><i style="--h:55%"></i><i style="--h:72%"></i><i style="--h:40%"></i><i style="--h:80%"></i><i style="--h:65%"></i><i style="--h:50%"></i><i style="--h:30%"></i></div></div>
+                    </li>
+                </ol>
             </div>
         </section>
 
-        <section id="roles">
+        <section id="roles" aria-labelledby="roles-title" style="padding-top:20px">
             <div class="wrap">
-                <p class="eyebrow">One app, three roles</p>
-                <h2 class="section-title">Built for three kinds of people</h2>
-                <div class="roles">
-                    <div class="role-card role-card--user">
-                        <p class="role-card__tag">For everyone</p>
+                <div class="sec-head" data-reveal>
+                    <p class="eyebrow">One app, three roles</p>
+                    <h2 id="roles-title">Built for members, guided by nutritionists.</h2>
+                </div>
+                <div class="roles-v2">
+                    <div class="role role--member" data-reveal>
+                        <p class="role__tag">For everyone</p>
                         <h3>Members</h3>
-                        <p>Track meals, water and weight.</p>
+                        <ul>
+                            <li>Personalised calorie and macro targets</li>
+                            <li>Meal logging, including AI-assisted photo logging</li>
+                            <li>Recipes, weight and water tracking, and reminders</li>
+                            <li>Chat with a nutritionist and receive recipes made for you</li>
+                        </ul>
                     </div>
-                    <div class="role-card role-card--partner">
-                        <p class="role-card__tag">For nutritionists</p>
+                    <div class="role" data-reveal>
+                        <p class="role__tag">For professionals</p>
                         <h3>Nutritionists</h3>
-                        <p>Share recipes and advise members.</p>
+                        <ul>
+                            <li>Publish recipes to the shared catalogue</li>
+                            <li>Accept or decline member chat requests</li>
+                            <li>Send a recipe made for one member</li>
+                            <li>See views, saves and likes on each recipe</li>
+                        </ul>
+                        <p class="role__planned"><span class="pill">Planned</span>An AI assistant for nutritionists. Not built yet.</p>
                     </div>
-                    <div class="role-card role-card--admin">
-                        <p class="role-card__tag">For oversight</p>
-                        <h3>Admins</h3>
-                        <p>Review accounts and keep things safe.</p>
+                    <div class="role" data-reveal>
+                        <p class="role__tag">For oversight</p>
+                        <h3>Administrators</h3>
+                        <ul>
+                            <li>Review nutritionist applications</li>
+                            <li>Review member and nutritionist accounts</li>
+                            <li>Suspend or restore accounts</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="menu">
+        <section class="trust" id="trust" aria-labelledby="trust-title">
             <div class="wrap">
-                <p class="eyebrow">The menu</p>
-                <h2 class="section-title">Everything on the table</h2>
-                <div class="menu-card">
-
-                    <div class="menu-item">
-                        <span class="menu-item__name">Personalised Targets</span>
-                        <span class="menu-item__leader" aria-hidden="true"></span>
-                        <span class="menu-item__tag">Setup</span>
-                        <p class="menu-item__desc">Calorie and macro goals set around you.</p>
-                    </div>
-
-                    <div class="menu-item">
-                        <span class="menu-item__name">Meal Logging</span>
-                        <span class="menu-item__leader" aria-hidden="true"></span>
-                        <span class="menu-item__tag">Daily</span>
-                        <p class="menu-item__desc">Calories, protein, carbs and fat in a tap.</p>
-                    </div>
-
-                    <div class="menu-item">
-                        <span class="menu-item__name">Recipe Catalog</span>
-                        <span class="menu-item__leader" aria-hidden="true"></span>
-                        <span class="menu-item__tag">Browse</span>
-                        <p class="menu-item__desc">Filter by diet and allergens.</p>
-                    </div>
-
-                    <div class="menu-item">
-                        <span class="menu-item__name">Recipe Discovery</span>
-                        <span class="menu-item__leader" aria-hidden="true"></span>
-                        <span class="menu-item__tag">Search</span>
-                        <p class="menu-item__desc">Search a wider online recipe library.</p>
-                    </div>
-
-                    <div class="menu-item">
-                        <span class="menu-item__name">Water &amp; Weight</span>
-                        <span class="menu-item__leader" aria-hidden="true"></span>
-                        <span class="menu-item__tag">Track</span>
-                        <p class="menu-item__desc">Log in metric or imperial.</p>
-                    </div>
-
-                    <div class="menu-item">
-                        <span class="menu-item__name">Progress &amp; Streaks</span>
-                        <span class="menu-item__leader" aria-hidden="true"></span>
-                        <span class="menu-item__tag">Insights</span>
-                        <p class="menu-item__desc">Weekly and monthly trends.</p>
-                    </div>
-
-                    <div class="menu-item">
-                        <span class="menu-item__name">Reminders</span>
-                        <span class="menu-item__leader" aria-hidden="true"></span>
-                        <span class="menu-item__tag">Automatic</span>
-                        <p class="menu-item__desc">Nudges for meals, water and weigh-ins.</p>
-                    </div>
-
+                <div class="sec-head" data-reveal>
+                    <p class="eyebrow">Trust &amp; transparency</p>
+                    <h2 id="trust-title">Honest about what the app can and can't do.</h2>
                 </div>
+                <div class="trust__grid">
+                    <div class="trust-item" data-reveal>
+                        <h3>AI has limits</h3>
+                        <p>Photo recognition returns an estimate with a confidence score. It can be wrong, so every result is shown for you to review and edit before it is saved.</p>
+                    </div>
+                    <div class="trust-item" data-reveal>
+                        <h3>How personalisation works</h3>
+                        <p>Your targets come from the profile you enter: body measurements, activity level, goal, diet type and allergies. Recipes are checked against your diet, allergies and health conditions.</p>
+                    </div>
+                    <div class="trust-item" data-reveal>
+                        <h3>Privacy</h3>
+                        <p>Medical-history fields are encrypted before they are stored, access is limited by role through Firestore security rules, and you can delete your account.</p>
+                    </div>
+                    <div class="trust-item" data-reveal>
+                        <h3>Data sources</h3>
+                        <p>The local dish values are approximate typical-serving estimates curated by our team. Online recipe search and nutrition estimates use the Spoonacular API; photo recognition uses Google Gemini. LIMOS is not endorsed by, or affiliated with, these providers.</p>
+                    </div>
+                </div>
+                <p class="trust__disclaimer">LIMOS is a student project and is not medical advice. Speak to a qualified professional about any health condition or dietary change.</p>
             </div>
         </section>
 
-        <section id="explore">
+        <section class="fyp" id="story" aria-labelledby="fyp-title">
             <div class="wrap">
-                <p class="eyebrow">Beyond the app</p>
-                <h2 class="section-title">Explore the project.</h2>
-                <div class="portals">
-                    <a class="portal" href="documentation.html"><span class="portal__num">I</span><h3>Documentation</h3><p>Requirements, design diagrams and sprint records.</p><span class="portal__go">Enter section →</span></a>
-                    <a class="portal" href="timeline.html"><span class="portal__num">II</span><h3>Timeline</h3><p>From kickoff to the latest sprint.</p><span class="portal__go">Enter section →</span></a>
-                    <a class="portal" href="team.html"><span class="portal__num">III</span><h3>Meet the team</h3><p>The four people behind Limos.</p><span class="portal__go">Enter section →</span></a>
-                    <a class="portal" href="meeting.html"><span class="portal__num">IV</span><h3>Meetings</h3><p>Minutes from every team meeting.</p><span class="portal__go">Enter section →</span></a>
-                </div>
-            </div>
-        </section>
-
-        <section class="about-band">
-            <div class="wrap">
-                <p class="eyebrow">About this project</p>
-                <h2 class="section-title">The project behind Limos</h2>
-
-                <div class="about-grid">
-                    <p class="section-lede" style="margin-top:0;">
-                        Limos is being designed and built end to end by a four-person team
-                        as our Final Year Project — from requirements and system design
-                        through to a working Flutter app backed by Firebase.
-                        This site doubles as our project record: team reflections, meeting
-                        minutes, timeline, and documentation live alongside the pitch above.
-                    </p>
-
-                    <ul class="fact-list">
-                        <li>
-                            <span class="fact-label">Project title</span>
-                            <span class="fact-value">Developing App for Health and Fitness</span>
-                        </li>
-                        <li>
-                            <span class="fact-label">Supervisors</span>
-                            <span class="fact-value">Mr Tian Sion Hui &amp; Mr Terence Chew</span>
-                        </li>
-                        <li>
-                            <span class="fact-label">Team</span>
-                            <span class="fact-value">Group 34 — 4 members</span>
-                        </li>
-                        <li>
-                            <span class="fact-label">Module</span>
-                            <span class="fact-value">FYP-26-S3-34</span>
-                        </li>
+                <div class="fyp__top">
+                    <div data-reveal>
+                        <p class="eyebrow">Our story · FYP</p>
+                        <h2 id="fyp-title">The thinking and engineering behind LIMOS.</h2>
+                        <p class="fyp__lede"><strong>The problem.</strong> People who want to eat healthily often juggle separate apps for calorie tracking, meal ideas and professional advice, and most advice ignores their allergies, preferences and conditions.</p>
+                        <p class="fyp__lede"><strong>Our answer.</strong> One mobile app that sets personalised goals, makes logging local food fast, recommends suitable recipes and connects members with nutritionists.</p>
+                    </div>
+                    <ul class="facts" data-reveal>
+                        <li><span>Module</span><span>CSIT321 · FYP-26-S3-34</span></li>
+                        <li><span>Team</span><span>Group 34 · four members</span></li>
+                        <li><span>Academic staff</span><span>Mr Tian Sion Hui &amp; Mr Terence Chew</span></li>
+                        <li><span>Platform</span><span>Flutter · iOS &amp; Android</span></li>
                     </ul>
                 </div>
-            </div>
-        </section>
 
+                <div class="fyp__cards">
+                    <article class="fyp-card" data-reveal>
+                        <h3>Technology stack</h3>
+                        <div class="stack"><span>Flutter &amp; Dart</span><span>Firebase Auth</span><span>Cloud Firestore</span><span>Google Gemini API</span><span>Spoonacular API</span><span>go_router</span><span>Local notifications</span></div>
+                    </article>
+                    <article class="fyp-card" data-reveal>
+                        <h3>System architecture</h3>
+                        <div class="layers">
+                            <div><b>Pages</b><span>screens members see</span></div>
+                            <div><b>Controllers</b><span>business rules</span></div>
+                            <div><b>Repositories &amp; services</b><span>data and APIs</span></div>
+                            <div><b>Cloud Firestore</b><span>storage and rules</span></div>
+                        </div>
+                    </article>
+                    <article class="fyp-card" data-reveal>
+                        <h3>Key decisions</h3>
+                        <ul>
+                            <li>Business rules live in controllers, not screens (BCE design)</li>
+                            <li>Local food database first, online lookup as fallback</li>
+                            <li>AI estimates are always editable</li>
+                            <li>Role-based security rules and encrypted medical fields</li>
+                        </ul>
+                    </article>
+                    <article class="fyp-card" data-reveal>
+                        <h3>Testing</h3>
+                        <div class="test-result"><strong>364</strong><span>automated tests passing</span></div>
+                        <p>Unit and widget tests across 29 test files, run with <code>flutter test</code> on the project's current code.</p>
+                    </article>
+                    <article class="fyp-card" data-reveal>
+                        <h3>Objectives &amp; users</h3>
+                        <ul>
+                            <li>Members: track food, water and weight against goals</li>
+                            <li>Nutritionists: share recipes and advise members</li>
+                            <li>Admins: keep accounts trustworthy</li>
+                        </ul>
+                    </article>
+                    <article class="fyp-card" data-reveal>
+                        <h3>Team &amp; milestones</h3>
+                        <p>Four students, weekly diaries, supervisor meetings and sprint-by-sprint delivery from July to October 2026.</p>
+                        <p style="margin-top:12px"><a href="team.html">Meet the team</a> · <a href="timeline.html">See the timeline</a></p>
+                    </article>
+                </div>
 
-        <section class="cta-band">
-            <div class="wrap">
-                <h2>Eating well, made easier.</h2>
-                <p>Limos is built as a mobile app for iOS and Android, on Flutter and Firebase.</p>
-                <div class="hero__actions">
-                    <a href="documentation.html" class="btn btn-primary">Read the documentation</a>
-                    <a href="team.html" class="btn btn-ghost">Meet the team</a>
+                <div class="fyp__cta" data-reveal>
+                    <a href="documentation.html" class="btn btn-primary">Explore FYP Documentation</a>
+                    <div class="fyp__links"><a href="timeline.html">Timeline</a><a href="meeting.html">Meeting records</a><a href="team.html">Team and diaries</a></div>
                 </div>
             </div>
         </section>
+
+        <div class="home-final-wrap">
+            <div class="wrap">
+                <section class="final" aria-labelledby="final-title" style="padding-block:100px">
+                    <h2 id="final-title">A smarter way to understand what you eat.</h2>
+                    <div class="final__actions">
+                        <a href="#product" class="btn btn-primary">Explore LIMOS</a>
+                        <a href="documentation.html" class="btn btn-ghost">View Project Documentation</a>
+                    </div>
+                </section>
+            </div>
+        </div>
 
     </main>
 
-    <footer>
+    <footer class="site-footer">
         <div class="wrap">
-            <a href="index.html" class="logo">LIM<span>OS</span></a>
-            <p>© 2026 FYP-26-S3-34 · Group 34</p>
+            <div class="footer__grid">
+                <div>
+                    <a href="index.html" class="logo" aria-label="LIMOS home">LIM<span>OS</span></a>
+                    <p class="footer__blurb">Personalised nutrition, built around Singaporean food. A Final Year Project by Group 34.</p>
+                </div>
+                <div>
+                    <p class="footer__title">Product</p>
+                    <ul><li><a href="#product">Features</a></li><li><a href="#local">Local food</a></li><li><a href="#how">How it works</a></li><li><a href="#roles">Roles</a></li></ul>
+                </div>
+                <div>
+                    <p class="footer__title">Project</p>
+                    <ul><li><a href="documentation.html">Documentation</a></li><li><a href="timeline.html">Timeline</a></li><li><a href="meeting.html">Meetings</a></li><li><a href="team.html">Team</a></li></ul>
+                </div>
+                <div>
+                    <p class="footer__title">Trust</p>
+                    <ul><li><a href="#trust">Privacy &amp; data</a></li><li><a href="#trust">Data sources</a></li><li><a href="#story">About the FYP</a></li></ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>© 2026 FYP-26-S3-34 · Group 34</p>
+                <p>Student project. Not medical advice.</p>
+            </div>
         </div>
     </footer>
 
-    <script>
-    (function () {
-        var sel = ".pillar,.benefit,.role-card,.menu-item,.portal,.story__text,.hero__copy > *,.step";
-        var els = document.querySelectorAll(sel);
-        if (!("IntersectionObserver" in window)) return;
-        var io = new IntersectionObserver(function (entries) {
-            entries.forEach(function (e) {
-                if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); }
-            });
-        }, { threshold: 0.15 });
-        els.forEach(function (el, i) {
-            el.setAttribute("data-reveal", "");
-            el.style.transitionDelay = ((i % 4) * 70) + "ms";
-            io.observe(el);
-        });
-    })();
-    </script>
+    <script src="js/screens.js"></script>
+    <script src="js/main.js" defer></script>
 </body>
 </html>
