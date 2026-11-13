@@ -9,12 +9,12 @@ SimpleHTTPRequestHandler skips that code path entirely.
 
 import functools
 import http.server
+import os
 import socketserver
 
 PORT = 5960
-# Hardcoded rather than derived from __file__/os.getcwd() - both can touch
-# the cwd-resolution code path this script exists to avoid.
-DIRECTORY = "/Users/marcellaaf/Documents/Claude work/Documentation-Web"
+# Serve the folder this script lives in, so it works wherever the repo is cloned.
+DIRECTORY = os.path.dirname(os.path.abspath(__file__))
 
 handler = functools.partial(
     http.server.SimpleHTTPRequestHandler, directory=DIRECTORY

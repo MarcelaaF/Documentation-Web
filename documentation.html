@@ -8,7 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=IBM+Plex+Mono:wght@500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css?v=20261027">
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 </head>
 <body>
 
@@ -38,67 +39,74 @@
         <section style="padding-top: 8px;">
             <div class="wrap">
                 <div class="doc-grid">
-
                     <div class="doc-card">
                         <p class="doc-card__index">01</p>
                         <h3>Requirements</h3>
                         <p>What the system needs to do, from the people who'll use it.</p>
-                        <ul>
-                            <li>User stories</li>
-                            <li>Use-case diagrams</li>
-                            <li>Use-case descriptions</li>
-                        </ul>
+                        <ul><li>User stories (Sprint 6)</li><li>Use-case descriptions</li><li>Use-case diagram (Sprint 6)</li><li>Project technical document</li></ul>
                     </div>
 
                     <div class="doc-card">
                         <p class="doc-card__index">02</p>
                         <h3>System Design</h3>
                         <p>How the requirements translate into an actual system.</p>
-                        <ul>
-                            <li>Class diagram</li>
-                            <li>Boundary–Control–Entity (BCE) diagrams</li>
-                            <li>Sequence diagrams</li>
-                        </ul>
+                        <ul><li>Technical Design Manual</li><li>BCE diagrams</li><li>Sequence diagrams</li><li>Entity-relationship diagram</li><li>Data flow diagram (Level 1)</li></ul>
                     </div>
 
                     <div class="doc-card">
                         <p class="doc-card__index">03</p>
                         <h3>Sprint Documentation</h3>
-                        <p>Planning and diagrams for each development sprint.</p>
-                        <ul>
-                            <li>Sprint 2 diagrams</li>
-                            <li>Sprint 3 diagrams</li>
-                        </ul>
+                        <p>Diagrams for the latest development sprints.</p>
+                        <ul><li>Sprint 6 BCE</li><li>Sprint 6 sequence</li><li>Sprint 7 BCE</li><li>Sprint 7 sequence</li></ul>
                     </div>
 
                     <div class="doc-card">
                         <p class="doc-card__index">04</p>
                         <h3>Design Reference</h3>
-                        <p>Wireframes and visual reference material used to guide the build.</p>
-                        <ul>
-                            <li>Wireframes</li>
-                            <li>Visual design reference</li>
-                        </ul>
+                        <p>Visual reference material used to guide the build.</p>
+                        <ul><li>Visual design reference</li></ul>
                     </div>
 
                     <div class="doc-card">
                         <p class="doc-card__index">05</p>
                         <h3>Issue Tracking</h3>
                         <p>Known issues found during development, and how they were resolved.</p>
-                        <ul>
-                            <li>Logged issues</li>
-                            <li>Resolutions</li>
-                        </ul>
+                        <ul><li>Logged issues</li><li>Resolutions</li></ul>
                     </div>
 
                     <div class="doc-card">
                         <p class="doc-card__index">06</p>
                         <h3>Project Plan</h3>
                         <p>The Gantt chart this site's <a href="timeline.html">Timeline</a> is drawn from.</p>
-                        <ul>
-                            <li>Task breakdown</li>
-                            <li>Team allocations</li>
-                        </ul>
+                        <ul><li>Gantt chart</li><li>Task breakdown</li><li>Work breakdown structure</li></ul>
+                    </div>
+
+                    <div class="doc-card">
+                        <p class="doc-card__index">07</p>
+                        <h3>Architecture</h3>
+                        <p>How the app is built.</p>
+                        <ul><li>Flutter mobile app (iOS and Android)</li><li>Firebase Auth and Cloud Firestore</li><li>Layers: pages, controllers, repositories, models</li><li>Three roles: member, nutritionist, admin</li></ul>
+                    </div>
+
+                    <div class="doc-card">
+                        <p class="doc-card__index">08</p>
+                        <h3>AI &amp; Services</h3>
+                        <p>The outside services Limos relies on.</p>
+                        <ul><li>Gemini: food photo recognition</li><li>Spoonacular: recipe search and nutrition estimates</li><li>Built-in local Singapore food database</li></ul>
+                    </div>
+
+                    <div class="doc-card">
+                        <p class="doc-card__index">09</p>
+                        <h3>Security &amp; Privacy</h3>
+                        <p>How member data is protected.</p>
+                        <ul><li>Role-based Firestore security rules</li><li>Field-level encryption of medical history</li><li>Account deletion and suspension flows</li></ul>
+                    </div>
+
+                    <div class="doc-card">
+                        <p class="doc-card__index">10</p>
+                        <h3>Testing</h3>
+                        <p>Automated tests that guard the app.</p>
+                        <ul><li>34 test files across controllers, pages and services</li></ul>
                     </div>
 
                 </div>

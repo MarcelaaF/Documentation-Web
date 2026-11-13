@@ -15,12 +15,22 @@ The project website for **Limos**, a Final Year Project (FYP-26-S3-34, Group 24)
 
 ## Design
 
-The visual identity is pulled directly from the Limos app's own theme rather than a generic template — same color palette, so the site reads as an extension of the product it's documenting. 
+The visual identity comes from the Limos app's own theme (maroon and cream, Fraunces / Inter / IBM Plex Mono), so the site reads as an extension of the product. The home page (`index.html`, styled by `css/home.css`) is a product landing page; the inner pages use `css/style.css`.
 
 ## Tech
 
-- HTML5 + CSS3 
+- Static HTML5 + CSS3, with a small vanilla JavaScript file (`js/main.js`) for the mobile menu and scroll reveal. No frameworks or build step.
 - [Google Fonts](https://fonts.google.com/): Fraunces, Inter, IBM Plex Mono
+- `python3 serve.py` previews the site locally at http://localhost:5960.
+
+## Adding real app screenshots
+
+The phone mockups on the home page show built-in preview illustrations. To use real screenshots:
+
+1. Save PNGs in `assets/screens/` as `home.png`, `scan.png`, `review.png`, `recipes.png`, `chat.png`, `progress.png` and `reminders.png` (about 1170 x 2532 px, or any 9:19.5 ratio).
+2. List the names you added in `js/screens.js`, for example `window.LIMOS_SCREENS = ["home", "scan"];`.
+
+Screens that are not listed keep their preview illustration.
 
 ## Team
 
