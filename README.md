@@ -1,6 +1,6 @@
 # Limos — Project Website
 
-The project website for **Limos**, a Final Year Project (FYP-26-S3-34, Group 24) building a health and fitness tracking app. This site serves two purposes: it introduces Limos to visitors, and as the team's project record — meeting minutes, weekly diaries, timeline, and documentation, all in one place.
+The project website for **Limos**, a Final Year Project (FYP-26-S3-34, Group 34) building a health and fitness tracking app. This site serves two purposes: it introduces Limos to visitors, and as the team's project record — meeting minutes, weekly diaries, timeline, and documentation, all in one place.
 
 ## Pages
 
