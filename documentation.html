@@ -32,83 +32,44 @@
             <div class="wrap">
                 <p class="hero__kicker">Project record</p>
                 <h1 style="font-size: clamp(36px, 5vw, 54px);">Project Documentation</h1>
-                <p class="lede">Requirements, design artifacts, and sprint records — proof of the work behind Limos.</p>
+                <p class="lede">The technical documentation and user manual behind Limos, from Phase 1 and Phase 2.</p>
             </div>
         </section>
 
         <section style="padding-top: 8px;">
             <div class="wrap">
-                <div class="doc-grid">
+                <div class="doc-grid" style="max-width:960px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));">
                     <div class="doc-card">
-                        <p class="doc-card__index">01</p>
-                        <h3>Requirements</h3>
-                        <p>What the system needs to do, from the people who'll use it.</p>
-                        <ul><li>User stories (Sprint 6)</li><li>Use-case descriptions</li><li>Use-case diagram (Sprint 6)</li><li>Project technical document</li></ul>
+                        <p class="doc-card__index">Phase 1</p>
+                        <h3>Technical Documentation</h3>
+                        <p>Preliminary Technical Design Documentation (PTD) for LIMOS, Group 34. Covers project background and competitor analysis, business model, functional hierarchy, user categories, requirement specifications and user stories.</p>
+                        <ul><li>Word document (.docx) · about 21 MB</li></ul>
+                        <p style="margin-top:16px;"><a class="btn btn-primary" href="documents/FYP-26-S3-34_PTD.docx" download>Download the PTD</a></p>
                     </div>
 
                     <div class="doc-card">
-                        <p class="doc-card__index">02</p>
-                        <h3>System Design</h3>
-                        <p>How the requirements translate into an actual system.</p>
-                        <ul><li>Technical Design Manual</li><li>BCE diagrams</li><li>Sequence diagrams</li><li>Entity-relationship diagram</li><li>Data flow diagram (Level 1)</li></ul>
+                        <p class="doc-card__index">Phase 1</p>
+                        <h3>User Manual</h3>
+                        <p>Preliminary User Manual (PUM) for LIMOS, Group 34. A guide to the app's screens and features: hardware and software requirements, sign-in and onboarding, the home dashboard, meal logging, recipes, and progress tracking.</p>
+                        <ul><li>Word document (.docx) · about 1.8 MB</li></ul>
+                        <p style="margin-top:16px;"><a class="btn btn-primary" href="documents/FYP-26-S3-34_PUM.docx" download>Download the PUM</a></p>
                     </div>
 
                     <div class="doc-card">
-                        <p class="doc-card__index">03</p>
-                        <h3>Sprint Documentation</h3>
-                        <p>Diagrams and use-case descriptions for the latest development sprints.</p>
-                        <ul><li>Sprint 6 BCE</li><li>Sprint 6 sequence</li><li>Sprint 7 BCE</li><li>Sprint 7 sequence</li><li>Sprint 8 (member account, privacy and plan stories): use case, BCE, sequence</li><li>Sprint 9 (nutritionist stories): use case, BCE, sequence</li></ul>
+                        <p class="doc-card__index">Phase 2</p>
+                        <h3>Final Technical Document</h3>
+                        <p>The final technical document for LIMOS, Group 34, dated 13 November 2026. It builds on the Phase 1 PTD with the revised problem statement, objectives and intended users, the approved-nutritionist model, sprint sections with BCE, sequence and use case descriptions, wireframes, and test cases and results.</p>
+                        <ul><li>Word document (.docx) · about 31 MB</li></ul>
+                        <p style="margin-top:16px;"><a class="btn btn-primary" href="documents/FYP-26-S3-34_Final_Technical_Document.docx" download>Download the Final Technical Document</a></p>
                     </div>
 
                     <div class="doc-card">
-                        <p class="doc-card__index">04</p>
-                        <h3>Design Reference</h3>
-                        <p>Visual reference material used to guide the build.</p>
-                        <ul><li>Visual design reference</li></ul>
+                        <p class="doc-card__index">Phase 2</p>
+                        <h3>Final User Manual</h3>
+                        <p>The final user manual for LIMOS, Group 34. A step-by-step guide to getting started, navigating the app, the Free and Premium plans with the seven-day trial, and the member features such as meal logging, scanning a meal photo, and water and progress tracking.</p>
+                        <ul><li>Word document (.docx) · about 7 MB</li></ul>
+                        <p style="margin-top:16px;"><a class="btn btn-primary" href="documents/FYP-26-S3-34_Final_User_Manual.docx" download>Download the Final User Manual</a></p>
                     </div>
-
-                    <div class="doc-card">
-                        <p class="doc-card__index">05</p>
-                        <h3>Issue Tracking</h3>
-                        <p>Known issues found during development, and how they were resolved.</p>
-                        <ul><li>Logged issues</li><li>Resolutions</li></ul>
-                    </div>
-
-                    <div class="doc-card">
-                        <p class="doc-card__index">06</p>
-                        <h3>Project Plan</h3>
-                        <p>The Gantt chart this site's <a href="timeline.html">Timeline</a> is drawn from.</p>
-                        <ul><li>Gantt chart</li><li>Task breakdown</li><li>Work breakdown structure</li></ul>
-                    </div>
-
-                    <div class="doc-card">
-                        <p class="doc-card__index">07</p>
-                        <h3>Architecture</h3>
-                        <p>How the app is built.</p>
-                        <ul><li>Flutter mobile app (iOS and Android)</li><li>Firebase Auth and Cloud Firestore</li><li>Layers: pages, controllers, repositories, models</li><li>Three roles: member, nutritionist, admin</li></ul>
-                    </div>
-
-                    <div class="doc-card">
-                        <p class="doc-card__index">08</p>
-                        <h3>AI &amp; Services</h3>
-                        <p>The outside services Limos relies on.</p>
-                        <ul><li>Gemini: food photo recognition</li><li>Spoonacular: online recipe search (Discover)</li><li>Built-in HPB Singapore food database (2,119 foods)</li><li>Premium: AI food scan, nutritionist chat, AI assistant</li></ul>
-                    </div>
-
-                    <div class="doc-card">
-                        <p class="doc-card__index">09</p>
-                        <h3>Security &amp; Privacy</h3>
-                        <p>How member data is protected.</p>
-                        <ul><li>Role-based Firestore security rules</li><li>Field-level encryption of medical history</li><li>PDPA privacy notice and AI consent</li><li>Data export and account deletion</li><li>Password reset, change password, email verification</li><li>Firebase App Check</li><li>Suspension flows</li></ul>
-                    </div>
-
-                    <div class="doc-card">
-                        <p class="doc-card__index">10</p>
-                        <h3>Testing</h3>
-                        <p>Automated tests that guard the app.</p>
-                        <ul><li>58 test files, 543 automated tests across controllers, pages and services</li></ul>
-                    </div>
-
                 </div>
             </div>
         </section>
